@@ -139,7 +139,7 @@ p { margin: 0 0 1em; }
 .hero.hero-inner .hero-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--ink) 20%, rgba(10,14,28,.55) 70%, rgba(10,14,28,.35)); }
 .hero .quote { border-left: 2px solid var(--gold); padding-left: 1rem; font-family: var(--font-serif); font-size: 1.2rem; font-style: italic; color: oklch(88% .01 255); margin-top: 1.5rem; }
 .hero .quote cite { display: block; font-style: normal; font-family: var(--font-sans); font-size: .8rem; color: oklch(70% .01 255); margin-top: .4rem; }
-@media (max-width: 900px) { .hero .container { grid-template-columns: 1fr; } .hero-photo { min-height: 380px; margin-inline: -1.25rem; } .hero-photo img { -webkit-mask-image: linear-gradient(to bottom, transparent, #000 30%); mask-image: linear-gradient(to bottom, transparent, #000 30%); } }
+@media (max-width: 900px) { .hero .container { grid-template-columns: 1fr; } .hero-photo { min-height: 460px; margin-inline: -1.25rem; } .hero-photo img { object-position: center 12%; opacity: 1; -webkit-mask-image: linear-gradient(to bottom, transparent, #000 12%); mask-image: linear-gradient(to bottom, transparent, #000 12%); } }
 
 /* Breadcrumbs */
 .crumbs { font-size: .85rem; color: oklch(72% .01 255); margin-bottom: 1.25rem; }
@@ -291,6 +291,9 @@ p { margin: 0 0 1em; }
 /* About */
 .about-grid { display: grid; grid-template-columns: 340px 1fr; gap: 3rem; align-items: start; }
 @media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; } }
+.portrait { margin: 0; }
+.portrait img { border-radius: .35rem; box-shadow: 0 20px 50px rgba(0,0,0,.12); }
+.portrait figcaption { font-size: .8rem; color: var(--muted-text); margin-top: .6rem; line-height: 1.4; }
 .about-grid img { border-radius: .5rem; }
 
 /* Hub list on practice areas page */

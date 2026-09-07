@@ -56,6 +56,7 @@ const org: Record<string, unknown> = {
   currenciesAccepted: 'USD',
 };
 if (SITE.sameAs.length) org.sameAs = SITE.sameAs;
+org.image = { '@type': 'ImageObject', url: new URL(SITE.notary.photo, SITE.url).href, width: 1040, height: 1300, caption: SITE.notary.photoCaption[lang] };
 const website = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',

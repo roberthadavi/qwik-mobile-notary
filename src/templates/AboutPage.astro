@@ -26,7 +26,10 @@ if (SITE.notary.name) {
   <section class="section">
     <div class="container about-grid">
       <div>
-        <img src="/images/franklin-mountains-el-paso.webp" width="1200" height="1500" alt={lang === 'en' ? 'Franklin Mountains, El Paso, Texas — home base of QWIK Mobile Notary Public' : 'Montañas Franklin, El Paso, Texas — base de QWIK Mobile Notary Public'} />
+        <figure class="portrait">
+          <img src={SITE.notary.photo} srcset={`${SITE.notary.photoSmall} 640w, ${SITE.notary.photo} 1040w`} sizes="(max-width: 860px) 100vw, 40vw" width="1040" height="1300" alt={SITE.notary.photoAlt[lang]} loading="eager" decoding="async" />
+          <figcaption>{SITE.notary.photoCaption[lang]}</figcaption>
+        </figure>
         <div class="aside-box" style="margin-top:1.25rem">
           <ul>{ABOUT.facts.map((f) => <li><b style="display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-text)">{f.k[lang]}</b>{typeof f.v === 'string' ? f.v : f.v[lang]}</li>)}</ul>
         </div>

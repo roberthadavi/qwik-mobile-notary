@@ -20,7 +20,18 @@ export const SITE = {
   openingHoursSpec: ['Mo-Su 08:00-20:00'],
   /** Notary identity for About / Person schema. Leave name empty until confirmed — templates hide it when blank. */
   notary: {
-    name: '',
+    name: '',            // full name as commissioned — turns on Person schema on /about/ when set
+    firstName: 'Myriam',
+    photo: '/images/myriam-notary-public-el-paso.webp',       // 1040×1300 (4:5)
+    photoSmall: '/images/myriam-notary-public-el-paso-640.webp', // 640×800
+    photoAlt: {
+      en: 'Myriam, Texas Notary Public, online notary and loan signing agent with QWIK Mobile Notary Public in El Paso, Texas',
+      es: 'Myriam, Notary Public de Texas, Notary Public en línea y agente de firmas de préstamos de QWIK Mobile Notary Public en El Paso, Texas',
+    } as L,
+    photoCaption: {
+      en: 'Myriam — Texas Notary Public · online notary · loan signing agent · El Paso, TX',
+      es: 'Myriam — Notary Public de Texas · Notary Public en línea · agente de firmas de préstamos · El Paso, TX',
+    } as L,
     commission: { en: 'Texas Notary Public, commissioned by the Texas Secretary of State', es: 'Notary Public de Texas, comisionado por la Secretaría de Estado de Texas' } as L,
     online: { en: 'Texas online notary commission (remote online notarization)', es: 'Comisión de Notary Public en línea de Texas (notarización remota)' } as L,
   },

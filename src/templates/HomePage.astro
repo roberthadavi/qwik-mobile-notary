@@ -34,7 +34,7 @@ const faqLd = {
         <blockquote class="quote">“{HOME.quote[lang]}”<cite>— {SITE.name}</cite></blockquote>
       </div>
       <div class="hero-photo">
-        <img src="/images/franklin-mountains-el-paso.webp" width="1200" height="1500" alt={lang === 'en' ? 'Franklin Mountains over El Paso, Texas — QWIK Mobile Notary Public serves all of El Paso County' : 'Montañas Franklin sobre El Paso, Texas — QWIK Mobile Notary Public sirve a todo el Condado de El Paso'} fetchpriority="high" />
+        <img src={SITE.notary.photo} srcset={`${SITE.notary.photoSmall} 640w, ${SITE.notary.photo} 1040w`} sizes="(max-width: 900px) 100vw, 40vw" width="1040" height="1300" alt={SITE.notary.photoAlt[lang]} title={SITE.notary.photoCaption[lang]} fetchpriority="high" decoding="async" />
       </div>
     </div>
   </section>
