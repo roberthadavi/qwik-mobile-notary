@@ -51,10 +51,50 @@ function json(obj: unknown, status = 200) {
   return new Response(JSON.stringify(obj), { status, headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
 }
 
+// 301 map for URLs indexed on the old WordPress site (wp-sitemap, Sept 2026). Keys have no trailing slash.
+const REDIRECTS: Record<string, string> = {
+  '/all-services': '/services/',
+  '/about-us': '/about/',
+  '/services/medical-power-of-attorney-notary': '/estate-planning/medical-power-of-attorney/',
+  '/services/notary-of-will': '/estate-planning/wills-and-trusts/',
+  '/services/medical-document-notary': '/notary-services/hospital-notary/',
+  '/services/mortgage-signing-after-hours': '/loan-signing/',
+  '/services/weekend-loan-signing': '/loan-signing/',
+  '/services/loan-documents-notary': '/loan-signing/mortgage-closings/',
+  '/services/wedding-bridge-notary': '/wedding-officiant/',
+  '/services/apostille-services': '/apostille/',
+  '/services/translation-service': '/services/',
+  '/services/document-translation': '/services/',
+  '/services/process-server': '/services/',
+  '/categories/mobile-notary-services': '/notary-services/',
+  '/categories/loan-signing-services': '/loan-signing/',
+  '/categories/wedding-services': '/wedding-officiant/',
+  '/categories/apostille-translation': '/apostille/',
+  '/categories/legal-document-services': '/services/',
+  '/author/admin_8sql89lt': '/',
+  '/feed': '/',
+  '/comments/feed': '/',
+  '/wp-sitemap.xml': '/sitemap-index.xml',
+  '/sitemap.xml': '/sitemap-index.xml',
+};
+const CANONICAL_HOST = 'mobilepublicnotaryelpaso.com';
+
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     const url = new URL(req.url);
     if (url.pathname === '/api/contact') return handleContact(req, env);
+    // www → apex, http → https (only on the real domain; leave the workers.dev preview alone)
+    if (url.hostname === `www.${CANONICAL_HOST}` || (url.hostname === CANONICAL_HOST && url.protocol === 'http:')) {
+      url.hostname = CANONICAL_HOST; url.protocol = 'https:';
+      return Response.redirect(url.toString(), 301);
+    }
+    // legacy WordPress URLs
+    const key = url.pathname.replace(/\/+$/, '') || '/';
+    const target = REDIRECTS[key];
+    if (target) return Response.redirect(new URL(target, url.origin).toString(), 301);
+    if (/^\/(wp-content|wp-admin|wp-includes|wp-json)\//.test(url.pathname) || url.pathname.startsWith('/wp-sitemap-')) {
+      return Response.redirect(new URL('/', url.origin).toString(), 302);
+    }
     if (url.pathname.startsWith('/api/')) return new Response('Not found', { status: 404 });
     const res = await env.ASSETS.fetch(req);
     // Keep the workers.dev preview out of search results; the real domain is the canonical host.

@@ -1,10 +1,10 @@
 ---
 import { NOTARY_HUBS, OTHER_HUBS, type Lang } from '../data/catalog';
-import { t } from '../data/site';
+import { SITE, t } from '../data/site';
 interface Props { lang: Lang; preset?: string }
 const { lang, preset } = Astro.props;
 ---
-<form class="form" id="lead-form" method="post" action="/api/contact" novalidate>
+<form class="form" id="lead-form" method="post" action="/api/contact" novalidate data-sms={SITE.smsHref.replace('sms:', '')}>
   <input type="hidden" name="lang" value={lang} />
   <input type="hidden" name="page" value={Astro.url.pathname} />
   <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
@@ -24,7 +24,7 @@ const { lang, preset } = Astro.props;
   <label>{t('formMessage', lang)}<textarea name="message" rows="4" required></textarea></label>
   <p class="fine">{t('formPrivacy', lang)}</p>
   <button class="btn btn-gold btn-lg" type="submit" data-label={t('formSubmit', lang)} data-sending={t('formSending', lang)}>{t('formSubmit', lang)}</button>
-  <div class="status" role="status" data-ok={t('formSuccess', lang)} data-err={t('formError', lang)}></div>
+  <div class="status" role="status" data-ok={t('formSuccess', lang)} data-err={t('formError', lang)} data-sms={t('formSms', lang)}></div>
 </form>
 <script>
   const form = document.getElementById('lead-form') as HTMLFormElement | null;
@@ -36,8 +36,20 @@ const { lang, preset } = Astro.props;
     btn.disabled = true; btn.textContent = btn.dataset.sending!;
     status.className = 'status';
     try {
-      const res = await fetch('/api/contact', { method: 'POST', body: new FormData(form) });
-      if (!res.ok) throw new Error(String(res.status));
+      const fd = new FormData(form);
+      const res = await fetch('/api/contact', { method: 'POST', body: fd });
+      if (!res.ok) {
+        let err = '';
+        try { err = (await res.json()).error || ''; } catch { /* ignore */ }
+        if (err === 'not_configured') {
+          // Email delivery not configured yet — hand the request to the notary by text message instead.
+          const body = [`${fd.get('matter') || ''}`, `${fd.get('name') || ''}`, `${fd.get('message') || ''}`].filter(Boolean).join(' — ');
+          status.textContent = status.dataset.sms!; status.className = 'status ok';
+          window.location.href = `sms:${form.dataset.sms}?&body=${encodeURIComponent(body.slice(0, 400))}`;
+          return;
+        }
+        throw new Error(String(res.status));
+      }
       status.textContent = status.dataset.ok!; status.className = 'status ok';
       form.reset();
     } catch {

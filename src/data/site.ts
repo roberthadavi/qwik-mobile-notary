@@ -108,6 +108,7 @@ export const UI: Record<string, Record<Lang, string>> = {
   formSubmit: { en: 'Request an appointment', es: 'Solicitar una cita' },
   formSending: { en: 'Sending…', es: 'Enviando…' },
   formSuccess: { en: 'Thank you — we received your request and will call or text you shortly to confirm.', es: 'Gracias — recibimos su solicitud y le llamaremos o escribiremos en breve para confirmar.' },
+  formSms: { en: 'Opening your messaging app so you can text us the request — or call (915) 302-0902.', es: 'Abriendo su aplicación de mensajes para que nos envíe la solicitud por texto — o llame al (915) 302-0902.' },
   formError: { en: 'Something went wrong. Please call or text (915) 302-0902.', es: 'Algo salió mal. Por favor llame o envíe un texto al (915) 302-0902.' },
   formPrivacy: { en: 'We use this only to schedule your appointment. Do not include document contents or sensitive numbers.', es: 'Usamos esto solo para programar su cita. No incluya el contenido del documento ni números sensibles.' },
   selectOne: { en: 'Select one', es: 'Seleccione una opción' },
