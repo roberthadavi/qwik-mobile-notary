@@ -25,7 +25,11 @@ export const SITE = {
     online: { en: 'Texas online notary commission (remote online notarization)', es: 'Comisión de Notary Public en línea de Texas (notarización remota)' } as L,
   },
   travelFee: 39,
-  sameAs: [] as string[],
+  sameAs: [
+    'https://www.facebook.com/mobilenotarypublicelpaso/',
+    'https://www.yelp.com/biz/qwik-mobile-notary-public-el-paso-2',
+    'https://www.yellowpages.com/el-paso-tx/mip/qwik-mobile-notary-public-534154091',
+  ] as string[],
   lastReviewed: '2026-09-07',
 };
 
