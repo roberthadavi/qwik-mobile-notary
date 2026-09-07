@@ -46,7 +46,19 @@ const loanSigning = findHub('loan-signing');
       <a href={PATHS.contact[lang]}>{t('contact', lang)}</a>
       <a class="lang-switch" href={altPath} hreflang={lang === 'en' ? 'es' : 'en'} lang={lang === 'en' ? 'es' : 'en'}>{t('languageSwitch', lang)}</a>
     </nav>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-header" data-menu>{t('menu', lang)} ☰</button>
+    <div class="header-tools">
+      <!-- EN | ES toggle shown on phones/tablets, where the main nav (and its language link) is folded into the menu -->
+      <div class="lang-toggle" role="group" aria-label={t('languageLabel', lang)}>
+        {lang === 'en'
+          ? <span class="on" aria-current="true" lang="en">EN</span>
+          : <a href={altPath} hreflang="en" lang="en" title="English">EN</a>}
+        <span class="bar" aria-hidden="true">|</span>
+        {lang === 'es'
+          ? <span class="on" aria-current="true" lang="es">ES</span>
+          : <a href={altPath} hreflang="es" lang="es" title="Español">ES</a>}
+      </div>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-header" data-menu>{t('menu', lang)} ☰</button>
+    </div>
   </div>
 </header>
 <script>
