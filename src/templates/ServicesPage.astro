@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { NOTARY_HUBS, OTHER_HUBS, WHERE_LABEL, hubPath, servicePath, type Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+import { SERVICES } from '../data/pages';
+import { hubContent } from '../lib/content';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: t('home', lang), item: new URL(PATHS.home[lang], SITE.url).href },
+  { '@type': 'ListItem', position: 2, name: t('services', lang), item: new URL(PATHS.services[lang], SITE.url).href },
+] };
+const catalog = { '@context': 'https://schema.org', '@type': 'OfferCatalog', name: SERVICES.h1[lang], url: new URL(PATHS.services[lang], SITE.url).href,
+  itemListElement: NOTARY_HUBS.map((h) => ({ '@type': 'OfferCatalog', name: h.name[lang], url: new URL(hubPath(h, lang), SITE.url).href, itemListElement: h.services.map((s) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: s.name[lang], url: new URL(servicePath(s, lang), SITE.url).href } })) })) };
+---
+<Base lang={lang} title={SERVICES.title[lang]} description={SERVICES.metaDescription[lang]} path={PATHS.services[lang]} altPath={PATHS.services[alt]} jsonLd={[crumbs, catalog]}>
+  <section class="hero hero-inner on-dark">
+    <div class="container">
+      <div class="hero-copy">
+        <nav class="crumbs" aria-label={t('breadcrumbAria', lang)}><ol><li><a href={PATHS.home[lang]}>{t('home', lang)}</a></li><li aria-current="page">{t('services', lang)}</li></ol></nav>
+        <div class="eyebrow gold">{SERVICES.eyebrow[lang]}</div>
+        <h1>{SERVICES.h1[lang]}</h1>
+        <p class="lede">{SERVICES.lede[lang]}</p>
+      </div>
+    </div>
+  </section>
+  <section class="section-tight">
+    <div class="container">
+      {NOTARY_HUBS.map((h) => <div class="hub-block" id={h.id}>
+        <h2><span aria-hidden="true">{h.icon}</span> <a href={hubPath(h, lang)} style="text-decoration:none">{h.name[lang]}</a></h2>
+        <p class="muted" style="max-width:70ch">{hubContent(h.id).summary[lang]}</p>
+        <div class="links">
+          {h.isCategory && <a href={hubPath(h, lang)}><strong>{h.name[lang]}</strong> <span class="muted" style="font-size:.78rem">· {h.where ? WHERE_LABEL[h.where][lang] : ''}</span></a>}
+          {h.services.map((s) => <a href={servicePath(s, lang)}>{s.name[lang]} <span class="muted" style="font-size:.78rem">· {WHERE_LABEL[s.where][lang]}</span></a>)}
+        </div>
+      </div>)}
+      {OTHER_HUBS.map((h) => <div class="hub-block" id={h.id}>
+        <h2><span aria-hidden="true">{h.icon}</span> <a href={hubPath(h, lang)} style="text-decoration:none">{h.name[lang]}</a></h2>
+        <p class="muted" style="max-width:70ch">{hubContent(h.id).summary[lang]}</p>
+        <div class="links"><a href={hubPath(h, lang)}>{h.name[lang]} <span class="muted" style="font-size:.78rem">· {lang === 'en' ? 'Separate service — not a notarial act' : 'Servicio separado — no es un acto notarial'}</span></a></div>
+      </div>)}
+    </div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>

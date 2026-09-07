@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import type { Lang } from '../data/catalog';
+import { SITE, PATHS, FEES, t } from '../data/site';
+import { FEES_PAGE } from '../data/pages';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: t('home', lang), item: new URL(PATHS.home[lang], SITE.url).href },
+  { '@type': 'ListItem', position: 2, name: t('fees', lang), item: new URL(PATHS.fees[lang], SITE.url).href },
+] };
+const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FEES_PAGE.faqs.map((f) => ({ '@type': 'Question', name: f.q[lang], acceptedAnswer: { '@type': 'Answer', text: f.a[lang] } })) };
+---
+<Base lang={lang} title={FEES_PAGE.title[lang]} description={FEES_PAGE.metaDescription[lang]} path={PATHS.fees[lang]} altPath={PATHS.fees[alt]} jsonLd={[crumbs, faqLd]}>
+  <section class="hero hero-inner on-dark">
+    <div class="container">
+      <div class="hero-copy">
+        <nav class="crumbs" aria-label={t('breadcrumbAria', lang)}><ol><li><a href={PATHS.home[lang]}>{t('home', lang)}</a></li><li aria-current="page">{t('fees', lang)}</li></ol></nav>
+        <div class="eyebrow gold">{FEES_PAGE.eyebrow[lang]}</div>
+        <h1>{FEES_PAGE.h1[lang]}</h1>
+        <p class="lede">{FEES_PAGE.lede[lang]}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container svc-layout">
+      <article class="prose">
+        {FEES_PAGE.intro[lang].map((p) => <p>{p}</p>)}
+
+        <h2>{t('statutoryFees', lang)}</h2>
+        <div class="tablewrap">
+          <table class="fee-table">
+            <thead><tr><th>{lang === 'en' ? 'Notarial act' : 'Acto notarial'}</th><th>{lang === 'en' ? 'Texas maximum · our fee' : 'Máximo en Texas · nuestra tarifa'}</th></tr></thead>
+            <tbody>
+              {FEES.map((f) => <tr><td>{f.act[lang]}</td><td class="num">{f.fee}</td></tr>)}
+              <tr class="travel"><td>{t('travelFee', lang)} — {lang === 'en' ? 'per visit, anywhere in El Paso, itemized separately' : 'por visita, en cualquier parte de El Paso, detallado por separado'}</td><td class="num">${SITE.travelFee}</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="fine">{lang === 'en' ? 'Source: Texas Government Code §406.024 (notarial fees) and §406.111 (online notarization), current schedule effective September 1, 2023.' : 'Fuente: Código de Gobierno de Texas §406.024 (tarifas notariales) y §406.111 (notarización en línea), tabla vigente desde el 1 de septiembre de 2023.'} <a href="https://statutes.capitol.texas.gov/Docs/GV/htm/GV.406.htm" target="_blank" rel="noopener">{lang === 'en' ? 'Read the statute' : 'Leer la ley'} ↗</a></p>
+
+        <h2>{FEES_PAGE.quotedHeading[lang]}</h2>
+        <div class="grid grid-2">
+          {FEES_PAGE.quoted.map((q) => <div class="feature"><h3>{q.h[lang]}</h3><p>{q.p[lang]}</p></div>)}
+        </div>
+
+        <h2>{FEES_PAGE.paymentHeading[lang]}</h2>
+        <p>{FEES_PAGE.payment[lang]}</p>
+      </article>
+
+      <aside class="aside">
+        <div class="facts">
+          <h3>{t('getQuote', lang)}</h3>
+          <p>{t('notSureBody', lang)}</p>
+          <a class="btn btn-gold" href={SITE.smsHref}>{t('textUs', lang)}</a>
+          <a class="btn btn-outline-ink" href={SITE.phoneHref} style="margin-top:.5rem">{t('callNow', lang)}</a>
+          <p class="fine">{SITE.hours[lang]} · {t('englishSpanish', lang)}</p>
+        </div>
+        <div class="aside-box notice-box">
+          <p><strong lang="en">{t('notAttorney', 'en')}</strong></p>
+          <p><strong lang="es">{t('notAttorney', 'es')}</strong></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <Faq lang={lang} faqs={FEES_PAGE.faqs} heading={lang === 'en' ? 'Common questions about notary fees in El Paso' : 'Preguntas comunes sobre tarifas en El Paso'} />
+  <CtaBand lang={lang} />
+</Base>

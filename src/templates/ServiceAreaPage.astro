@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { NOTARY_HUBS, hubPath, type Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+import { SERVICE_AREA } from '../data/pages';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: t('home', lang), item: new URL(PATHS.home[lang], SITE.url).href },
+  { '@type': 'ListItem', position: 2, name: t('serviceArea', lang), item: new URL(PATHS.serviceArea[lang], SITE.url).href },
+] };
+const mapQ = encodeURIComponent('El Paso County, Texas');
+---
+<Base lang={lang} title={SERVICE_AREA.title[lang]} description={SERVICE_AREA.metaDescription[lang]} path={PATHS.serviceArea[lang]} altPath={PATHS.serviceArea[alt]} jsonLd={[crumbs]}>
+  <section class="hero hero-inner on-dark">
+    <div class="hero-bg"><img src="/images/franklin-mountains-el-paso.webp" alt="" width="1200" height="1500" /></div>
+    <div class="container">
+      <div class="hero-copy">
+        <nav class="crumbs" aria-label={t('breadcrumbAria', lang)}><ol><li><a href={PATHS.home[lang]}>{t('home', lang)}</a></li><li aria-current="page">{t('serviceArea', lang)}</li></ol></nav>
+        <div class="eyebrow gold">{SERVICE_AREA.eyebrow[lang]}</div>
+        <h1>{SERVICE_AREA.h1[lang]}</h1>
+        <p class="lede">{SERVICE_AREA.lede[lang]}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container svc-layout">
+      <article class="prose">
+        {SERVICE_AREA.body[lang].map((p) => <p>{p}</p>)}
+        <h2>{lang === 'en' ? 'Where we go' : 'A dónde vamos'}</h2>
+        <div class="grid grid-2">
+          {SERVICE_AREA.areas.map((a) => <div class="feature"><h3>{a.n}</h3><p>{a.d[lang]}</p></div>)}
+        </div>
+        <h2>{lang === 'en' ? 'Every service, everywhere in the county' : 'Cada servicio, en todo el condado'}</h2>
+        <ul>{NOTARY_HUBS.map((h) => <li><a href={hubPath(h, lang)}>{h.icon} {h.name[lang]}</a></li>)}</ul>
+      </article>
+      <aside class="aside">
+        <div class="facts">
+          <h3>{t('travelFee', lang)}</h3>
+          <p>{lang === 'en' ? 'One $39 travel fee per visit within El Paso. Down-valley and upper-valley towns are quoted when you book. Texas addresses only.' : 'Un solo traslado de $39 por visita dentro de El Paso. Los pueblos del valle bajo y del valle alto se cotizan al agendar. Solo direcciones en Texas.'}</p>
+          <a class="btn btn-gold" href={SITE.smsHref}>{t('textUs', lang)}</a>
+          <p class="fine"><a href={PATHS.fees[lang]}>{t('seeFees', lang)} →</a></p>
+        </div>
+        <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title={lang === 'en' ? 'Map of El Paso County, Texas' : 'Mapa del Condado de El Paso, Texas'} src={`https://www.google.com/maps?q=${mapQ}&output=embed`}></iframe>
+      </aside>
+    </div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>

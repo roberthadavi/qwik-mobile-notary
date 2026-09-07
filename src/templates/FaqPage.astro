@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import type { Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+import { FAQ_PAGE } from '../data/pages';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: t('home', lang), item: new URL(PATHS.home[lang], SITE.url).href },
+  { '@type': 'ListItem', position: 2, name: t('faq', lang), item: new URL(PATHS.faq[lang], SITE.url).href },
+] };
+const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_PAGE.faqs.map((f) => ({ '@type': 'Question', name: f.q[lang], acceptedAnswer: { '@type': 'Answer', text: f.a[lang] } })) };
+---
+<Base lang={lang} title={FAQ_PAGE.title[lang]} description={FAQ_PAGE.metaDescription[lang]} path={PATHS.faq[lang]} altPath={PATHS.faq[alt]} jsonLd={[crumbs, faqLd]}>
+  <section class="hero hero-inner on-dark">
+    <div class="container">
+      <div class="hero-copy">
+        <nav class="crumbs" aria-label={t('breadcrumbAria', lang)}><ol><li><a href={PATHS.home[lang]}>{t('home', lang)}</a></li><li aria-current="page">{t('faq', lang)}</li></ol></nav>
+        <div class="eyebrow gold">{FAQ_PAGE.eyebrow[lang]}</div>
+        <h1>{FAQ_PAGE.h1[lang]}</h1>
+        <p class="lede">{FAQ_PAGE.lede[lang]}</p>
+      </div>
+    </div>
+  </section>
+  <Faq lang={lang} faqs={FAQ_PAGE.faqs} eyebrow={t('faqHeading', lang)} heading={lang === 'en' ? 'Mobile notary basics in El Paso' : 'Lo básico del Notary Public móvil en El Paso'} />
+  <section class="section-tight">
+    <div class="narrow prose">
+      <p>{lang === 'en' ? 'Looking for a specific document?' : '¿Busca un documento específico?'} <a href={PATHS.services[lang]}>{t('allServices', lang)} →</a> · <a href={PATHS.fees[lang]}>{t('fees', lang)} →</a> · <a href={PATHS.serviceArea[lang]}>{t('serviceArea', lang)} →</a></p>
+    </div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>

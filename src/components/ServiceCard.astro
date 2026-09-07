@@ -1,0 +1,13 @@
+---
+import { WHERE_LABEL, servicePath, type Lang, type CatalogService } from '../data/catalog';
+import { t } from '../data/site';
+interface Props { lang: Lang; service: CatalogService; summary: string; icon?: string }
+const { lang, service, summary, icon } = Astro.props;
+---
+<a class="card" href={servicePath(service, lang)}>
+  {icon && <div class="ic" aria-hidden="true">{icon}</div>}
+  <span class="tag">{WHERE_LABEL[service.where][lang]}</span>
+  <h3>{service.name[lang]}</h3>
+  <p>{summary}</p>
+  <span class="more">{t('learnMore', lang)}</span>
+</a>

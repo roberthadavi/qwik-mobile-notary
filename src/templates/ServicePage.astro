@@ -1,0 +1,107 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { WHERE_LABEL, hubPath, servicePath, type Lang, type CatalogHub } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+import { serviceContent, serviceById, type ServiceWithHub } from '../lib/content';
+interface Props { lang: Lang; hub: CatalogHub; service: ServiceWithHub }
+const { lang, hub, service } = Astro.props;
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+const c = serviceContent(hub.id, service.id);
+const path = servicePath(service, lang);
+const related = c.related.map((id) => serviceById(id));
+const siblings = hub.services.filter((s) => s.id !== service.id);
+const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: t('home', lang), item: new URL(PATHS.home[lang], SITE.url).href },
+  { '@type': 'ListItem', position: 2, name: hub.name[lang], item: new URL(hubPath(hub, lang), SITE.url).href },
+  { '@type': 'ListItem', position: 3, name: service.name[lang], item: new URL(path, SITE.url).href },
+] };
+const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: c.faqs.map((f) => ({ '@type': 'Question', name: f.q[lang], acceptedAnswer: { '@type': 'Answer', text: f.a[lang] } })) };
+const svcLd = {
+  '@context': 'https://schema.org', '@type': 'Service',
+  name: service.name[lang], serviceType: service.name.en,
+  provider: { '@id': `${SITE.url}/#organization` },
+  areaServed: { '@type': 'AdministrativeArea', name: 'El Paso County, Texas' },
+  availableLanguage: ['English', 'Spanish'],
+  url: new URL(path, SITE.url).href,
+  description: c.metaDescription[lang],
+  offers: { '@type': 'Offer', description: c.feeModel[lang], areaServed: 'El Paso, TX', priceCurrency: 'USD' },
+  termsOfService: new URL(PATHS.fees[lang], SITE.url).href,
+};
+// split H1 so the last words render in the accent color
+const h1 = c.h1[lang];
+const words = h1.split(' ');
+const cut = Math.max(1, words.length - (words.length > 6 ? 3 : 2));
+const h1a = words.slice(0, cut).join(' ');
+const h1b = words.slice(cut).join(' ');
+---
+<Base lang={lang} title={c.title[lang]} description={c.metaDescription[lang]} path={path} altPath={servicePath(service, alt)} jsonLd={[crumbs, faqLd, svcLd]}>
+  <section class="hero hero-inner on-dark">
+    <div class="hero-bg"><img src="/images/franklin-mountains-el-paso.webp" alt="" width="1200" height="1500" /></div>
+    <div class="container">
+      <div class="hero-copy">
+        <nav class="crumbs" aria-label={t('breadcrumbAria', lang)}><ol><li><a href={PATHS.home[lang]}>{t('home', lang)}</a></li><li><a href={hubPath(hub, lang)}>{hub.name[lang]}</a></li><li aria-current="page">{service.name[lang]}</li></ol></nav>
+        <div class="eyebrow gold">{c.eyebrow[lang]}</div>
+        <h1>{h1a} <span class="gold">{h1b}</span></h1>
+        <p class="lede">{c.summary[lang]}</p>
+        <div class="actions">
+          <a class="btn btn-gold btn-lg" href={SITE.smsHref}>💬 {t('textUs', lang)}</a>
+          <a class="btn btn-outline btn-lg" href={SITE.phoneHref}>📞 {t('callNow', lang)}</a>
+        </div>
+        <p class="fine">{t('reviewed', lang)}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container svc-layout">
+      <article class="prose">
+        {c.intro.map((p) => <p>{p[lang]}</p>)}
+
+        <h2>{t('documentsWeNotarize', lang)}</h2>
+        <ul class="included">{c.documents.map((i) => <li>{i[lang]}</li>)}</ul>
+
+        {c.sections.map((s) => <><h2>{s.heading[lang]}</h2>{s.body.map((p) => <p>{p[lang]}</p>)}</>)}
+
+        <h2>{t('whatToBring', lang)}</h2>
+        <ul class="included">{c.bring.map((i) => <li>{i[lang]}</li>)}</ul>
+
+        <h2>{t('howItWorks', lang)}</h2>
+        <div class="steps" style="grid-template-columns:1fr">
+          {c.process.map((s, i) => <div class="step"><div class="num">0{i + 1}</div><div><h3>{s.title[lang]}</h3><p>{s.body[lang]}</p></div></div>)}
+        </div>
+
+        {c.outbound.length > 0 && <>
+          <h2>{t('resources', lang)}</h2>
+          <ul>{c.outbound.map((o) => <li><a href={o.url} target="_blank" rel="noopener">{o.label[lang]} ↗</a></li>)}</ul>
+        </>}
+      </article>
+
+      <aside class="aside">
+        <div class="facts">
+          <h3>{service.name[lang]}</h3>
+          <dl>
+            <div><dt>{t('feeModel', lang)}</dt><dd>{c.feeModel[lang]}</dd></div>
+            <div><dt>{t('timeline', lang)}</dt><dd>{c.timeline[lang]}</dd></div>
+            <div><dt>{t('where', lang)}</dt><dd>{WHERE_LABEL[service.where][lang]}</dd></div>
+          </dl>
+          <a class="btn btn-gold" href={SITE.smsHref}>{t('textUs', lang)}</a>
+          <a class="btn btn-outline-ink" href={SITE.phoneHref} style="margin-top:.5rem">{t('callNow', lang)}</a>
+          <p class="fine">{SITE.hours[lang]} · {t('englishSpanish', lang)} · <a href={PATHS.fees[lang]}>{t('seeFees', lang)}</a></p>
+        </div>
+        <div class="aside-box">
+          <h3>{t('relatedServices', lang)}</h3>
+          <ul>{related.map((r) => <li><a href={servicePath(r, lang)}>{r.name[lang]} →</a></li>)}</ul>
+        </div>
+        {siblings.length > 0 && <div class="aside-box">
+          <h3>{hub.name[lang]}</h3>
+          <ul>{siblings.map((s) => <li><a href={servicePath(s, lang)}>{s.name[lang]}</a></li>)}<li><a href={hubPath(hub, lang)}><strong>{lang === 'en' ? 'All' : 'Ver'} {hub.name[lang]} →</strong></a></li></ul>
+        </div>}
+      </aside>
+    </div>
+  </section>
+
+  <Faq lang={lang} faqs={c.faqs} heading={lang === 'en' ? `Common questions about ${service.name.en.toLowerCase()} in El Paso` : `Preguntas comunes sobre ${service.name.es.toLowerCase()} en El Paso`} />
+  <CtaBand lang={lang} />
+</Base>

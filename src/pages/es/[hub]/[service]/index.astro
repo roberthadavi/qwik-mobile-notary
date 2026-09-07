@@ -1,0 +1,8 @@
+---
+import ServicePage from '../../../../templates/ServicePage.astro';
+import { serviceParams, serviceBySlugs } from '../../../../lib/content';
+export function getStaticPaths() { return serviceParams('es'); }
+const { hub, service } = Astro.params;
+const r = serviceBySlugs(hub!, service!, 'es');
+---
+<ServicePage lang="es" hub={r.hub} service={r.service} />

@@ -1,0 +1,114 @@
+---
+import Base from '../layouts/Base.astro';
+import HubCard from '../components/HubCard.astro';
+import Faq from '../components/Faq.astro';
+import CtaBand from '../components/CtaBand.astro';
+import CtaMid from '../components/CtaMid.astro';
+import { NOTARY_HUBS, OTHER_HUBS, findHub, hubPath, servicePath, type Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+import { HOME } from '../data/pages';
+import { hubContent, serviceById } from '../lib/content';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+const apostille = findHub('apostille');
+// highest-demand pages, linked from the home page
+const top = ['child-travel-consent', 'power-of-attorney', 'affidavits', 'mortgage-closings', 'deeds', 'vehicle-title-transfer', 'i-9-verification', 'apostille-mexico'].map((id) => serviceById(id));
+const faqLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: HOME.faqs.map((f) => ({ '@type': 'Question', name: f.q[lang], acceptedAnswer: { '@type': 'Answer', text: f.a[lang] } })),
+};
+---
+<Base lang={lang} title={HOME.title[lang]} description={HOME.metaDescription[lang]} path={PATHS.home[lang]} altPath={PATHS.home[alt]} jsonLd={[faqLd]}>
+  <section class="hero on-dark">
+    <div class="container">
+      <div class="hero-copy">
+        <div class="eyebrow gold">{HOME.eyebrow[lang]}</div>
+        <h1>{HOME.h1a[lang]} <span class="gold">{HOME.h1b[lang]}</span></h1>
+        <p class="lede">{HOME.lede[lang]}</p>
+        <div class="actions">
+          <a class="btn btn-gold btn-lg" href={SITE.smsHref}>💬 {t('bookNow', lang)}</a>
+          <a class="btn btn-outline btn-lg" href={hubPath(apostille, lang)}>{t('startApostille', lang)} →</a>
+        </div>
+        <p class="fine">{t('callNow', lang)} · {t('serving', lang)}</p>
+        <blockquote class="quote">“{HOME.quote[lang]}”<cite>— {SITE.name}</cite></blockquote>
+      </div>
+      <div class="hero-photo">
+        <img src="/images/franklin-mountains-el-paso.webp" width="1200" height="1500" alt={lang === 'en' ? 'Franklin Mountains over El Paso, Texas — QWIK Mobile Notary Public serves all of El Paso County' : 'Montañas Franklin sobre El Paso, Texas — QWIK Mobile Notary Public sirve a todo el Condado de El Paso'} fetchpriority="high" />
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+      {HOME.stats.map((s) => <div class="stat"><b>{s.b}</b><span>{s.s[lang]}</span></div>)}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="narrow prose">
+      <h2>{HOME.introHeading[lang]}</h2>
+      <hr class="rule-gold" />
+      {HOME.intro[lang].map((p) => <p>{p}</p>)}
+    </div>
+  </section>
+
+  <section class="section bg-paper2" id="services">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">{t('whatWeHandle', lang)}</div>
+        <h2>{t('services', lang)}</h2>
+        <p>{lang === 'en' ? 'Eight categories, thirty core services. Every page tells you the fee, where the signing happens and what to have ready.' : 'Ocho categorías, treinta servicios principales. Cada página le dice la tarifa, dónde se hace la firma y qué tener listo.'}</p>
+      </div>
+      <div class="grid grid-3">
+        {NOTARY_HUBS.map((h) => <HubCard lang={lang} hub={h} summary={hubContent(h.id).summary[lang]} />)}
+        {OTHER_HUBS.map((h) => <HubCard lang={lang} hub={h} summary={hubContent(h.id).summary[lang]} />)}
+      </div>
+      <div class="pills" style="margin-top:1.5rem">
+        {top.map((s) => <span><a href={servicePath(s, lang)} style="text-decoration:none">{s.name[lang]}</a></span>)}
+        <span><a href={PATHS.services[lang]} style="text-decoration:none">{t('allServices', lang)} →</a></span>
+      </div>
+      <div style="margin-top:2rem"><CtaMid lang={lang} /></div>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">{HOME.whyEyebrow[lang]}</div>
+        <h2>{HOME.whyHeading[lang]}</h2>
+      </div>
+      <div class="grid grid-3">
+        {HOME.why.map((w) => <div class="feature"><h3>{w.h[lang]}</h3><p>{w.p[lang]}</p></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">{HOME.processEyebrow[lang]}</div>
+        <h2>{HOME.processHeading[lang]}</h2>
+      </div>
+      <div class="steps">
+        {HOME.process.map((s, i) => <div class="step"><div class="num">0{i + 1}</div><div><h3>{s.t[lang]}</h3><p>{s.p[lang]}</p></div></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-paper2">
+    <div class="container local">
+      <div>
+        <div class="eyebrow">{HOME.localEyebrow[lang]}</div>
+        <h2>{HOME.localHeading[lang]}</h2>
+        {HOME.local[lang].map((p) => <p class="muted">{p}</p>)}
+        <p><strong>{t('serviceAreas', lang)}</strong> · <a href={PATHS.serviceArea[lang]}>{t('serviceArea', lang)} →</a></p>
+        <div class="pills">{HOME.localPills.map((p) => <span>{p}</span>)}</div>
+      </div>
+      <img src="/images/franklin-mountains-el-paso.webp" width="1200" height="1500" loading="lazy" alt={lang === 'en' ? 'El Paso, Texas from the Franklin Mountains — mobile notary service area' : 'El Paso, Texas desde las Montañas Franklin — área de servicio del Notary Public móvil'} />
+    </div>
+  </section>
+
+  <Faq lang={lang} faqs={HOME.faqs} heading={lang === 'en' ? 'Common questions about QWIK Mobile Notary' : 'Preguntas comunes sobre QWIK Mobile Notary'} />
+  <CtaBand lang={lang} />
+</Base>

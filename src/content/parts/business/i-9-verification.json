@@ -1,0 +1,182 @@
+{
+  "title": {
+    "en": "I-9 Verification Notary in El Paso, TX | QWIK Mobile Notary",
+    "es": "Verificación de Empleo I-9 en El Paso, TX | QWIK Notary Public Móvil"
+  },
+  "metaDescription": {
+    "en": "I-9 Section 2 for El Paso remote hires, completed in person by an authorized representative — no notary seal. Same day. Call or text (915) 302-0902.",
+    "es": "Sección 2 del I-9 para empleados remotos en El Paso, completada en persona por un representante autorizado — sin sello. Llame o envíe un texto al (915) 302-0902."
+  },
+  "eyebrow": {
+    "en": "EL PASO MOBILE NOTARY · FORM I-9 AUTHORIZED REPRESENTATIVE",
+    "es": "NOTARY PUBLIC MÓVIL EN EL PASO · REPRESENTANTE AUTORIZADO PARA EL FORMULARIO I-9"
+  },
+  "h1": {
+    "en": "Form I-9 Verification in El Paso — Authorized Representative for Remote Hires",
+    "es": "Formulario I-9 en El Paso — Representante Autorizado para Contrataciones Remotas"
+  },
+  "summary": {
+    "en": "Your new hire lives in El Paso; your HR office does not. Our notary meets the employee, physically examines their original documents and completes Section 2 as your authorized representative — a service, not a notarial act, so no seal is applied.",
+    "es": "Su nuevo empleado vive en El Paso y su departamento de recursos humanos no. Nuestro Notary Public se reúne con el empleado, examina físicamente sus documentos originales y completa la Sección 2 como representante autorizado del empleador. No es un acto de notarización y no se aplica sello."
+  },
+  "feeModel": {
+    "en": "Flat fee per I-9 (not a notarial act) — call or text for a quote",
+    "es": "Tarifa fija por cada I-9 (no es un acto de notarización) — llame o envíe un texto para cotizar"
+  },
+  "timeline": {
+    "en": "Same day by appointment · Section 2 is due within 3 business days of the start date",
+    "es": "El mismo día con cita · la Sección 2 vence a los 3 días hábiles de la fecha de inicio"
+  },
+  "intro": [
+    {
+      "en": "Form I-9 is the federal form every U.S. employer completes for each new employee to verify identity and authorization to work. The employee fills out Section 1; Section 2 requires the employer to physically examine the employee's original documents. That is simple when HR is down the hall and hard when the company is in Austin or Phoenix and the new hire is a nurse in El Paso, a remote customer-service rep in Horizon City or a logistics coordinator at a warehouse near the airport. QWIK Mobile Notary fills that gap as the employer's authorized representative, meeting the employee anywhere in El Paso County.",
+      "es": "El Formulario I-9 es el formulario federal que todo empleador completa por cada nuevo empleado para verificar identidad y autorización de empleo. El empleado llena la Sección 1; la Sección 2 exige que el empleador examine físicamente los documentos originales del empleado. Eso es sencillo cuando recursos humanos está en la misma oficina, y difícil cuando la empresa está en Austin o Phoenix y el nuevo empleado es una enfermera en El Paso, un agente de servicio al cliente remoto en Horizon City o un coordinador de logística en una bodega cerca del aeropuerto. QWIK Mobile Notary cubre esa necesidad como representante autorizado del empleador y se reúne con el empleado en todo el Condado de El Paso."
+    },
+    {
+      "en": "USCIS allows an employer to designate any person as an authorized representative to complete Section 2 on its behalf. Within three business days of the employee's first day of work, the representative examines the original List A document, or one List B identity document plus one List C work-authorization document, records the document details, and signs and dates Section 2. This is not a notarial act: no notary seal is applied, the representative signs in the employer's name, and the employer remains liable for any errors, as the USCIS Handbook for Employers (M-274) explains. We follow your HR team's instructions exactly.",
+      "es": "USCIS permite que el empleador designe a cualquier persona como representante autorizado para completar la Sección 2 en su nombre. Dentro de los tres días hábiles del primer día de trabajo del empleado, el representante examina el documento original de la Lista A, o un documento de identidad de la Lista B más un documento de autorización de empleo de la Lista C, anota los datos de los documentos, y firma y fecha la Sección 2. No es un acto de notarización: no se aplica sello, el representante firma en nombre del empleador, y el empleador sigue siendo responsable de cualquier error, como explica el Manual para Empleadores de USCIS (M-274). Seguimos exactamente las instrucciones de recursos humanos."
+    },
+    {
+      "en": "Email or text us the packet — the current Form I-9, your instructions and the employee's contact information — and we schedule a meeting at the employee's home, your El Paso worksite or a public place. The employee brings original, unexpired documents; photocopies are not acceptable, except a certified copy of a birth certificate. The review takes about fifteen minutes, and we return the completed form by same-day scan or mail, as you specify. Because completing an I-9 is not a notarial act, the Texas notary fee schedule does not apply; QWIK charges a flat, quoted fee per employee. Text or call (915) 302-0902 with the number of hires and the location.",
+      "es": "Envíenos el paquete por correo electrónico o texto — el Formulario I-9 vigente, sus instrucciones y el contacto del empleado — y programamos la reunión en la casa del empleado, su sitio de trabajo en El Paso o un lugar público. El empleado trae sus documentos originales y vigentes; no se aceptan fotocopias, salvo una copia certificada del acta de nacimiento. La revisión toma unos quince minutos y devolvemos el formulario por escaneo el mismo día o por correo, como usted indique. Como completar un I-9 no es un acto de notarización, no aplica la tabla de tarifas de Texas; QWIK cotiza una tarifa fija por empleado. Llame o envíe un texto al (915) 302-0902 con el número de empleados y la ubicación."
+    }
+  ],
+  "sections": [
+    {
+      "heading": {
+        "en": "What the authorized representative does — and what stays with the employer",
+        "es": "Qué hace el representante autorizado — y qué sigue siendo responsabilidad del empleador"
+      },
+      "body": [
+        {
+          "en": "The representative does three things: examines the employee's original documents to see that they reasonably appear genuine and relate to the person presenting them, records each document's title, issuing authority, number and expiration date in Section 2, and signs the certification with their name, the date and the employer's business name and address. The employee, not the representative, chooses which documents to present from the Lists of Acceptable Documents. Everything else stays with the employer: reviewing and retaining the form, E-Verify submission if enrolled, and reverification with Supplement B when a work authorization expires.",
+          "es": "El representante hace tres cosas: examina los documentos originales del empleado para ver que parezcan razonablemente auténticos y correspondan a quien los presenta, anota en la Sección 2 el título, la autoridad emisora, el número y la fecha de vencimiento, y firma la certificación con su nombre, la fecha y el nombre y dirección del empleador. El empleado, no el representante, elige qué documentos presentar de las Listas de Documentos Aceptables. Lo demás queda con el empleador: revisar y conservar el formulario, E-Verify si está inscrito, y la reverificación con el Suplemento B cuando vence una autorización."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "El Paso specifics: remote hires, Fort Bliss families and onboarding packets",
+        "es": "Detalles de El Paso: empleados remotos, familias de Fort Bliss y paquetes de incorporación"
+      },
+      "body": [
+        {
+          "en": "El Paso has a large remote workforce — call-center, healthcare, defense-contractor and logistics employees hired by companies with no local office — plus Fort Bliss military spouses starting remote jobs after a move. We meet those employees at home, at a coworking space or at your local site, in English or Spanish, and we work from the paper or fillable I-9 your HR platform provides. If the onboarding packet also includes handbook acknowledgments, NDAs or direct-deposit and background-check authorizations that carry a notarial certificate, we notarize those at the statutory fee on the same visit.",
+          "es": "El Paso tiene una gran fuerza laboral remota — empleados de call center, salud, defensa y logística contratados por empresas sin oficina local — además de cónyuges militares de Fort Bliss que empiezan trabajos remotos tras una mudanza. Nos reunimos con ellos en casa, en un coworking o en su sitio local, en inglés o español, y trabajamos con el I-9 impreso o rellenable de su plataforma de recursos humanos. Si el paquete también incluye acuses del manual, NDA o autorizaciones de depósito directo y antecedentes con certificado de notarización, los notarizamos con la tarifa legal en la misma visita."
+        }
+      ]
+    }
+  ],
+  "documents": [
+    { "en": "Form I-9 Section 2 completion as employer's authorized representative", "es": "Sección 2 del Formulario I-9 como representante autorizado del empleador" },
+    { "en": "Remote-hire onboarding packets", "es": "Paquetes de incorporación (onboarding) para empleados remotos" },
+    { "en": "Employment Eligibility Forms", "es": "Formularios de elegibilidad de empleo" },
+    { "en": "Reverification (Supplement B, formerly Section 3)", "es": "Reverificación (Suplemento B, antes Sección 3)" },
+    { "en": "Employee handbook acknowledgments", "es": "Acuses de recibo del manual del empleado" },
+    { "en": "Drug testing chain-of-custody and consent forms (witnessed or acknowledged where the employer requires)", "es": "Formularios de consentimiento y cadena de custodia para pruebas de drogas (testigo o reconocimiento cuando el empleador lo exige)" },
+    { "en": "Background check authorizations", "es": "Autorizaciones para verificación de antecedentes" },
+    { "en": "Confidentiality/NDA acknowledgments", "es": "Acuses de confidencialidad (NDA)" },
+    { "en": "Direct deposit/payroll authorizations", "es": "Autorizaciones de depósito directo y nómina" }
+  ],
+  "bring": [
+    { "en": "The employee's original, unexpired documents: one List A document, or one List B plus one List C (no photocopies, except a certified copy of a birth certificate)", "es": "Los documentos originales y vigentes del empleado: un documento de la Lista A, o uno de la Lista B más uno de la Lista C (sin fotocopias, salvo una copia certificada del acta de nacimiento)" },
+    { "en": "Form I-9 with Section 1 completed and signed by the employee — paper or the employer's fillable PDF", "es": "El Formulario I-9 con la Sección 1 completada y firmada por el empleado — en papel o en el PDF rellenable del empleador" },
+    { "en": "The employer's written instructions: business name and address for Section 2, whether to photocopy documents, and how to return the form", "es": "Las instrucciones escritas del empleador: nombre y dirección de la empresa para la Sección 2, si deben fotocopiarse los documentos y cómo devolver el formulario" },
+    { "en": "Any other onboarding forms in the packet that need a witness or a notarial certificate", "es": "Cualquier otro formulario del paquete de incorporación que necesite testigo o certificado de notarización" },
+    { "en": "Payment for the quoted fee, unless the employer has arranged to pay directly", "es": "El pago de la tarifa cotizada, salvo que el empleador haya acordado pagar directamente" }
+  ],
+  "process": [
+    {
+      "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para reservar" },
+      "body": {
+        "en": "Send the I-9, your instructions and the employee's contact information by text or email, or call (915) 302-0902. We confirm the flat fee and set a meeting inside your three-business-day window, anywhere in El Paso County.",
+        "es": "Envíe el I-9, sus instrucciones y el contacto del empleado por texto o correo electrónico, o llame al (915) 302-0902. Confirmamos la tarifa fija y fijamos la reunión dentro de su plazo de tres días hábiles, en todo el Condado de El Paso."
+      }
+    },
+    {
+      "title": { "en": "We meet the employee", "es": "Nos reunimos con el empleado" },
+      "body": {
+        "en": "Our representative meets the new hire at home, at your El Paso site or in a public place, physically examines the original List A or List B and C documents, and completes, signs and dates Section 2 in the employer's name.",
+        "es": "Nuestro representante ve al nuevo empleado en casa, en su sitio de El Paso o en un lugar público, examina físicamente los originales de la Lista A o las Listas B y C, y completa, firma y fecha la Sección 2 en nombre del empleador."
+      }
+    },
+    {
+      "title": { "en": "Completed and returned", "es": "Completado y devuelto" },
+      "body": {
+        "en": "We return the completed form by same-day scan, secure upload or mail, as you instruct — with no notary seal, because this is not a notarial act. Reverification with Supplement B can be scheduled the same way later.",
+        "es": "Devolvemos el formulario completado por escaneo el mismo día, carga segura o correo, como usted indique — sin sello, porque no es un acto de notarización. La reverificación con el Suplemento B se puede programar igual más adelante."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": {
+        "en": "Does Form I-9 have to be notarized?",
+        "es": "¿El Formulario I-9 se tiene que notarizar?"
+      },
+      "a": {
+        "en": "No. Form I-9 is never notarized and should not carry a notary seal. USCIS requires the employer or its authorized representative to physically examine the employee's original documents and sign Section 2; that is what our notary does for El Paso hires, signing as the employer's representative rather than as a notary. A seal or notarial certificate added to an I-9 is a mistake, not a requirement, and we will not add one.",
+        "es": "No. El Formulario I-9 nunca se notariza y no debe llevar sello. USCIS exige que el empleador o su representante autorizado examine físicamente los documentos originales del empleado y firme la Sección 2; eso es lo que hace nuestro Notary Public para las contrataciones en El Paso, firmando como representante del empleador y no como Notary Public. Un sello o certificado de notarización agregado a un I-9 es un error, no un requisito, y no lo agregamos."
+      }
+    },
+    {
+      "q": {
+        "en": "Can a notary act as an authorized representative for Form I-9 in Texas?",
+        "es": "¿Puede un Notary Public actuar como representante autorizado para el I-9 en Texas?"
+      },
+      "a": {
+        "en": "Yes. USCIS lets an employer designate anyone as an authorized representative — a notary, a manager or an agent — and Texas does not bar notaries from serving in that role, provided no seal is applied and the review is not treated as a notarial act. Our notary meets the employee in El Paso, examines the original documents and completes Section 2 as your HR team instructs. The employer remains responsible for the form.",
+        "es": "Sí. USCIS permite que el empleador designe a cualquier persona como representante autorizado — un Notary Public, un gerente o un agente — y Texas no impide que un Notary Public cumpla ese papel, siempre que no aplique sello ni trate la revisión como acto de notarización. Nuestro Notary Public se reúne con el empleado en El Paso, examina los documentos originales y completa la Sección 2 como indique recursos humanos. El empleador sigue siendo responsable del formulario."
+      }
+    },
+    {
+      "q": {
+        "en": "How soon after the start date must Section 2 be completed?",
+        "es": "¿En cuánto tiempo después de la fecha de inicio debe completarse la Sección 2?"
+      },
+      "a": {
+        "en": "Within three business days of the employee's first day of paid work. Start on a Monday, and Section 2 is due by Thursday; if the job will last fewer than three days, it must be completed on the first day. Section 1 is the employee's part and is due no later than the first day. We schedule El Paso appointments to fit that window, including evenings and weekends.",
+        "es": "Dentro de los tres días hábiles siguientes al primer día de trabajo pagado del empleado. Si empieza un lunes, la Sección 2 vence el jueves; si el trabajo durará menos de tres días, debe completarse el primer día. La Sección 1 es la parte del empleado y vence a más tardar el primer día. Programamos las citas en El Paso para cumplir ese plazo, incluso en tardes y fines de semana."
+      }
+    },
+    {
+      "q": {
+        "en": "Which documents does the employee need to bring to the I-9 appointment?",
+        "es": "¿Qué documentos debe traer el empleado a la cita del I-9?"
+      },
+      "a": {
+        "en": "Original, unexpired documents from the Lists of Acceptable Documents: either one List A document proving identity and work authorization — a U.S. passport, Permanent Resident Card or Employment Authorization Document — or one List B identity document (a Texas driver license) plus one List C document (an unrestricted Social Security card). The employee chooses which to present; we cannot request specific documents. No photocopies, except a certified copy of a birth certificate.",
+        "es": "Documentos originales y vigentes de las Listas de Documentos Aceptables: un documento de la Lista A que prueba identidad y autorización de empleo — pasaporte estadounidense, tarjeta de residente permanente o documento de autorización de empleo — o un documento de identidad de la Lista B (licencia de Texas) más uno de la Lista C (tarjeta del Seguro Social sin restricciones). El empleado elige cuáles presentar; no podemos pedir documentos específicos. Sin fotocopias, salvo copia certificada del acta de nacimiento."
+      }
+    },
+    {
+      "q": {
+        "en": "Can the I-9 be done by video or Remote Online Notarization instead of in person?",
+        "es": "¿Se puede hacer el I-9 por video o con notarización en línea en lugar de en persona?"
+      },
+      "a": {
+        "en": "Not by us. Section 2 normally requires a physical, in-person examination of the original documents, which is why employers use a local representative in El Paso. The DHS alternative procedure for remote examination is available only to employers enrolled in good standing with E-Verify, and the employer runs that itself. Remote Online Notarization is a separate notarial service for documents that are notarized — useful for other onboarding forms, not for the I-9 itself.",
+        "es": "Nosotros no. La Sección 2 normalmente exige examinar físicamente y en persona los documentos originales, y por eso los empleadores usan un representante local en El Paso. El procedimiento alternativo del DHS para revisión remota solo está disponible para empleadores inscritos y al corriente en E-Verify, y lo ejecuta el propio empleador. La notarización en línea (RON) es un servicio distinto para documentos que sí se notarizan — útil para otros formularios de incorporación, no para el I-9."
+      }
+    }
+  ],
+  "keywords": [
+    "I-9 notary El Paso",
+    "I-9 verification El Paso",
+    "authorized representative I-9 Texas",
+    "remote hire I-9 El Paso",
+    "Form I-9 Section 2 El Paso",
+    "employment eligibility verification El Paso"
+  ],
+  "related": ["business-documents", "affidavits", "online-notary"],
+  "outbound": [
+    {
+      "label": { "en": "USCIS Form I-9, Employment Eligibility Verification", "es": "USCIS: Formulario I-9, Verificación de Elegibilidad de Empleo" },
+      "url": "https://www.uscis.gov/i-9"
+    },
+    {
+      "label": { "en": "USCIS Handbook for Employers (M-274)", "es": "Manual para Empleadores de USCIS (M-274)" },
+      "url": "https://www.uscis.gov/i-9-central/form-i-9-resources/handbook-for-employers-m-274"
+    }
+  ]
+}

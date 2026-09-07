@@ -1,0 +1,59 @@
+---
+import { NOTARY_HUBS, OTHER_HUBS, hubPath, findHub, type Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+interface Props { lang: Lang; altPath: string }
+const { lang, altPath } = Astro.props;
+const apostille = findHub('apostille');
+const loanSigning = findHub('loan-signing');
+---
+<div class="topbar">
+  <div class="container">
+    <div class="left">
+      <span><span class="dot"></span>{t('openToday', lang)} · {SITE.hours[lang]}</span>
+      <span class="sep serving">|</span>
+      <span class="serving">{t('serving', lang)}</span>
+    </div>
+    <div class="left">
+      <a class="email" href={SITE.smsHref}>{t('textUs', lang)}</a>
+      <a class="phone-pill" href={SITE.phoneHref}>{SITE.phone}</a>
+    </div>
+  </div>
+</div>
+<header class="header" id="site-header">
+  <div class="container">
+    <a class="brand" href={PATHS.home[lang]} aria-label={SITE.name}>
+      <span class="name">{SITE.name}</span>
+      <span class="sub">{SITE.tagline[lang]}</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <div class="has-menu">
+        <a href={PATHS.services[lang]} aria-haspopup="true">{t('services', lang)}</a>
+        <div class="mega">
+          {NOTARY_HUBS.map((h) => (
+            <a href={hubPath(h, lang)}><span class="ic" aria-hidden="true">{h.icon}</span><span>{h.name[lang]}</span></a>
+          ))}
+          {OTHER_HUBS.map((h) => (
+            <a href={hubPath(h, lang)}><span class="ic" aria-hidden="true">{h.icon}</span><span>{h.name[lang]}</span></a>
+          ))}
+          <a class="all" href={PATHS.services[lang]}>{t('allServices', lang)} →</a>
+        </div>
+      </div>
+      <a href={hubPath(apostille, lang)}>{t('apostille', lang)}</a>
+      <a href={hubPath(loanSigning, lang)}>{t('loanSigning', lang)}</a>
+      <a href={PATHS.fees[lang]}>{t('fees', lang)}</a>
+      <a href={PATHS.serviceArea[lang]}>{t('serviceArea', lang)}</a>
+      <a href={PATHS.about[lang]}>{t('about', lang)}</a>
+      <a href={PATHS.contact[lang]}>{t('contact', lang)}</a>
+      <a class="lang-switch" href={altPath} hreflang={lang === 'en' ? 'es' : 'en'} lang={lang === 'en' ? 'es' : 'en'}>{t('languageSwitch', lang)}</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-header" data-menu>{t('menu', lang)} ☰</button>
+  </div>
+</header>
+<script>
+  const btn = document.querySelector('[data-menu]');
+  const header = document.getElementById('site-header');
+  btn?.addEventListener('click', () => {
+    const open = header!.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(open));
+  });
+</script>

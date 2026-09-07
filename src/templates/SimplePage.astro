@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import type { Lang } from '../data/catalog';
+import { PATHS, t } from '../data/site';
+interface Props { lang: Lang; title: string; description: string; h1: string; path: string; altPath: string; body: string[]; noindex?: boolean }
+const { lang, title, description, h1, path, altPath, body, noindex = false } = Astro.props;
+---
+<Base lang={lang} title={title} description={description} path={path} altPath={altPath} noindex={noindex}>
+  <section class="hero hero-inner on-dark">
+    <div class="container"><div class="hero-copy">
+      <nav class="crumbs" aria-label={t('breadcrumbAria', lang)}><ol><li><a href={PATHS.home[lang]}>{t('home', lang)}</a></li><li aria-current="page">{h1}</li></ol></nav>
+      <h1>{h1}</h1>
+    </div></div>
+  </section>
+  <section class="section"><div class="narrow prose">{body.map((p) => <p>{p}</p>)}<slot /></div></section>
+</Base>

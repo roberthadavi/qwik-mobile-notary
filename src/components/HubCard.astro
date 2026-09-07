@@ -1,0 +1,16 @@
+---
+import { hubPath, type Lang, type CatalogHub } from '../data/catalog';
+import { t } from '../data/site';
+interface Props { lang: Lang; hub: CatalogHub; summary: string; maxLinks?: number }
+const { lang, hub, summary, maxLinks = 4 } = Astro.props;
+---
+<a class="card" href={hubPath(hub, lang)}>
+  <div class="ic" aria-hidden="true">{hub.icon}</div>
+  <h3>{hub.name[lang]}</h3>
+  <p>{summary}</p>
+  {hub.services.length > 0 && <ul class="card-list">
+    {hub.services.slice(0, maxLinks).map((s) => <li>{s.name[lang]}</li>)}
+    {hub.services.length > maxLinks && <li>+{hub.services.length - maxLinks} {lang === 'en' ? 'more' : 'más'}</li>}
+  </ul>}
+  <span class="more">{t('learnMore', lang)}</span>
+</a>

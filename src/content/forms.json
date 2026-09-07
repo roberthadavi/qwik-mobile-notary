@@ -1,0 +1,602 @@
+{
+  "hub": {
+    "title": {
+      "en": "Vehicle, School & Government Forms in El Paso | QWIK Notary",
+      "es": "Formularios de Vehículos, Escuela y Gobierno en El Paso | QWIK Notary"
+    },
+    "metaDescription": {
+      "en": "El Paso mobile notary — vehicle titles, bills of sale, school residency affidavits, government forms. Bilingual, same day. Call or text (915) 302-0902.",
+      "es": "Notary Public móvil bilingüe en El Paso: traspaso de título, factura de venta, affidavit de residencia escolar y formas de gobierno. Llame o texto al (915) 302-0902."
+    },
+    "eyebrow": {
+      "en": "EL PASO MOBILE NOTARY · VEHICLE, SCHOOL & GOVERNMENT FORMS",
+      "es": "NOTARY PUBLIC MÓVIL EN EL PASO · FORMULARIOS DE VEHÍCULOS, ESCUELA Y GOBIERNO"
+    },
+    "h1": {
+      "en": "Vehicle Title, School Residency & Government Form Notary in El Paso — We Come to You",
+      "es": "Traspaso de Título, Formularios Escolares y de Gobierno en El Paso — Vamos a Donde Usted Está"
+    },
+    "summary": {
+      "en": "The everyday forms that come back rejected without a notary's certificate — vehicle title affidavits and powers of attorney, bills of sale, school residency affidavits and state or federal agency forms — notarized wherever you are in El Paso County, in English or Spanish.",
+      "es": "Los trámites de todos los días que rebotan sin certificado de notarización — affidavits y cartas poder para títulos de vehículo, facturas de venta, affidavits de residencia escolar y formularios de agencias — notarizados donde usted esté en el Condado de El Paso, en español o en inglés."
+    },
+    "intro": [
+      {
+        "en": "This group covers the paperwork El Paso families handle every year: transferring a car, truck or trailer title, signing a bill of sale, giving a vehicle to a relative, letting someone else handle a title at the El Paso County Tax Office, and the sworn residency affidavits that EPISD, YISD, SISD and the smaller districts request when enrollment opens each August. The forms come free from the agency or district that issues them, but many are not accepted until a Notary Public has verified the signer's identity and either witnessed the signature or administered an oath. That is the only part we do: you bring the completed form, we notarize it.",
+        "es": "Esta sección reúne los trámites que las familias de El Paso hacen cada año: traspasar el título de un carro, una camioneta o un remolque, firmar una factura de venta (bill of sale), regalar un vehículo a un familiar, autorizar a otra persona para hacer el trámite del título en la Oficina de Impuestos del Condado de El Paso (County Tax Office), y las declaraciones juradas de residencia (affidavits) que EPISD, YISD, SISD y los distritos más pequeños piden cuando abre la inscripción cada agosto. Los formularios los entrega sin costo la agencia o el distrito, pero muchos no se aceptan hasta que un Notary Public verifica la identidad del firmante y presencia la firma o toma el juramento. Esa es la única parte que hacemos: usted trae el formulario completo y nosotros lo notarizamos."
+      },
+      {
+        "en": "Text or call (915) 302-0902 with the name of the form and where you are — a home in the Lower Valley, an office near Fort Bliss, a room at UMC, the El Paso County Detention Facility — and we confirm the fee before we leave: $10 for the first signature and $1 for each additional signature, $10 for each sworn statement, plus a nominal $39 travel fee in the El Paso area. Every signer appears in person with an unexpired government photo ID, and affidavits stay unsigned until the notary arrives. Our notary is bilingual, so the appointment runs in English, Spanish or both, evenings and weekends included.",
+        "es": "Llame o envíe un texto al (915) 302-0902 con el nombre del formulario y el lugar donde está — una casa en el Valle Bajo (Lower Valley), una oficina cerca de Fort Bliss, un cuarto en UMC, la cárcel del Condado de El Paso — y confirmamos la tarifa antes de salir: $10 por la primera firma y $1 por cada firma adicional, $10 por cada declaración jurada, más $39 de traslado en el área de El Paso. Cada firmante se presenta en persona con una identificación oficial vigente con fotografía, y las declaraciones juradas se dejan sin firmar hasta que llegue el Notary Public. Atendemos en español, en inglés o en ambos, también por la tarde y los fines de semana."
+      }
+    ],
+    "faqs": [
+      {
+        "q": {
+          "en": "Does a Texas vehicle title have to be notarized in El Paso?",
+          "es": "¿Un título de vehículo de Texas se tiene que notarizar en El Paso?"
+        },
+        "a": {
+          "en": "No. Texas does not require a notary on the title assignment itself or on Form 130-U, the Application for Texas Title. Notarization is required on Form VTR-262, the Affidavit of Heirship for a Motor Vehicle, on Form 14-317, the gift affidavit, and on titles from states such as Ohio, Pennsylvania and Louisiana. Look for a notary block on your form; if it has one, we come to you anywhere in El Paso County.",
+          "es": "No. Texas no exige notarización en el endoso del título ni en el Formulario 130-U, la solicitud de título de Texas. Sí la exige en el Formulario VTR-262, la declaración jurada de herencia de un vehículo, en el Formulario 14-317 de regalo de vehículo, y en títulos de estados como Ohio, Pensilvania y Luisiana. Revise si su formulario tiene un espacio para el Notary Public; si lo tiene, vamos a donde usted esté en el Condado de El Paso."
+        }
+      },
+      {
+        "q": {
+          "en": "Do school residency affidavits for EPISD, YISD or SISD have to be notarized?",
+          "es": "¿Los affidavits de residencia escolar para EPISD, YISD o SISD se tienen que notarizar?"
+        },
+        "a": {
+          "en": "Usually, yes. Each El Paso district publishes its own affidavit of residency or shared-housing form, and they generally include a jurat, which means the homeowner or leaseholder and the parent sign in front of the notary and swear the statement is true. Bring everyone's unexpired photo ID and the unsigned form; the district decides which lease, utility bill or other proof to attach. We come to the home, which is where most of these get signed.",
+          "es": "Por lo general, sí. Cada distrito de El Paso publica su propio affidavit de residencia o de vivienda compartida, y casi siempre incluye un juramento (jurat): el dueño o arrendatario de la casa y el padre o la madre firman frente al Notary Public y juran que la declaración es verdadera. Tenga lista la identificación vigente de cada firmante y el formulario sin firmar; el distrito decide qué contrato de renta, recibo de luz u otro comprobante se anexa. Vamos a la casa, que es donde casi todos se firman."
+        }
+      },
+      {
+        "q": {
+          "en": "Can the notary fill out my form or tell me which one I need?",
+          "es": "¿El Notary Public puede llenar mi formulario o decirme cuál necesito?"
+        },
+        "a": {
+          "en": "No. A Texas Notary Public is not an attorney and cannot choose a form, complete it for you, calculate a fee or tax, or advise you on eligibility. Our job is to verify identity, make sure you are signing willingly and understand the document, and complete the notarial certificate. Get vehicle forms from TxDMV or the El Paso County Tax Office, residency affidavits from your school district, and agency forms from the agency; text or call us to notarize.",
+          "es": "No. Un Notary Public de Texas no es abogado ni equivale a la figura legal de México; no puede escoger un formulario, llenarlo por usted, calcular una tarifa o impuesto, ni opinar sobre su elegibilidad. Nuestro trabajo es verificar la identidad, confirmar que usted firma por voluntad propia y entiende el documento, y completar el certificado. Los formularios de vehículos se obtienen en el TxDMV o en la Oficina de Impuestos del Condado de El Paso, los affidavits de residencia en su distrito escolar y los de agencias en la propia agencia; llámenos o envíe un texto para notarizar."
+        }
+      }
+    ]
+  },
+  "services": {
+    "school-and-government-forms": {
+      "title": {
+        "en": "School & Government Forms Notary El Paso, TX | QWIK Notary",
+        "es": "Formularios Escolares y de Gobierno en El Paso | QWIK Notary Public"
+      },
+      "metaDescription": {
+        "en": "Residency affidavits for EPISD, YISD and SISD, DPS, SSA and VA forms, exam proctoring — notarized at your El Paso home, same day. Text (915) 302-0902.",
+        "es": "Declaraciones de residencia para EPISD, YISD y SISD, formularios de DPS, SSA y VA y supervisión de exámenes — en su casa en El Paso. Texto al (915) 302-0902."
+      },
+      "eyebrow": {
+        "en": "EL PASO MOBILE NOTARY · VEHICLE, SCHOOL & GOVERNMENT FORMS",
+        "es": "NOTARY PUBLIC MÓVIL EN EL PASO · FORMULARIOS DE VEHÍCULOS, ESCUELA Y GOBIERNO"
+      },
+      "h1": {
+        "en": "School Residency Affidavits & Government Forms — Notarized at Your Home in El Paso",
+        "es": "Declaraciones de residencia escolar y formularios de gobierno — notarizados en su casa en El Paso"
+      },
+      "summary": {
+        "en": "Every August El Paso parents need a notarized affidavit of residency to enroll a child; the rest of the year it is DPS, Social Security, VA, retirement-system and agency forms. We notarize them at your kitchen table, same day, in English or Spanish.",
+        "es": "Cada agosto los padres de El Paso necesitan una declaración jurada de residencia notarizada para inscribir a un hijo; el resto del año son formularios de DPS, Seguro Social, VA, sistemas de retiro y otras agencias. Los notarizamos en la mesa de su cocina, el mismo día, en español o inglés."
+      },
+      "feeModel": {
+        "en": "$10 per oath or first signature + $1 each additional, plus $39 travel fee",
+        "es": "$10 por juramento o primera firma + $1 cada firma adicional, más $39 de traslado"
+      },
+      "timeline": {
+        "en": "Same day by appointment · evenings & weekends available",
+        "es": "El mismo día con cita · tardes y fines de semana"
+      },
+      "intro": [
+        {
+          "en": "School districts across El Paso — EPISD, Ysleta, Socorro, Canutillo, Clint and Anthony — ask for a notarized affidavit of residency when a family lives with relatives, rents without a lease in their name, or has just moved into the attendance zone. Both the parent and the homeowner or leaseholder usually sign, each swearing that the child actually lives at the address. The same week, a grandparent may need a Social Security form notarized, a veteran a VA affidavit, a new employee a Texas DPS statement, and a college student a homeschool or athletic eligibility affidavit. None of these documents is complicated; what is hard is getting two working adults and a notary into the same room before the registration window closes. That is exactly what a mobile notary is for.",
+          "es": "Los distritos escolares de El Paso — EPISD, Ysleta, Socorro, Canutillo, Clint y Anthony — piden una declaración jurada de residencia (affidavit of residency) notarizada cuando una familia vive con parientes, renta sin un contrato a su nombre o acaba de mudarse a la zona de asistencia. Normalmente firman tanto el padre como el propietario o inquilino titular, cada uno jurando que el niño realmente vive en esa dirección. Esa misma semana, un abuelo puede necesitar un formulario del Seguro Social notarizado, un veterano una declaración para el VA, un empleado nuevo una constancia para el DPS de Texas, y un estudiante universitario una declaración de educación en casa o de elegibilidad deportiva. Ninguno de estos documentos es complicado; lo difícil es juntar a dos adultos que trabajan y a un Notary Public en el mismo lugar antes de que cierre la ventana de inscripción. Para eso existe un Notary Public móvil."
+        },
+        {
+          "en": "Almost every school and agency form in this category is a sworn statement, which in Texas means a jurat: the signer takes an oath before the notary and signs in the notary's presence, and the notary completes the certificate with venue, date, signature and seal under Texas Government Code Chapter 406. The statutory fee is $10 for each oath. Each district publishes its own affidavit form, and the form controls — we notarize the district's document, not a substitute. Government agencies are the same: Texas DPS, the Social Security Administration, the Department of Veterans Affairs, the Teacher Retirement System and county offices each specify when a notarized signature is required and print the certificate on the form. One service in this group is not a notarial act at all: proctoring an online driving-school or course exam, where the notary verifies your identity and witnesses that you took the test yourself.",
+          "es": "Casi todos los formularios escolares y de agencias en esta categoría son declaraciones bajo juramento, lo que en Texas significa un jurat: el firmante jura ante el Notary Public y firma en su presencia, y el Notary Public completa el certificado con lugar, fecha, firma y sello conforme al Capítulo 406 del Código de Gobierno de Texas. La tarifa legal es de $10 por cada juramento. Cada distrito publica su propio formulario de declaración, y el formulario es el que manda — notarizamos el documento del distrito, no un sustituto. Las agencias de gobierno funcionan igual: el DPS de Texas, la Administración del Seguro Social, el Departamento de Asuntos de Veteranos, el Sistema de Retiro de Maestros y las oficinas del condado especifican cuándo se requiere una firma notarizada e imprimen el certificado en el formulario. Un servicio de este grupo no es un acto notarial: la supervisión de un examen en línea de escuela de manejo o de un curso, donde el Notary Public verifica su identidad y atestigua que usted mismo presentó el examen."
+        },
+        {
+          "en": "Text or call (915) 302-0902, tell us which form and how many people are signing, and we set a time — evenings and weekends included, because that is when both adults are home. The fee is $10 per oath plus a $39 travel fee anywhere in El Paso; a residency affidavit signed by a parent and a homeowner is two oaths, $20 plus travel. Bring unexpired photo ID for every signer and leave the affidavit unsigned until the notary arrives. We cannot tell you whether you qualify for a program, fill in the form for you, or advise on a benefits question; the school registrar or the agency does that. We make sure the signature is properly sworn and the certificate is complete, so the form is accepted the first time.",
+          "es": "Envíe un texto o llame al (915) 302-0902, díganos qué formulario es y cuántas personas firman, y fijamos una hora — incluso en la tarde o el fin de semana, porque es cuando ambos adultos están en casa. La tarifa es de $10 por juramento más $39 de traslado en cualquier parte de El Paso; una declaración de residencia firmada por un padre y un propietario son dos juramentos, $20 más el traslado. Tenga a la mano una identificación vigente con fotografía de cada firmante y no firme la declaración hasta que llegue el Notary Public. No podemos decirle si califica para un programa, llenar el formulario por usted ni asesorarlo sobre una pregunta de beneficios; eso lo hace la oficina de registro de la escuela o la agencia. Nosotros nos aseguramos de que la firma esté debidamente jurada y el certificado completo, para que el formulario se acepte la primera vez."
+        }
+      ],
+      "sections": [
+        {
+          "heading": {
+            "en": "August in El Paso: the residency affidavit rush",
+            "es": "Agosto en El Paso: la temporada de declaraciones de residencia"
+          },
+          "body": [
+            {
+              "en": "Registration for EPISD, Ysleta ISD and Socorro ISD opens in late summer, and every campus registrar asks the same families for the same document: a sworn statement that the student lives at the address on file, signed by the parent and by the person who owns or leases the home. Grandparents raising grandchildren, families sharing a house in the Lower Valley, and soldiers newly assigned to Fort Bliss all fall into this group. We schedule back-to-back evening appointments across the Eastside, Northeast and Mission Valley during those weeks, and we bring the notary journal, so each signer's ID and oath are recorded the way Texas requires. Ask your campus for its current form first; districts revise them.",
+              "es": "La inscripción en EPISD, Ysleta ISD y Socorro ISD abre a finales del verano, y la oficina de registro de cada escuela pide a las mismas familias el mismo documento: una declaración bajo juramento de que el estudiante vive en la dirección registrada, firmada por el padre y por la persona que es dueña o renta la casa. Los abuelos que crían a sus nietos, las familias que comparten una casa en el Valle Bajo y los soldados recién asignados a Fort Bliss entran en este grupo. Durante esas semanas programamos citas seguidas por la tarde en el Eastside, el Noreste y Mission Valley, y llevamos el libro de registro, para que la identificación y el juramento de cada firmante queden anotados como exige Texas. Pida primero a su escuela el formulario vigente; los distritos los actualizan."
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Agency forms, retirement systems and exam proctoring",
+            "es": "Formularios de agencias, sistemas de retiro y supervisión de exámenes"
+          },
+          "body": [
+            {
+              "en": "Beyond the schools, the forms that most often need a notary in El Paso are Social Security statements and representative-payee paperwork, Texas DPS affidavits for identity or address, VA forms for Fort Bliss veterans and their survivors, Teacher Retirement System and Employees Retirement System beneficiary and spousal-consent forms, county exemption applications and out-of-state agency forms mailed to relatives here. Online driving-school providers and some certification programs also require a proctored final exam: the notary confirms your identity, watches you take the test, and signs the provider's proctor statement. That is a witness service, priced as an ordinary notarial act, and it is not a notarization of the exam itself.",
+              "es": "Además de las escuelas, los formularios que más a menudo necesitan un Notary Public en El Paso son las constancias del Seguro Social y los documentos de representante de pagos, las declaraciones del DPS de Texas sobre identidad o domicilio, los formularios del VA para veteranos de Fort Bliss y sus sobrevivientes, los formularios de beneficiarios y de consentimiento del cónyuge del Sistema de Retiro de Maestros y del Sistema de Retiro de Empleados, las solicitudes de exención del condado y formularios de agencias de otros estados enviados por correo a familiares aquí. Los proveedores de escuelas de manejo en línea y algunos programas de certificación también exigen un examen final supervisado: el Notary Public confirma su identidad, lo observa presentar el examen y firma la constancia del supervisor del proveedor. Es un servicio de testigo, con el precio de un acto notarial ordinario, y no es una notarización del examen en sí."
+            }
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "en": "Affidavit of Residency for school enrollment (EPISD, Ysleta ISD, Socorro ISD, Canutillo, Clint and Anthony ISDs)",
+          "es": "Declaración jurada de residencia para inscripción escolar (EPISD, Ysleta ISD, Socorro ISD, Canutillo, Clint y Anthony ISD)"
+        },
+        {
+          "en": "Guardianship and residency statements for enrollment when a child lives with a relative",
+          "es": "Constancias de tutela y residencia para inscripción cuando un niño vive con un familiar"
+        },
+        {
+          "en": "School documents: transcript and records requests, athletic eligibility and homeschool affidavits",
+          "es": "Documentos escolares: solicitudes de expedientes, declaraciones de elegibilidad deportiva y de educación en casa"
+        },
+        {
+          "en": "Certified copies of diplomas and school records (non-recordable documents)",
+          "es": "Copias certificadas de diplomas y documentos escolares (documentos no registrables)"
+        },
+        {
+          "en": "Texas DPS affidavits and statements of identity or address",
+          "es": "Declaraciones del DPS de Texas sobre identidad o domicilio"
+        },
+        {
+          "en": "Social Security Administration forms that require a notarized signature",
+          "es": "Formularios de la Administración del Seguro Social que requieren firma notarizada"
+        },
+        {
+          "en": "Department of Veterans Affairs and Fort Bliss forms",
+          "es": "Formularios del Departamento de Asuntos de Veteranos y de Fort Bliss"
+        },
+        {
+          "en": "Teacher Retirement System (TRS) and Employees Retirement System (ERS) beneficiary and spousal-consent forms",
+          "es": "Formularios de beneficiarios y consentimiento del cónyuge del TRS y del ERS"
+        },
+        {
+          "en": "County and state agency applications that print a notary certificate on the form",
+          "es": "Solicitudes de agencias del condado y del estado que traen el certificado del Notary Public impreso"
+        },
+        {
+          "en": "Government issuance forms and out-of-state agency forms mailed to El Paso relatives",
+          "es": "Formularios de expedición del gobierno y de agencias de otros estados enviados a familiares en El Paso"
+        },
+        {
+          "en": "DS-3053 passport consent for a minor (see our travel consent page)",
+          "es": "Consentimiento DS-3053 para el pasaporte de un menor (vea nuestra página de permisos de viaje)"
+        },
+        {
+          "en": "Identification Affidavits",
+          "es": "Declaraciones juradas de identidad"
+        },
+        {
+          "en": "Online driving school and course exam proctoring (witness service)",
+          "es": "Supervisión de exámenes en línea de escuela de manejo y cursos (servicio de testigo)"
+        }
+      ],
+      "bring": [
+        {
+          "en": "Unexpired government photo ID for every person signing",
+          "es": "Identificación oficial vigente con fotografía de cada persona que firme"
+        },
+        {
+          "en": "The district's or agency's own form, complete but unsigned",
+          "es": "El formulario propio del distrito o la agencia, completo pero sin firmar"
+        },
+        {
+          "en": "For residency affidavits: the homeowner or leaseholder, present with ID",
+          "es": "Para declaraciones de residencia: el propietario o inquilino titular, presente con identificación"
+        },
+        {
+          "en": "For exam proctoring: your device, login and the provider's proctor form",
+          "es": "Para supervisión de exámenes: su dispositivo, su acceso y el formulario de supervisor del proveedor"
+        },
+        {
+          "en": "Payment (card, cash or app)",
+          "es": "Forma de pago (tarjeta, efectivo o aplicación)"
+        }
+      ],
+      "process": [
+        {
+          "title": {
+            "en": "Text or call to book",
+            "es": "Envíe un texto o llame para agendar"
+          },
+          "body": {
+            "en": "Tell us the form and how many people sign. We confirm the fee — $10 per oath, $39 travel anywhere in El Paso — and pick a time when everyone is home, evenings and weekends included.",
+            "es": "Díganos qué formulario es y cuántas personas firman. Confirmamos la tarifa — $10 por juramento, $39 de traslado en cualquier parte de El Paso — y elegimos una hora en la que todos estén en casa, incluso tarde o fin de semana."
+          }
+        },
+        {
+          "title": {
+            "en": "We come to you",
+            "es": "Vamos a donde usted está"
+          },
+          "body": {
+            "en": "At your home or workplace the notary checks each ID, administers the oath, watches each signer sign and completes the certificate printed on the form. A two-signer residency affidavit takes about ten minutes.",
+            "es": "En su casa o trabajo el Notary Public revisa cada identificación, toma el juramento, observa firmar a cada persona y completa el certificado impreso en el formulario. Una declaración de residencia con dos firmantes toma unos diez minutos."
+          }
+        },
+        {
+          "title": {
+            "en": "Turn it in",
+            "es": "Entréguelo"
+          },
+          "body": {
+            "en": "You hand the notarized original to the campus registrar or mail it to the agency. If a district or agency rejects a certificate we completed, we return and correct it at no charge.",
+            "es": "Usted entrega el original notarizado en la oficina de registro de la escuela o lo envía a la agencia. Si un distrito o agencia rechaza un certificado que completamos, regresamos y lo corregimos sin costo."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "q": {
+            "en": "Does the homeowner have to be there to notarize a school residency affidavit?",
+            "es": "¿Tiene que estar presente el propietario para notarizar una declaración de residencia escolar?"
+          },
+          "a": {
+            "en": "If the district's form has a homeowner or leaseholder signature — most El Paso district forms do — that person must appear before the notary with ID and take the oath, because the affidavit swears the child lives at their address. The parent and homeowner do not have to sign at the same moment; we can make two stops the same evening. Each oath is a separate $10 notarial fee.",
+            "es": "Si el formulario del distrito tiene la firma del propietario o inquilino titular — la mayoría de los formularios de los distritos de El Paso la tienen — esa persona debe comparecer ante el Notary Public con identificación y jurar, porque la declaración afirma que el niño vive en su domicilio. El padre y el propietario no tienen que firmar en el mismo momento; podemos hacer dos paradas la misma tarde. Cada juramento es una tarifa separada de $10."
+          }
+        },
+        {
+          "q": {
+            "en": "How much does it cost to notarize a residency affidavit in El Paso?",
+            "es": "¿Cuánto cuesta notarizar una declaración de residencia en El Paso?"
+          },
+          "a": {
+            "en": "Texas sets the notarial fee at $10 per oath. A residency affidavit signed by one parent is $10; signed by a parent and a homeowner it is $20. We add a nominal $39 travel fee anywhere in El Paso, itemized separately, so a typical two-signer affidavit at your home totals $59. Text (915) 302-0902 and we confirm the exact amount before we drive over.",
+            "es": "Texas fija la tarifa en $10 por juramento. Una declaración de residencia firmada por un padre cuesta $10; firmada por un padre y un propietario, $20. Agregamos $39 de traslado en cualquier parte de El Paso, detallados por separado, así que una declaración típica con dos firmantes en su casa suma $59. Envíe un texto al (915) 302-0902 y confirmamos el monto exacto antes de ir."
+          }
+        },
+        {
+          "q": {
+            "en": "Can you notarize Social Security or VA forms at a nursing home?",
+            "es": "¿Pueden notarizar formularios del Seguro Social o del VA en un asilo?"
+          },
+          "a": {
+            "en": "Yes. We regularly notarize representative-payee statements, benefit affidavits and VA forms in nursing homes, rehab centers and hospitals across El Paso. The signer must be awake, aware of what they are signing and able to show ID or be identified by a credible witness. We cannot advise on eligibility or fill in the form; the agency or the facility's social worker helps with that.",
+            "es": "Sí. Con frecuencia notarizamos constancias de representante de pagos, declaraciones de beneficios y formularios del VA en asilos, centros de rehabilitación y hospitales de El Paso. El firmante debe estar despierto, consciente de lo que firma y poder mostrar identificación o ser identificado por un testigo confiable. No podemos asesorar sobre elegibilidad ni llenar el formulario; la agencia o el trabajador social del centro ayuda con eso."
+          }
+        },
+        {
+          "q": {
+            "en": "Is proctoring an online driving-school exam a notarization?",
+            "es": "¿La supervisión de un examen de escuela de manejo en línea es una notarización?"
+          },
+          "a": {
+            "en": "No. The provider asks a notary to serve as a neutral proctor: we check your ID, watch you take the exam without help, and sign the provider's proctor statement. Nothing is notarized in the legal sense and no seal goes on your test. It is a witness service billed like a single notarial act plus the travel fee, and it can be done at your home or office anywhere in El Paso.",
+            "es": "No. El proveedor pide a un Notary Public que actúe como supervisor neutral: revisamos su identificación, lo observamos presentar el examen sin ayuda y firmamos la constancia del supervisor del proveedor. Nada se notariza en el sentido legal y ningún sello va en su examen. Es un servicio de testigo que se cobra como un solo acto notarial más el traslado, y puede hacerse en su casa u oficina en cualquier parte de El Paso."
+          }
+        },
+        {
+          "q": {
+            "en": "The form is from another state's agency. Can a Texas notary sign it?",
+            "es": "El formulario es de una agencia de otro estado. ¿Puede firmarlo un Notary Public de Texas?"
+          },
+          "a": {
+            "en": "Usually yes. A notarization is valid where it is performed, so a Texas notary can notarize a form for a California retirement system or a New Mexico agency as long as the signer is physically in Texas. If the form's certificate uses another state's wording, we attach a Texas certificate instead. The one thing we cannot do is notarize in New Mexico — our commission stops at the state line.",
+            "es": "Normalmente sí. Una notarización es válida donde se realiza, así que un Notary Public de Texas puede notarizar un formulario de un sistema de retiro de California o de una agencia de Nuevo México siempre que el firmante esté físicamente en Texas. Si el certificado del formulario usa la redacción de otro estado, adjuntamos un certificado de Texas. Lo único que no podemos hacer es notarizar en Nuevo México — nuestra comisión termina en la línea estatal."
+          }
+        }
+      ],
+      "keywords": [
+        "affidavit of residency notary El Paso",
+        "school enrollment affidavit notary",
+        "EPISD residency affidavit notary",
+        "government form notary El Paso",
+        "exam proctor notary El Paso",
+        "declaración de residencia escolar El Paso"
+      ],
+      "related": [
+        "affidavits",
+        "child-travel-consent",
+        "certified-copies",
+        "hospital-notary"
+      ],
+      "outbound": [
+        {
+          "label": {
+            "en": "El Paso Independent School District",
+            "es": "Distrito Escolar Independiente de El Paso (EPISD)"
+          },
+          "url": "https://www.episd.org/"
+        },
+        {
+          "label": {
+            "en": "Ysleta Independent School District",
+            "es": "Distrito Escolar Independiente de Ysleta (YISD)"
+          },
+          "url": "https://www.yisd.net/"
+        },
+        {
+          "label": {
+            "en": "Socorro Independent School District",
+            "es": "Distrito Escolar Independiente de Socorro (SISD)"
+          },
+          "url": "https://www.sisd.net/"
+        }
+      ]
+    },
+    "vehicle-title-transfer": {
+      "title": {
+        "en": "Vehicle Title Transfer Notary in El Paso, TX | QWIK Notary",
+        "es": "Traspaso de Título y Factura de Venta en El Paso | QWIK Notary Public"
+      },
+      "metaDescription": {
+        "en": "El Paso mobile notary for car titles: 14-317 gift affidavit, VTR-262 heirship, bill of sale, out-of-state titles. Bilingual. Call or text (915) 302-0902.",
+        "es": "Traspaso de título, factura de venta, affidavit de regalo 14-317 y herencia VTR-262 notarizados a domicilio en El Paso. Bilingüe. Llame o texto al (915) 302-0902."
+      },
+      "eyebrow": {
+        "en": "EL PASO MOBILE NOTARY · VEHICLE TITLES, BILL OF SALE & VSF FORMS",
+        "es": "NOTARY PUBLIC MÓVIL EN EL PASO · TRASPASO DE TÍTULO, FACTURA DE VENTA Y FORMULARIOS VSF"
+      },
+      "h1": {
+        "en": "Vehicle Title Transfer & Bill of Sale Notary in El Paso — We Come to You, Same Day",
+        "es": "Traspaso de Título y Factura de Venta en El Paso — Notarización a Domicilio el Mismo Día"
+      },
+      "summary": {
+        "en": "Selling, buying, gifting or inheriting a vehicle in El Paso? We notarize the 14-317 gift affidavit, the VTR-262 heirship affidavit, bills of sale, out-of-state titles, vehicle powers of attorney and towing or storage-lot paperwork wherever you are — home, workplace, tow yard or the county jail.",
+        "es": "¿Vende, compra, regala o hereda un vehículo en El Paso? Notarizamos el affidavit de regalo 14-317, la declaración jurada de herencia VTR-262, facturas de venta, títulos de otros estados, cartas poder para vehículos y papeles de grúas y corralones donde usted esté — en su casa, su trabajo, el corralón o la cárcel del condado."
+      },
+      "feeModel": {
+        "en": "$10 first signature + $1 each additional ($10 per sworn affidavit), plus $39 travel fee",
+        "es": "$10 la primera firma + $1 cada firma adicional ($10 por declaración jurada), más $39 de traslado"
+      },
+      "timeline": {
+        "en": "Same day by appointment · evenings & weekends available",
+        "es": "El mismo día con cita · tardes y fines de semana"
+      },
+      "intro": [
+        {
+          "en": "Every week someone in El Paso sells a car to a neighbor, hands a paid-off truck down to a son or daughter, or has to move a title for an owner who is deployed from Fort Bliss, admitted at UMC or held at the El Paso County Detention Facility. The paperwork is filed at the El Paso County Tax Office on Manny Martinez Drive, and most of it needs no notary at all. A few pieces are rejected without one: the affidavit of heirship for a deceased owner's vehicle, the gift affidavit a parent and child sign so the transfer is taxed as a $10 gift rather than a sale, and the titles of several other states.",
+          "es": "Cada semana alguien en El Paso vende un carro a un vecino, le pasa la camioneta ya pagada a un hijo o una hija, o tiene que mover el título de un dueño que está desplegado desde Fort Bliss, internado en UMC o detenido en la cárcel del Condado de El Paso. Los papeles se presentan en la Oficina de Impuestos del Condado de El Paso (County Tax Office) en Manny Martinez Drive, y la mayoría no necesita notarización. Pero algunos se rechazan sin ella: la declaración jurada de herencia (affidavit of heirship) del vehículo de un dueño fallecido, el affidavit de regalo que firman padre e hijo para que el traspaso pague $10 de impuesto como regalo y no como venta, y los títulos de varios otros estados."
+        },
+        {
+          "en": "Texas does not require a notary on the title assignment, on Form 130-U (the Texas title application) or on Form VTR-271, the limited power of attorney for motor vehicle transactions. It does require one on Form VTR-262, Affidavit of Heirship for a Motor Vehicle, and on Comptroller Form 14-317, Affidavit of Motor Vehicle Gift Transfer, which donor and recipient both swear to before a Notary Public or a county tax office employee. Titles from Ohio, Pennsylvania, Louisiana and other states also need a notarized seller signature. For an affidavit you sign in front of the notary and take an oath, so leave it unsigned; for a title or power of attorney the notary completes the certificate printed on the form, usually an acknowledgment. Everyone shows unexpired photo ID.",
+          "es": "Texas no exige Notary Public en el endoso del título, en el Formulario 130-U (la solicitud de título de Texas) ni en el Formulario VTR-271, la carta poder limitada para trámites de vehículos. Sí lo exige en el Formulario VTR-262, Affidavit of Heirship for a Motor Vehicle, y en el Formulario 14-317 del Contralor, Affidavit of Motor Vehicle Gift Transfer, que el donante y el receptor juran ante un Notary Public o un empleado de la oficina de impuestos del condado. Los títulos de Ohio, Pensilvania, Luisiana y otros estados también piden la firma notarizada del vendedor. En una declaración jurada usted firma frente al Notary Public y hace un juramento (jurat), así que déjela sin firmar; en un título o carta poder, el Notary Public completa el certificado impreso en el formulario, normalmente un reconocimiento (acknowledgment). Todos muestran identificación vigente con fotografía."
+        },
+        {
+          "en": "Text or call (915) 302-0902 with the form name and your address, and we confirm the fee before we leave: the statutory notarial fee plus a nominal $39 travel fee in El Paso, evenings and weekends by appointment. We meet you at home, at work, at the tow yard, the hospital or the county jail, and a simple signing takes about fifteen minutes. Bring the completed form, your ID and the title or paperwork the form refers to. Our notary is not an attorney and cannot fill in the form, calculate tax or tell you which document you need; download current forms from TxDMV and take title questions to the El Paso County Tax Office.",
+          "es": "Llame o envíe un texto al (915) 302-0902 con el nombre del formulario y su dirección, y confirmamos la tarifa antes de salir: la tarifa legal de notarización más $39 de traslado en El Paso, también por la tarde y los fines de semana con cita. Vamos a su casa, su trabajo, el corralón, el hospital o la cárcel del condado, y una firma sencilla toma unos quince minutos. Traiga el formulario completo, su identificación y el título o los papeles a los que se refiere el formulario. Nuestro Notary Public no es abogado y no puede llenar el formulario, calcular impuestos ni decirle qué documento necesita; descargue los formularios vigentes del TxDMV y lleve sus preguntas sobre el título a la Oficina de Impuestos del Condado de El Paso."
+        }
+      ],
+      "sections": [
+        {
+          "heading": {
+            "en": "Common mistakes that delay a title transfer in El Paso",
+            "es": "Errores comunes que retrasan un traspaso de título en El Paso"
+          },
+          "body": [
+            {
+              "en": "The most common problem is an affidavit signed before the notary arrives: a sworn form must be signed in the notary's presence, so a pre-signed VTR-262 or 14-317 means starting a fresh copy. Next is identification. The name on the ID has to match the signer, and a title issued in a maiden name or without a middle initial may need a statement of fact, which the tax office can explain. Signing a title while the buyer's name is blank creates an open title, and any form with blanks, corrections or white-out is likely to be refused.",
+              "es": "El problema más común es una declaración jurada firmada antes de que llegue el Notary Public: un formulario jurado se firma en su presencia, así que un VTR-262 o un 14-317 ya firmado significa empezar con una copia nueva. Luego viene la identificación. El nombre en la identificación debe coincidir con el del firmante, y un título expedido con apellido de soltera o sin la inicial del segundo nombre puede necesitar un statement of fact, que la oficina de impuestos le puede explicar. Firmar el título con el nombre del comprador en blanco crea un título abierto, y cualquier formulario con espacios vacíos, tachaduras o corrector probablemente será rechazado."
+            },
+            {
+              "en": "Deadlines matter too. Texas requires the buyer to apply for title within 30 days of the sale, or 60 days for active-duty military, and the El Paso County Tax Office charges delinquent transfer penalties after that. Sellers protect themselves by filing a Vehicle Transfer Notification with TxDMV within 30 days, so parking tickets and toll bills stop following them. None of these steps is something the notary can do for you, but a notarized affidavit that is correct the first time keeps you from making a second trip to Manny Martinez Drive or the Eastside annex on George Dieter.",
+              "es": "Los plazos también importan. Texas exige que el comprador solicite el título dentro de los 30 días de la venta, o 60 días para militares en servicio activo, y la Oficina de Impuestos del Condado de El Paso cobra multas por traspaso tardío después de eso. El vendedor se protege presentando la Notificación de Traspaso de Vehículo (Vehicle Transfer Notification) ante el TxDMV dentro de 30 días, para que las multas de estacionamiento y los peajes dejen de llegarle. Nada de esto lo puede hacer el Notary Public por usted, pero una declaración jurada bien notarizada desde la primera vez le evita un segundo viaje a Manny Martinez Drive o al anexo del Eastside en George Dieter."
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Towing companies, storage lots, lienholders and out-of-town owners",
+            "es": "Grúas, corralones, acreedores y dueños fuera de la ciudad"
+          },
+          "body": [
+            {
+              "en": "The Texas Department of Licensing and Regulation licenses vehicle storage facilities, and the abandoned-vehicle notices, auction paperwork and title applications a tow yard files often include sworn statements or signatures that must be notarized. The same is true of repossession affidavits from lenders and the mechanic's lien paperwork a repair shop uses to recover an unpaid bill. We offer recurring visits to El Paso tow yards, dealerships and repair shops so a manager can sign a stack of affidavits in one appointment instead of driving across town, with the notarial fee itemized per document and the travel fee listed separately.",
+              "es": "El Departamento de Licencias y Regulación de Texas (TDLR) otorga licencias a los corralones (vehicle storage facilities), y los avisos de vehículo abandonado, los papeles de subasta y las solicitudes de título que presenta un corralón con frecuencia incluyen declaraciones juradas o firmas que deben notarizarse. Lo mismo pasa con las declaraciones de recuperación (repossession) de los prestamistas y con los papeles de gravamen mecánico que usa un taller para cobrar una cuenta pendiente. Ofrecemos visitas recurrentes a corralones, agencias de autos y talleres de El Paso para que un encargado firme todas sus declaraciones en una sola cita, con la tarifa de notarización detallada por documento y el traslado por separado."
+            },
+            {
+              "en": "Owners who cannot get to the tax office sign a power of attorney. Texas does not require Form VTR-271 to be notarized, but many people ask us to notarize it anyway so the signature is never questioned; a statutory durable power of attorney used for the same purpose must be acknowledged before a notary. We notarize powers of attorney for inmates at the El Paso County Detention Facility and the Jail Annex on Montana under each facility's rules, and Fort Bliss Legal Assistance prepares military powers of attorney at no cost to eligible soldiers before a deployment. Ask the tax office what identification it wants from the person signing under a power of attorney.",
+              "es": "Los dueños que no pueden ir a la oficina de impuestos firman una carta poder. Texas no exige que el Formulario VTR-271 se notarice, pero muchas personas nos piden notarizarlo de todos modos para que nadie cuestione la firma; una carta poder duradera estatutaria (statutory durable power of attorney) usada para el mismo fin sí debe reconocerse ante un Notary Public. Notarizamos cartas poder para personas detenidas en el El Paso County Detention Facility y en el Jail Annex de la Montana, siguiendo las reglas de cada instalación, y la Asistencia Legal de Fort Bliss prepara cartas poder militares sin costo para los soldados elegibles antes de un despliegue. Pregunte en la oficina de impuestos qué identificación pide a quien firma con carta poder."
+            }
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "en": "Vehicle title assignment (Texas title back)",
+          "es": "Endoso del título de Texas (reverso del título)"
+        },
+        {
+          "en": "Application for Texas Title and/or Registration (Form 130-U)",
+          "es": "Solicitud de Título y/o Registro de Texas (Formulario 130-U)"
+        },
+        {
+          "en": "Bill of Sale (vehicle, boat, trailer, mobile home)",
+          "es": "Factura de venta (bill of sale) de vehículo, lancha, remolque o casa móvil"
+        },
+        {
+          "en": "Power of Attorney for Transfer of Ownership to a Motor Vehicle (VTR-271, notarized on request)",
+          "es": "Carta poder para traspaso de vehículo (VTR-271, notarizada si usted lo pide)"
+        },
+        {
+          "en": "Affidavit of Heirship for a Motor Vehicle (Form VTR-262)",
+          "es": "Declaración jurada de herencia de vehículo (Affidavit of Heirship, VTR-262)"
+        },
+        {
+          "en": "Statement of Fact / Affidavit of Fact",
+          "es": "Declaración de hechos (Statement of Fact / Affidavit of Fact)"
+        },
+        {
+          "en": "Affidavit of Motor Vehicle Gift Transfer (Comptroller Form 14-317)",
+          "es": "Affidavit de regalo de vehículo (Formulario 14-317)"
+        },
+        {
+          "en": "Out-of-state title transfers (Ohio, Pennsylvania, Louisiana and other notarized titles)",
+          "es": "Traspaso de títulos de otros estados (Ohio, Pensilvania, Luisiana y otros títulos notarizados)"
+        },
+        {
+          "en": "Towing company and Vehicle Storage Facility (VSF) forms and abandoned vehicle affidavits",
+          "es": "Formularios de grúas y corralones (VSF) y declaraciones juradas de vehículo abandonado"
+        },
+        {
+          "en": "Mechanic's lien on a vehicle paperwork",
+          "es": "Papelería de gravamen mecánico (mechanic's lien) sobre un vehículo"
+        },
+        {
+          "en": "Repossession affidavits",
+          "es": "Declaraciones juradas de recuperación de vehículo (repossession)"
+        }
+      ],
+      "bring": [
+        {
+          "en": "Unexpired government-issued photo ID for every signer — the name should match the title or form",
+          "es": "Identificación oficial vigente con fotografía de cada firmante — el nombre debe coincidir con el título o el formulario"
+        },
+        {
+          "en": "The completed form; leave affidavits (VTR-262, 14-317, statements of fact) unsigned until the notary arrives",
+          "es": "El formulario completo; deje las declaraciones juradas (VTR-262, 14-317, statements of fact) sin firmar hasta que llegue el Notary Public"
+        },
+        {
+          "en": "The title, or the VIN, year and make, so nothing on the form is left blank",
+          "es": "El título, o el VIN, año y marca, para que nada quede en blanco"
+        },
+        {
+          "en": "Any instructions from the tax office, lienholder, out-of-state agency or towing company",
+          "es": "Las instrucciones de la oficina de impuestos, el acreedor, la agencia de otro estado o la compañía de grúas"
+        },
+        {
+          "en": "Payment for the notarial fee and the $39 travel fee — we confirm the total when you book",
+          "es": "El pago de la tarifa de notarización y los $39 de traslado — confirmamos el total al agendar"
+        }
+      ],
+      "process": [
+        {
+          "title": {
+            "en": "Text or call to book",
+            "es": "Envíe un texto o llame para agendar"
+          },
+          "body": {
+            "en": "Text or call (915) 302-0902 with the form name, how many people will sign and where you are in El Paso. We tell you the exact fee and confirm a time, including evenings and weekends.",
+            "es": "Envíe un texto o llame al (915) 302-0902 con el nombre del formulario, cuántas personas van a firmar y dónde está usted en El Paso. Le decimos la tarifa exacta y confirmamos la hora, incluso por la tarde o el fin de semana."
+          }
+        },
+        {
+          "title": {
+            "en": "We come to you",
+            "es": "Vamos a donde usted está"
+          },
+          "body": {
+            "en": "Our bilingual notary meets you at home, at work, at the dealership or tow yard, at the hospital or at the jail. We check each signer's ID, administer the oath on affidavits, watch you sign and complete the certificate — about fifteen minutes.",
+            "es": "Nuestro Notary Public bilingüe lo atiende en su casa, su trabajo, la agencia de autos o el corralón, el hospital o la cárcel. Revisamos la identificación de cada firmante, tomamos el juramento en las declaraciones juradas, presenciamos la firma y completamos el certificado — unos quince minutos."
+          }
+        },
+        {
+          "title": {
+            "en": "Signed, sealed, done",
+            "es": "Firmado, sellado, listo"
+          },
+          "body": {
+            "en": "Take the notarized paperwork, the signed title and Form 130-U to the El Paso County Tax Office within 30 days of the sale. If you are the seller, file your Vehicle Transfer Notification with TxDMV within 30 days as well.",
+            "es": "Lleve los papeles notarizados, el título firmado y el Formulario 130-U a la Oficina de Impuestos del Condado de El Paso dentro de los 30 días de la venta. Si usted es el vendedor, presente también su Notificación de Traspaso de Vehículo (Vehicle Transfer Notification) ante el TxDMV dentro de 30 días."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "q": {
+            "en": "Does a bill of sale need to be notarized in Texas?",
+            "es": "¿Una factura de venta (bill of sale) se tiene que notarizar en Texas?"
+          },
+          "a": {
+            "en": "Texas does not require a notarized bill of sale for a vehicle; the tax office relies on the signed title and Form 130-U. Buyers and sellers still ask for one because it records the price, date, odometer reading and an as-is agreement, and out-of-state agencies, insurers and boat or trailer registrations may want it notarized. We notarize your bill of sale in El Paso for $10 for the first signature, $1 each additional, plus the $39 travel fee.",
+            "es": "Texas no exige una factura de venta notarizada para un vehículo; la oficina de impuestos se basa en el título firmado y el Formulario 130-U. Aun así, compradores y vendedores la piden porque deja constancia del precio, la fecha, el millaje y el acuerdo de venta tal como está, y las agencias de otros estados, las aseguradoras y algunos registros de lanchas o remolques pueden querer que esté notarizada. Notarizamos su factura de venta en El Paso por $10 la primera firma, $1 cada firma adicional, más $39 de traslado."
+          }
+        },
+        {
+          "q": {
+            "en": "How much does it cost to notarize a vehicle gift affidavit or heirship affidavit in El Paso?",
+            "es": "¿Cuánto cuesta notarizar un affidavit de regalo o de herencia de vehículo en El Paso?"
+          },
+          "a": {
+            "en": "Texas caps notarial fees, and we charge the statutory amount: $10 for each oath or affirmation, which is what an affidavit requires, and $10 for the first signature plus $1 for each additional signature on an acknowledgment. Add our nominal $39 travel fee in El Paso. A 14-317 gift affidavit sworn by a donor and a recipient at the same visit is two $10 oaths plus $39 travel. Jail visits and after-hours appointments are quoted when you book.",
+            "es": "Texas limita las tarifas de notarización y cobramos la cantidad legal: $10 por cada juramento, que es lo que requiere una declaración jurada, y $10 por la primera firma más $1 por cada firma adicional en un reconocimiento. Sume nuestros $39 de traslado en El Paso. Un affidavit de regalo 14-317 jurado por el donante y el receptor en la misma visita son dos juramentos de $10 más $39 de traslado. Las visitas a la cárcel y las citas fuera de horario se cotizan al agendar."
+          }
+        },
+        {
+          "q": {
+            "en": "Can you notarize a vehicle power of attorney at the El Paso County jail or for an owner who is out of town?",
+            "es": "¿Pueden notarizar una carta poder para vehículo en la cárcel del Condado de El Paso o para un dueño que está fuera de la ciudad?"
+          },
+          "a": {
+            "en": "Yes for the jail: we notarize powers of attorney and affidavits for inmates at the El Paso County Detention Facility downtown and the Jail Annex on Montana Avenue under each facility's rules; family usually books and pays, and the document must arrive complete. An owner who is out of town must appear before a notary where they are. Anywhere in Texas we can travel for a quoted fee or notarize online, but ask the tax office first whether it will accept an electronically notarized document.",
+            "es": "En la cárcel, sí: notarizamos cartas poder y declaraciones juradas para personas detenidas en el El Paso County Detention Facility del centro y en el Jail Annex de la avenida Montana, bajo las reglas de cada instalación; normalmente la familia agenda y paga, y el documento debe llegar completo. Un dueño que está fuera de la ciudad tiene que presentarse ante un Notary Public donde él esté. Si está en cualquier parte de Texas, podemos viajar con tarifa cotizada o notarizar en línea, pero pregunte primero en la oficina de impuestos si acepta un documento notarizado electrónicamente."
+          }
+        },
+        {
+          "q": {
+            "en": "Do both the donor and the recipient have to sign the 14-317 gift affidavit in front of the notary?",
+            "es": "¿El donante y el receptor tienen que firmar el affidavit de regalo 14-317 frente al Notary Public?"
+          },
+          "a": {
+            "en": "Yes. Form 14-317 is sworn by all principal parties, so the person giving the vehicle and the person receiving it each sign in front of a Notary Public or a county tax office employee, and each shows unexpired photo ID. If they cannot appear together, tell us when you book and we will arrange separate signings. The form lists the relationships that qualify; eligibility and tax questions go to the El Paso County Tax Office, not the notary.",
+            "es": "Sí. El Formulario 14-317 lo juran todas las partes principales, así que quien regala el vehículo y quien lo recibe firman cada uno frente a un Notary Public o un empleado de la oficina de impuestos del condado, y cada uno muestra identificación vigente con fotografía. Si no pueden presentarse juntos, avísenos al agendar y organizamos firmas por separado. El formulario indica qué parentescos califican; las preguntas sobre elegibilidad e impuestos van a la Oficina de Impuestos del Condado de El Paso, no al Notary Public."
+          }
+        },
+        {
+          "q": {
+            "en": "My out-of-state title says the seller's signature must be notarized — can a Texas notary do that in El Paso?",
+            "es": "Mi título de otro estado dice que la firma del vendedor debe ser notarizada — ¿puede hacerlo un Notary Public de Texas en El Paso?"
+          },
+          "a": {
+            "en": "Yes. A Texas notary can notarize a signature on another state's title as long as the signer appears in person in Texas with valid ID; Ohio, Pennsylvania and Louisiana titles come through El Paso regularly, often with Fort Bliss families. We complete the notary section printed on the title, and if it calls for an oath the title must still be unsigned when we arrive. Ask the receiving state's motor vehicle agency whether the buyer's signature must be notarized too.",
+            "es": "Sí. Un Notary Public de Texas puede notarizar una firma en el título de otro estado siempre que el firmante se presente en persona en Texas con identificación vigente; los títulos de Ohio, Pensilvania y Luisiana pasan por El Paso con frecuencia, muchas veces con familias de Fort Bliss. Completamos la sección para el Notary Public impresa en el título y, si esa sección pide juramento, el título debe seguir sin firmar cuando lleguemos. Pregunte a la agencia de vehículos del estado receptor si la firma del comprador también debe notarizarse."
+          }
+        }
+      ],
+      "keywords": [
+        "vehicle title transfer notary El Paso",
+        "notarize bill of sale El Paso",
+        "gift affidavit 14-317 notary",
+        "VTR-262 affidavit of heirship notary",
+        "mobile notary car title El Paso",
+        "vehicle storage facility affidavit notary El Paso"
+      ],
+      "related": [
+        "jail-notary",
+        "affidavits",
+        "liens-and-releases",
+        "power-of-attorney"
+      ],
+      "outbound": [
+        {
+          "label": {
+            "en": "TxDMV — Buying or Selling a Vehicle",
+            "es": "TxDMV — Comprar o vender un vehículo"
+          },
+          "url": "https://www.txdmv.gov/motorists/buying-or-selling-a-vehicle"
+        },
+        {
+          "label": {
+            "en": "TxDMV forms (130-U, VTR-262, VTR-271, 14-317)",
+            "es": "Formularios del TxDMV (130-U, VTR-262, VTR-271, 14-317)"
+          },
+          "url": "https://www.txdmv.gov/forms"
+        },
+        {
+          "label": {
+            "en": "TDLR — Vehicle Storage Facilities",
+            "es": "TDLR — Corralones (Vehicle Storage Facilities)"
+          },
+          "url": "https://www.tdlr.texas.gov/vsf/vsf.htm"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+---
+import HubPage from '../../templates/HubPage.astro';
+import { hubParams, hubBySlug } from '../../lib/content';
+export function getStaticPaths() { return hubParams('en'); }
+const { hub } = Astro.params;
+const h = hubBySlug(hub!, 'en');
+---
+<HubPage lang="en" hub={h} />

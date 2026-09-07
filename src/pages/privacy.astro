@@ -1,0 +1,6 @@
+---
+import SimplePage from '../templates/SimplePage.astro';
+import { PRIVACY } from '../data/pages';
+import { PATHS } from '../data/site';
+---
+<SimplePage lang="en" title={PRIVACY.title.en} description={PRIVACY.body.en[0].slice(0, 150)} h1={PRIVACY.h1.en} path={PATHS.privacy.en} altPath={PATHS.privacy.es} body={PRIVACY.body.en} />

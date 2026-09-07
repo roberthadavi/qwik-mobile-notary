@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import ContactForm from '../components/ContactForm.astro';
+import type { Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+import { CONTACT } from '../data/pages';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+const mapQ = encodeURIComponent('El Paso County, Texas');
+---
+<Base lang={lang} title={CONTACT.title[lang]} description={CONTACT.metaDescription[lang]} path={PATHS.contact[lang]} altPath={PATHS.contact[alt]}>
+  <section class="hero hero-inner on-dark">
+    <div class="container">
+      <div class="hero-copy">
+        <nav class="crumbs" aria-label={t('breadcrumbAria', lang)}><ol><li><a href={PATHS.home[lang]}>{t('home', lang)}</a></li><li aria-current="page">{t('contact', lang)}</li></ol></nav>
+        <div class="eyebrow gold">{CONTACT.eyebrow[lang]}</div>
+        <h1>{CONTACT.h1[lang]}</h1>
+        <p class="lede">{CONTACT.lede[lang]}</p>
+        <div class="actions">
+          <a class="btn btn-gold btn-lg" href={SITE.smsHref}>💬 {t('textUs', lang)}</a>
+          <a class="btn btn-outline btn-lg" href={SITE.phoneHref}>📞 {t('callNow', lang)}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-card">
+        <h2 style="font-size:1.8rem">{t('bookNow', lang)}</h2>
+        <ContactForm lang={lang} />
+      </div>
+      <div>
+        <ul class="info-list">
+          <li><b>{t('call', lang)} / {t('text', lang)}</b><a href={SITE.phoneHref} style="font-family:var(--font-serif);font-size:1.8rem">{SITE.phone}</a></li>
+          <li><b>Email</b><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+          <li><b>{lang === 'en' ? 'Base (by appointment)' : 'Base (con cita)'}</b>{SITE.address.street}<br />{SITE.address.city}, {SITE.address.state} {SITE.address.zip}</li>
+          <li><b>{lang === 'en' ? 'Hours' : 'Horario'}</b>{SITE.hours[lang]}</li>
+          <li><b>{lang === 'en' ? 'Languages' : 'Idiomas'}</b>{t('englishSpanish', lang)}</li>
+          <li><b>{t('serviceArea', lang)}</b><a href={PATHS.serviceArea[lang]}>{t('serviceAreas', lang)} →</a></li>
+        </ul>
+        <iframe class="map" style="margin-top:1.5rem" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title={lang === 'en' ? 'Map of El Paso County, Texas — QWIK Mobile Notary service area' : 'Mapa del Condado de El Paso, Texas — área de servicio de QWIK Mobile Notary'} src={`https://www.google.com/maps?q=${mapQ}&output=embed`}></iframe>
+        <p class="muted" style="font-size:.85rem;margin-top:1rem">{t('disclaimer', lang)}</p>
+      </div>
+    </div>
+  </section>
+</Base>

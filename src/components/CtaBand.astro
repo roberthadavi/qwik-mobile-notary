@@ -1,0 +1,20 @@
+---
+import type { Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+---
+<section class="cta-band section-tight">
+  <div class="container">
+    <div>
+      <div class="eyebrow gold">{t('getStarted', lang)}</div>
+      <h2>{t('haveACase', lang)}</h2>
+      <p>{t('haveACaseBody', lang)}</p>
+    </div>
+    <div class="actions">
+      <a class="btn btn-gold btn-lg" href={SITE.smsHref}>💬 {t('textUs', lang)}</a>
+      <a class="btn btn-outline btn-lg" href={SITE.phoneHref}>📞 {t('callNow', lang)}</a>
+      <a class="btn btn-outline btn-lg" href={PATHS.contact[lang]}>{t('bookNow', lang)} →</a>
+    </div>
+  </div>
+</section>

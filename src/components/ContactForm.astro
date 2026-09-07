@@ -1,0 +1,49 @@
+---
+import { NOTARY_HUBS, OTHER_HUBS, type Lang } from '../data/catalog';
+import { t } from '../data/site';
+interface Props { lang: Lang; preset?: string }
+const { lang, preset } = Astro.props;
+---
+<form class="form" id="lead-form" method="post" action="/api/contact" novalidate>
+  <input type="hidden" name="lang" value={lang} />
+  <input type="hidden" name="page" value={Astro.url.pathname} />
+  <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+  <div class="row">
+    <label>{t('formName', lang)}<input type="text" name="name" required autocomplete="name" /></label>
+    <label>{t('formPhone', lang)}<input type="tel" name="phone" required autocomplete="tel" /></label>
+  </div>
+  <label>{t('formEmail', lang)}<input type="email" name="email" autocomplete="email" /></label>
+  <label>{t('formMatter', lang)}
+    <select name="matter" required>
+      <option value="">{t('selectOne', lang)}</option>
+      {NOTARY_HUBS.map((h) => <option value={h.name.en} selected={preset === h.id}>{h.name[lang]}</option>)}
+      {OTHER_HUBS.map((h) => <option value={h.name.en} selected={preset === h.id}>{h.name[lang]}</option>)}
+      <option value="Other">{t('other', lang)}</option>
+    </select>
+  </label>
+  <label>{t('formMessage', lang)}<textarea name="message" rows="4" required></textarea></label>
+  <p class="fine">{t('formPrivacy', lang)}</p>
+  <button class="btn btn-gold btn-lg" type="submit" data-label={t('formSubmit', lang)} data-sending={t('formSending', lang)}>{t('formSubmit', lang)}</button>
+  <div class="status" role="status" data-ok={t('formSuccess', lang)} data-err={t('formError', lang)}></div>
+</form>
+<script>
+  const form = document.getElementById('lead-form') as HTMLFormElement | null;
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('button[type=submit]') as HTMLButtonElement;
+    const status = form.querySelector('.status') as HTMLElement;
+    if (!form.reportValidity()) return;
+    btn.disabled = true; btn.textContent = btn.dataset.sending!;
+    status.className = 'status';
+    try {
+      const res = await fetch('/api/contact', { method: 'POST', body: new FormData(form) });
+      if (!res.ok) throw new Error(String(res.status));
+      status.textContent = status.dataset.ok!; status.className = 'status ok';
+      form.reset();
+    } catch {
+      status.textContent = status.dataset.err!; status.className = 'status err';
+    } finally {
+      btn.disabled = false; btn.textContent = btn.dataset.label!;
+    }
+  });
+</script>

@@ -1,0 +1,23 @@
+{
+  "name": "qwik-mobile-notary",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/lint-content.mjs && astro build && node scripts/lint-content.mjs --dist",
+    "preview": "astro preview",
+    "content:merge": "for h in notary-services estate-planning family-documents loan-signing real-estate business forms apostille wedding-officiant; do node scripts/merge-content.mjs $h; done",
+    "content:validate": "node scripts/validate-content.mjs notary-services estate-planning family-documents loan-signing real-estate business forms apostille wedding-officiant",
+    "content:lint": "node scripts/lint-content.mjs",
+    "qa": "node scripts/check-site.mjs",
+    "deploy": "astro build && wrangler deploy"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.2.10"
+  },
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "wrangler": "^4.128.0"
+  }
+}

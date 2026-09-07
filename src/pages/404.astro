@@ -1,0 +1,8 @@
+---
+import SimplePage from '../templates/SimplePage.astro';
+import { NOT_FOUND } from '../data/pages';
+import { PATHS } from '../data/site';
+---
+<SimplePage lang="en" title={NOT_FOUND.title.en} description={NOT_FOUND.body.en} h1={NOT_FOUND.h1.en} path="/404/" altPath={PATHS.home.es} body={[NOT_FOUND.body.en]} noindex>
+  <p><a class="btn btn-ink" href={PATHS.services.en}>All services →</a> <a class="btn btn-outline-ink" href={PATHS.home.es} lang="es" hreflang="es">Ver en español →</a></p>
+</SimplePage>

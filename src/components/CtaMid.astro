@@ -1,0 +1,17 @@
+---
+import type { Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+---
+<div class="cta-mid">
+  <div>
+    <div class="eyebrow">{t('startHere', lang)}</div>
+    <h3>{t('notSure', lang)}</h3>
+    <p>{t('notSureBody', lang)}</p>
+  </div>
+  <div style="display:flex;gap:.7rem;flex-wrap:wrap">
+    <a class="btn btn-ink" href={SITE.smsHref}>{t('textUs', lang)}</a>
+    <a class="btn btn-outline-ink" href={PATHS.contact[lang]}>{t('bookNow', lang)}</a>
+  </div>
+</div>

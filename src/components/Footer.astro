@@ -1,0 +1,55 @@
+---
+import { NOTARY_HUBS, OTHER_HUBS, hubPath, type Lang } from '../data/catalog';
+import { SITE, PATHS, t } from '../data/site';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const half = Math.ceil(NOTARY_HUBS.length / 2);
+const year = new Date().getFullYear();
+const alt: Lang = lang === 'en' ? 'es' : 'en';
+---
+<footer class="footer">
+  <div class="container">
+    <div>
+      <div class="fname">{SITE.name}</div>
+      <div style="color:oklch(65% .01 255);font-size:.85rem;margin-bottom:1rem">{SITE.tagline[lang]}</div>
+      <p style="max-width:34ch">{t('serviceAreas', lang)}. {t('englishSpanish', lang)}.</p>
+      <p style="font-size:.8rem;color:oklch(60% .01 255)">{t('principalOffice', lang)}. {t('reviewed', lang)}.</p>
+    </div>
+    <div>
+      <h4>{t('services', lang)}</h4>
+      <ul>{NOTARY_HUBS.slice(0, half).map((h) => <li><a href={hubPath(h, lang)}>{h.name[lang]}</a></li>)}</ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul>{NOTARY_HUBS.slice(half).map((h) => <li><a href={hubPath(h, lang)}>{h.name[lang]}</a></li>)}
+        {OTHER_HUBS.map((h) => <li><a href={hubPath(h, lang)}>{h.name[lang]}</a></li>)}
+        <li><a href={PATHS.services[lang]}>{t('allServices', lang)} →</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>{t('contact', lang)}</h4>
+      <ul>
+        <li><a href={SITE.phoneHref}>{SITE.phone}</a> · <a href={SITE.smsHref}>{t('text', lang)}</a></li>
+        <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+        <li>{SITE.address.street}<br />{SITE.address.city}, {SITE.address.state} {SITE.address.zip}</li>
+        <li>{SITE.hours[lang]}</li>
+        <li style="margin-top:.5rem"><a href={PATHS.fees[lang]}>{t('fees', lang)}</a> · <a href={PATHS.serviceArea[lang]}>{t('serviceArea', lang)}</a> · <a href={PATHS.faq[lang]}>{t('faq', lang)}</a></li>
+        <li><a href={PATHS.about[lang]}>{t('about', lang)}</a> · <a href={PATHS.contact[lang]}>{t('contact', lang)}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="notice">
+    <div class="container" style="display:block;max-width:var(--max)">
+      <p class="notice-line"><strong lang="en">{t('notAttorney', 'en')}</strong></p>
+      <p class="notice-line"><strong lang="es">{t('notAttorney', 'es')}</strong></p>
+      <p class="notice-fees">{t('feeLine', lang)} <a href={PATHS.fees[lang]}>{t('seeFees', lang)} →</a></p>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="container">
+      <span>© {year} {SITE.name}. {t('allRights', lang)}</span>
+      <span><a href={PATHS.privacy[lang]}>{t('privacy', lang)}</a> · <a href={lang === 'en' ? PATHS.home.es : PATHS.home.en} hreflang={alt} lang={alt}>{t('languageSwitch', lang)}</a></span>
+    </div>
+    <div class="container" style="display:block;margin-top:.6rem;max-width:var(--max)"><span>{t('disclaimer', lang)}</span></div>
+  </div>
+</footer>
