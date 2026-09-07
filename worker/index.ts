@@ -1,5 +1,5 @@
 // Cloudflare Worker for QWIK Mobile Notary Public (mobilepublicnotaryelpaso.com)
-// - Serves the static Astro build (assets binding, run_worker_first only for /api/*)
+// - Serves the static Astro build (assets binding; run_worker_first = true so redirects/headers below always run)
 // - POST /api/contact → emails the lead via Resend
 
 export interface Env {

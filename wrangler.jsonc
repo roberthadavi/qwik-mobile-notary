@@ -8,7 +8,10 @@
     "binding": "ASSETS",
     "not_found_handling": "404-page",
     "html_handling": "auto-trailing-slash",
-    "run_worker_first": ["/api/*"]
+    // Must be `true`: with a route list, requests that miss the list AND miss an asset never reach the
+    // Worker (they get the 404 page), so the legacy 301s, www→apex and the workers.dev noindex header
+    // would silently not run. The Worker calls env.ASSETS.fetch() for everything it doesn't redirect.
+    "run_worker_first": true
   },
   "observability": { "enabled": true },
   "vars": {
