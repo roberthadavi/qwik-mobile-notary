@@ -56,6 +56,13 @@ export default {
     const url = new URL(req.url);
     if (url.pathname === '/api/contact') return handleContact(req, env);
     if (url.pathname.startsWith('/api/')) return new Response('Not found', { status: 404 });
-    return env.ASSETS.fetch(req);
+    const res = await env.ASSETS.fetch(req);
+    // Keep the workers.dev preview out of search results; the real domain is the canonical host.
+    if (url.hostname.endsWith('.workers.dev')) {
+      const h = new Headers(res.headers);
+      h.set('X-Robots-Tag', 'noindex, nofollow');
+      return new Response(res.body, { status: res.status, statusText: res.statusText, headers: h });
+    }
+    return res;
   },
 };
