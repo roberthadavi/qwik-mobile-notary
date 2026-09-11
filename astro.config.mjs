@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [
     sitemap({
       i18n: { defaultLocale: 'en', locales: { en: 'en-US', es: 'es-US' } },
-      filter: (page) => !page.includes('/404'),
+      filter: (page) => !page.includes('/404') && !page.includes('/photos/'), // /photos/ = unlisted staff gallery
     }),
   ],
 });

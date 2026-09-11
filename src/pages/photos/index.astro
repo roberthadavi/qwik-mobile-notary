@@ -1,0 +1,279 @@
+---
+// Unlisted staff review gallery for the September 2026 photo shoot.
+// Deliberately NOT part of the public site: noindex/noimageindex (meta here + X-Robots-Tag in the Worker),
+// excluded from the sitemap (astro.config.mjs), no hreflang twin, not linked from nav/footer.
+// Files live in public/photos/ (2000 px JPGs, same names as the originals) and public/photos/thumbs/ (480 px WebP).
+import data from '../../data/photos.json';
+import { SITE } from '../../data/site';
+
+const { groups, items } = data as {
+  groups: { id: string; title: string; count: number }[];
+  items: { file: string; w: number; h: number; group: string; caption: string }[];
+};
+const total = items.length;
+const SHORT: Record<string, string> = { courts: 'Courts & downtown', office: 'Law office & team', mission: 'Mission Business Center' };
+const title = `Photo Review — ${total} Photos from the Shoot | ${SITE.shortName}`;
+const description = `Staff review gallery: ${total} web-sized photos from the September 2026 shoot — courts and downtown El Paso, the law office and team, The Mission Business Center.`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow, noimageindex, noarchive" />
+    <meta name="theme-color" content="#0b0f1c" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <style>
+      :root { --ink: #0b0f1c; --ink-2: #161c30; --paper: #f7f6f2; --line: #e2dfd6; --gold: #b8923f; --gold-bright: #e6c56a; --muted: #5f6472; --star: #f4c430; }
+      *, *::before, *::after { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body { margin: 0; background: var(--paper); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, Inter, sans-serif; font-size: 16px; line-height: 1.5; }
+      img { max-width: 100%; height: auto; display: block; }
+      a { color: inherit; }
+      button { font: inherit; cursor: pointer; }
+      .wrap { width: min(100% - 2rem, 1400px); margin-inline: auto; }
+      header.top { background: var(--ink); color: #fff; padding-block: 1.25rem 1rem; }
+      header.top .wrap { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1.5rem; }
+      header.top h1 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; font-size: clamp(1.7rem, 3.5vw, 2.4rem); margin: 0; }
+      header.top .brand { font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-bright); }
+      header.top p { margin: .35rem 0 0; color: #c9ccd6; font-size: .95rem; flex-basis: 100%; }
+      header.top p b { color: #fff; font-weight: 600; }
+      .toolbar { position: sticky; top: 0; z-index: 5; background: rgba(247,246,242,.94); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+      .toolbar .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; padding-block: .6rem; }
+      .chips { display: flex; flex-wrap: wrap; gap: .5rem; flex: 1; min-width: 0; }
+      .actions { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
+      .chip { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: .35rem .85rem; font-size: .88rem; color: var(--ink); text-decoration: none; }
+      .chip[aria-pressed="true"], .chip.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+      .chip small { color: inherit; opacity: .7; }
+      .spacer { flex: 1; }
+      .btn { border: 1px solid var(--ink); background: var(--ink); color: #fff; border-radius: .3rem; padding: .45rem .9rem; font-size: .88rem; font-weight: 600; }
+      .btn.ghost { background: #fff; color: var(--ink); }
+      .btn:disabled { opacity: .45; cursor: not-allowed; }
+      .status { font-size: .85rem; color: var(--muted); min-width: 8ch; }
+      section.group { padding-block: 1.5rem .5rem; }
+      section.group h2 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; font-size: clamp(1.4rem, 2.6vw, 1.9rem); margin: 0 0 .25rem; }
+      section.group .meta { color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .75rem; }
+      .tile { position: relative; background: #fff; border: 1px solid var(--line); border-radius: .4rem; overflow: hidden; }
+      .tile.hide { display: none; }
+      .tile button.open { display: block; width: 100%; padding: 0; border: 0; background: #1a1f2e; aspect-ratio: 1; }
+      .tile img { width: 100%; height: 100%; object-fit: contain; }
+      .tile .label { display: flex; align-items: center; justify-content: space-between; gap: .4rem; padding: .4rem .55rem; font-size: .82rem; }
+      .tile .name { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 600; letter-spacing: .01em; }
+      .tile .dim { color: var(--muted); font-size: .75rem; }
+      .star { border: 0; background: transparent; font-size: 1.25rem; line-height: 1; padding: .1rem .2rem; color: #b9b4a8; }
+      .star[aria-pressed="true"] { color: var(--star); text-shadow: 0 0 1px #9a7a00; }
+      .tile.starred { outline: 2px solid var(--star); outline-offset: -2px; }
+      footer.note { color: var(--muted); font-size: .85rem; padding-block: 2rem 3rem; border-top: 1px solid var(--line); margin-top: 2rem; }
+      footer.note a { color: var(--ink); }
+      /* lightbox */
+      dialog.lb { border: 0; padding: 0; margin: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; background: #0b0f1c; color: #fff; }
+      dialog.lb::backdrop { background: #000; }
+      dialog.lb .frame { position: absolute; inset: 0 0 4.5rem 0; display: flex; align-items: center; justify-content: center; }
+      dialog.lb .frame img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+      dialog.lb .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 4.5rem; display: flex; align-items: center; gap: .6rem; padding: 0 .9rem env(safe-area-inset-bottom, 0); background: #111726; border-top: 1px solid #262d40; }
+      dialog.lb .cap { flex: 1; min-width: 0; font-size: .85rem; line-height: 1.3; }
+      dialog.lb .cap b { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+      dialog.lb .cap span { display: block; color: #aeb4c4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      dialog.lb .ctl { border: 1px solid #3a4361; background: #1a2135; color: #fff; border-radius: .3rem; padding: .5rem .7rem; font-size: .9rem; text-decoration: none; white-space: nowrap; }
+      dialog.lb .ctl.star { font-size: 1.3rem; padding: .3rem .6rem; color: #6b7390; }
+      dialog.lb .ctl.star[aria-pressed="true"] { color: var(--star); }
+      dialog.lb .nav { position: absolute; z-index: 2; top: 50%; transform: translateY(-50%); width: 3rem; height: 5rem; border: 0; background: rgba(0,0,0,.45); color: #fff; font-size: 2rem; }
+      dialog.lb .close, dialog.lb .count { z-index: 2; }
+      dialog.lb .nav.prev { left: 0; border-radius: 0 .5rem .5rem 0; }
+      dialog.lb .nav.next { right: 0; border-radius: .5rem 0 0 .5rem; }
+      dialog.lb .close { position: absolute; top: .6rem; right: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 50%; border: 0; background: rgba(0,0,0,.5); color: #fff; font-size: 1.4rem; }
+      dialog.lb .count { position: absolute; top: .9rem; left: .9rem; font-size: .85rem; background: rgba(0,0,0,.5); padding: .25rem .6rem; border-radius: 999px; }
+      @media (max-width: 640px) {
+        header.top { padding-block: .9rem .8rem; }
+        header.top p { font-size: .82rem; line-height: 1.4; }
+        .toolbar .wrap { flex-wrap: nowrap; flex-direction: column; align-items: stretch; gap: .4rem; padding-block: .45rem; }
+        .chips { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+        .chips::-webkit-scrollbar { display: none; }
+        .chip { white-space: nowrap; flex: 0 0 auto; padding: .3rem .7rem; font-size: .82rem; }
+        .actions { margin-left: 0; }
+        .actions .status { flex: 1; }
+        .btn { padding: .38rem .7rem; font-size: .82rem; }
+        .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: .5rem; }
+        dialog.lb .nav { width: 2.4rem; height: 4rem; font-size: 1.6rem; }
+        dialog.lb .bar { height: 5.5rem; flex-wrap: wrap; row-gap: .3rem; }
+        dialog.lb .cap { flex-basis: 100%; }
+        dialog.lb .frame { inset: 0 0 5.5rem 0; }
+        dialog.lb .ctl { font-size: .8rem; padding: .4rem .55rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <span class="brand">{SITE.shortName} · Internal</span>
+        <h1>Photo review gallery</h1>
+        <p><b>{total} photos</b> from the shoot, web-sized (2,000 px). Tap a photo to view it large — use ← → to move between photos and Esc to close. <b>Star</b> the ones you like, then <b>Copy list</b> and paste it into a text or email. Full-resolution originals are in the <b>photos</b> folder on David's desktop, under the same file names.</p>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <div class="wrap">
+        <div class="chips">
+          <a class="chip" href="#top" data-filter="all" aria-pressed="true">All <small>({total})</small></a>
+          {groups.map((g) => <a class="chip" href={`#${g.id}`} data-filter={g.id}>{SHORT[g.id] ?? g.title} <small>({g.count})</small></a>)}
+          <button class="chip" type="button" id="onlyStars" aria-pressed="false">★ Starred <small id="starCount">(0)</small></button>
+        </div>
+        <div class="actions">
+          <span class="status" id="status" aria-live="polite"></span>
+          <button class="btn ghost" type="button" id="clearStars" disabled>Clear</button>
+          <button class="btn" type="button" id="copyStars" disabled>Copy list</button>
+        </div>
+      </div>
+    </div>
+
+    <main id="top" class="wrap">
+      {groups.map((g) => (
+        <section class="group" id={g.id} data-group={g.id}>
+          <h2>{g.title}</h2>
+          <p class="meta">{g.count} photos</p>
+          <div class="grid">
+            {items.filter((i) => i.group === g.id).map((i) => {
+              const idx = items.indexOf(i);
+              return (
+                <figure class="tile" data-idx={idx} data-file={i.file} style="margin:0">
+                  <button class="open" type="button" data-open={idx} aria-label={`View ${i.file} large`}>
+                    <img src={`/photos/thumbs/${i.file}.webp`} width={i.w >= i.h ? 480 : Math.round(480 * i.w / i.h)} height={i.w >= i.h ? Math.round(480 * i.h / i.w) : 480} alt={`${i.file} — ${i.caption}`} loading={idx < 12 ? 'eager' : 'lazy'} decoding="async" />
+                  </button>
+                  <figcaption class="label">
+                    <span><span class="name">{i.file}</span> <span class="dim">{i.w}×{i.h}</span></span>
+                    <button class="star" type="button" data-star={i.file} aria-pressed="false" aria-label={`Star ${i.file}`}>★</button>
+                  </figcaption>
+                </figure>
+              );
+            })}
+          </div>
+        </section>
+      ))}
+      <footer class="note">
+        <p>Internal page for {SITE.name} staff — not linked from the site and marked <code>noindex</code>. Anyone with the link can view it. Starred picks are saved in this browser only; use <b>Copy list</b> to share them. Right-click (or long-press) a large photo and choose "Save image" to download the 2,000 px copy; ask David for the full-resolution original if you need it for print.</p>
+        <p><a href="/">← Back to {SITE.shortName}</a></p>
+      </footer>
+    </main>
+
+    <dialog class="lb" id="lb" aria-label="Photo viewer">
+      <div class="count" id="lbCount"></div>
+      <button class="close" type="button" id="lbClose" aria-label="Close">✕</button>
+      <button class="nav prev" type="button" id="lbPrev" aria-label="Previous photo">‹</button>
+      <button class="nav next" type="button" id="lbNext" aria-label="Next photo">›</button>
+      <div class="frame"><img id="lbImg" src="" alt="" /></div>
+      <div class="bar">
+        <div class="cap"><b id="lbName"></b> <span id="lbCap"></span></div>
+        <button class="ctl star" type="button" id="lbStar" aria-pressed="false" aria-label="Star this photo">★</button>
+        <a class="ctl" id="lbOpen" href="#" target="_blank" rel="noopener">Open full size ↗</a>
+      </div>
+    </dialog>
+
+    <script type="application/json" id="photos" set:html={JSON.stringify(items.map((i) => ({ f: i.file, w: i.w, h: i.h, c: i.caption })))} />
+    <script is:inline>
+      (function () {
+        var items = JSON.parse(document.getElementById('photos').textContent);
+        var KEY = 'qwik-photo-stars';
+        var stars = new Set();
+        try { stars = new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); } catch (e) {}
+        function save() { try { localStorage.setItem(KEY, JSON.stringify(Array.from(stars))); } catch (e) {} }
+        var lb = document.getElementById('lb'), img = document.getElementById('lbImg');
+        var cur = -1, filter = 'all', onlyStars = false;
+        var $ = function (id) { return document.getElementById(id); };
+
+        function paintStars() {
+          document.querySelectorAll('[data-star]').forEach(function (b) {
+            var on = stars.has(b.getAttribute('data-star'));
+            b.setAttribute('aria-pressed', on ? 'true' : 'false');
+            var tile = b.closest('.tile'); if (tile) tile.classList.toggle('starred', on);
+          });
+          $('starCount').textContent = '(' + stars.size + ')';
+          $('copyStars').disabled = $('clearStars').disabled = stars.size === 0;
+          if (cur >= 0) $('lbStar').setAttribute('aria-pressed', stars.has(items[cur].f) ? 'true' : 'false');
+          applyFilter();
+        }
+        function toggleStar(f) { if (stars.has(f)) stars.delete(f); else stars.add(f); save(); paintStars(); }
+
+        function applyFilter() {
+          var shown = 0;
+          document.querySelectorAll('.tile').forEach(function (t) {
+            var f = t.getAttribute('data-file');
+            var g = t.closest('section').getAttribute('data-group');
+            var ok = (filter === 'all' || g === filter) && (!onlyStars || stars.has(f));
+            t.classList.toggle('hide', !ok); if (ok) shown++;
+          });
+          document.querySelectorAll('section.group').forEach(function (s) {
+            var any = s.querySelector('.tile:not(.hide)');
+            s.style.display = any ? '' : 'none';
+          });
+          $('status').textContent = shown + ' shown';
+        }
+        document.querySelectorAll('.chip[data-filter]').forEach(function (a) {
+          a.addEventListener('click', function () {
+            filter = a.getAttribute('data-filter');
+            document.querySelectorAll('.chip[data-filter]').forEach(function (b) { b.setAttribute('aria-pressed', b === a ? 'true' : 'false'); });
+            applyFilter();
+          });
+        });
+        $('onlyStars').addEventListener('click', function () {
+          onlyStars = !onlyStars; this.setAttribute('aria-pressed', onlyStars ? 'true' : 'false'); applyFilter();
+        });
+        $('clearStars').addEventListener('click', function () { if (confirmClear()) { stars.clear(); save(); paintStars(); } });
+        function confirmClear() { return stars.size === 0 || window.confirm('Clear all ' + stars.size + ' starred photos?'); }
+        $('copyStars').addEventListener('click', function () {
+          var list = items.filter(function (i) { return stars.has(i.f); }).map(function (i) { return i.f; });
+          var text = 'Photo picks (' + list.length + '): ' + list.join(', ') + '\n' + location.origin + '/photos/';
+          var done = function () { $('status').textContent = 'Copied ' + list.length + ' names'; setTimeout(applyFilter, 2500); };
+          if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { window.prompt('Copy this list:', text); });
+          else window.prompt('Copy this list:', text);
+        });
+        document.addEventListener('click', function (e) {
+          var s = e.target.closest('[data-star]'); if (s) { toggleStar(s.getAttribute('data-star')); return; }
+          var o = e.target.closest('[data-open]'); if (o) { open(parseInt(o.getAttribute('data-open'), 10)); }
+        });
+
+        // ---- lightbox ----
+        function visibleIdx() {
+          return Array.prototype.map.call(document.querySelectorAll('.tile:not(.hide)'), function (t) { return parseInt(t.getAttribute('data-idx'), 10); });
+        }
+        function show(i) {
+          cur = i; var it = items[i];
+          img.src = '/photos/' + it.f + '.jpg'; img.width = it.w; img.height = it.h; img.alt = it.f + ' — ' + it.c;
+          $('lbName').textContent = it.f; $('lbCap').textContent = it.c + ' · ' + it.w + '×' + it.h;
+          $('lbOpen').href = '/photos/' + it.f + '.jpg';
+          $('lbStar').setAttribute('aria-pressed', stars.has(it.f) ? 'true' : 'false');
+          var vis = visibleIdx(), pos = vis.indexOf(i);
+          $('lbCount').textContent = (pos + 1) + ' / ' + vis.length;
+          // warm the neighbours
+          [vis[pos + 1], vis[pos - 1]].forEach(function (n) { if (n !== undefined) { var p = new Image(); p.src = '/photos/' + items[n].f + '.jpg'; } });
+          if (history.replaceState) history.replaceState(null, '', '#' + it.f);
+        }
+        function open(i) { show(i); if (!lb.open) lb.showModal(); }
+        function step(d) { var vis = visibleIdx(); if (!vis.length) return; var pos = vis.indexOf(cur); var n = vis[(pos + d + vis.length) % vis.length]; show(n); }
+        $('lbPrev').addEventListener('click', function () { step(-1); });
+        $('lbNext').addEventListener('click', function () { step(1); });
+        $('lbClose').addEventListener('click', function () { lb.close(); });
+        $('lbStar').addEventListener('click', function () { if (cur >= 0) toggleStar(items[cur].f); });
+        lb.addEventListener('close', function () { if (history.replaceState) history.replaceState(null, '', location.pathname); var t = document.querySelector('.tile[data-idx="' + cur + '"] .open'); if (t) t.focus({ preventScroll: false }); });
+        lb.addEventListener('click', function (e) { if (e.target === lb || e.target.classList.contains('frame')) lb.close(); });
+        document.addEventListener('keydown', function (e) {
+          if (!lb.open) return;
+          if (e.key === 'ArrowRight') { step(1); e.preventDefault(); }
+          else if (e.key === 'ArrowLeft') { step(-1); e.preventDefault(); }
+          else if (e.key === 's' || e.key === 'S') { if (cur >= 0) toggleStar(items[cur].f); }
+        });
+        // swipe
+        var sx = null;
+        lb.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; }, { passive: true });
+        lb.addEventListener('touchend', function (e) { if (sx === null) return; var dx = e.changedTouches[0].clientX - sx; sx = null; if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1); }, { passive: true });
+
+        paintStars();
+        // deep link: /photos/#DSC03644
+        var h = (location.hash || '').replace('#', '');
+        if (h) { var k = items.findIndex(function (i) { return i.f === h; }); if (k >= 0) open(k); }
+      })();
+    </script>
+  </body>
+</html>

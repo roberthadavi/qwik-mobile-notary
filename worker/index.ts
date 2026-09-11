@@ -97,10 +97,12 @@ export default {
     }
     if (url.pathname.startsWith('/api/')) return new Response('Not found', { status: 404 });
     const res = await env.ASSETS.fetch(req);
-    // Keep the workers.dev preview out of search results; the real domain is the canonical host.
-    if (url.hostname.endsWith('.workers.dev')) {
+    // Keep the workers.dev preview out of search results (the real domain is the canonical host), and keep the
+    // unlisted /photos/ staff gallery — page and image files — out of web and image search on every host.
+    const unlisted = url.pathname === '/photos' || url.pathname.startsWith('/photos/');
+    if (url.hostname.endsWith('.workers.dev') || unlisted) {
       const h = new Headers(res.headers);
-      h.set('X-Robots-Tag', 'noindex, nofollow');
+      h.set('X-Robots-Tag', unlisted ? 'noindex, nofollow, noimageindex' : 'noindex, nofollow');
       return new Response(res.body, { status: res.status, statusText: res.statusText, headers: h });
     }
     return res;
