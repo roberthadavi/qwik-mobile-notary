@@ -1,0 +1,17 @@
+---
+// /photos2/ — staff review gallery for the second shoot (58 photos from the camera card, DSC03792–DSC03849, The Mission Business Center).
+import GalleryPage from '../../templates/GalleryPage.astro';
+import data from '../../data/photos2.json';
+const { groups, items } = data as { groups: { id: string; title: string; count: number }[]; items: { file: string; w: number; h: number; group: string; caption: string }[] };
+---
+<GalleryPage
+  base="/photos2"
+  shoot="the second shoot"
+  titleLabel="Second Shoot"
+  descriptionScope="the team at The Mission Business Center: lobby, sofa portraits and the 11860 entrance"
+  short={{ lobby: 'Lobby', sofa: 'Sofa & bust', exterior: '11860 entrance' }}
+  groups={groups}
+  items={items}
+  originals="the camera card (NO NAME › DCIM › 100MSDCF) and David's copy of it"
+  storageKey="qwik-photo2-stars"
+/>

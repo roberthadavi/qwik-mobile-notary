@@ -1,0 +1,427 @@
+{
+ "groups": [
+  {
+   "id": "lobby",
+   "title": "Lobby \u2014 bench, sign & entrance",
+   "count": 13
+  },
+  {
+   "id": "sofa",
+   "title": "Sofa & bronze bust portraits",
+   "count": 21
+  },
+  {
+   "id": "exterior",
+   "title": "Exterior \u2014 11860 tower entrance & steps",
+   "count": 24
+  }
+ ],
+ "items": [
+  {
+   "file": "DSC03792",
+   "w": 2000,
+   "h": 1132,
+   "group": "lobby",
+   "caption": "Team member in striped shirt seated on the lobby bench beside the El Paso Traffic Ticket Firm sign"
+  },
+  {
+   "file": "DSC03793",
+   "w": 1132,
+   "h": 2000,
+   "group": "lobby",
+   "caption": "Team member in striped shirt on the lobby bench with the El Paso Traffic Ticket Firm sign and blossom tree (portrait)"
+  },
+  {
+   "file": "DSC03794",
+   "w": 2000,
+   "h": 1132,
+   "group": "lobby",
+   "caption": "Two team members seated on the lobby bench with the El Paso Traffic Ticket Firm sign"
+  },
+  {
+   "file": "DSC03795",
+   "w": 2000,
+   "h": 1132,
+   "group": "lobby",
+   "caption": "Two team members seated on the lobby bench with the El Paso Traffic Ticket Firm sign"
+  },
+  {
+   "file": "DSC03796",
+   "w": 2000,
+   "h": 1132,
+   "group": "lobby",
+   "caption": "Team member in navy top and black skirt seated on the lobby bench with the El Paso Traffic Ticket Firm sign"
+  },
+  {
+   "file": "DSC03797",
+   "w": 2000,
+   "h": 1132,
+   "group": "lobby",
+   "caption": "Team member in navy top and black skirt seated on the lobby bench with the El Paso Traffic Ticket Firm sign"
+  },
+  {
+   "file": "DSC03798",
+   "w": 1132,
+   "h": 2000,
+   "group": "lobby",
+   "caption": "Two team members standing at the lobby entrance between the glass doors (portrait)"
+  },
+  {
+   "file": "DSC03799",
+   "w": 1132,
+   "h": 2000,
+   "group": "lobby",
+   "caption": "Two team members standing at the lobby entrance by the wall art (portrait)"
+  },
+  {
+   "file": "DSC03800",
+   "w": 2000,
+   "h": 1132,
+   "group": "lobby",
+   "caption": "Two team members at the lobby entrance by the wall art"
+  },
+  {
+   "file": "DSC03801",
+   "w": 1132,
+   "h": 2000,
+   "group": "lobby",
+   "caption": "Team member in navy top and black skirt standing at the lobby entrance by the wall art (portrait)"
+  },
+  {
+   "file": "DSC03802",
+   "w": 1132,
+   "h": 2000,
+   "group": "lobby",
+   "caption": "Team member in navy top and black skirt standing at the lobby entrance by the wall art (portrait)"
+  },
+  {
+   "file": "DSC03803",
+   "w": 1132,
+   "h": 2000,
+   "group": "lobby",
+   "caption": "Team member in striped shirt standing at the lobby entrance by the wall art (portrait)"
+  },
+  {
+   "file": "DSC03804",
+   "w": 1132,
+   "h": 2000,
+   "group": "lobby",
+   "caption": "Team member in striped shirt standing at the lobby entrance by the wall art (portrait)"
+  },
+  {
+   "file": "DSC03805",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in striped shirt on the patterned sofa, hand to face \u2014 candid (portrait)"
+  },
+  {
+   "file": "DSC03806",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in striped shirt seated on the patterned sofa (portrait)"
+  },
+  {
+   "file": "DSC03807",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in navy top seated on the patterned sofa, hands clasped (portrait)"
+  },
+  {
+   "file": "DSC03808",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Team member in navy top seated on the patterned sofa, hands clasped"
+  },
+  {
+   "file": "DSC03809",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in navy top seated on the patterned sofa, smiling (portrait)"
+  },
+  {
+   "file": "DSC03810",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in navy top seated on the patterned sofa, smiling (portrait)"
+  },
+  {
+   "file": "DSC03811",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Two team members seated together on the patterned sofa"
+  },
+  {
+   "file": "DSC03812",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Two team members seated together on the patterned sofa"
+  },
+  {
+   "file": "DSC03813",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Two team members seated together on the patterned sofa (portrait)"
+  },
+  {
+   "file": "DSC03814",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Team member in striped shirt seated on the patterned sofa"
+  },
+  {
+   "file": "DSC03815",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in striped shirt seated on the patterned sofa, smiling (portrait)"
+  },
+  {
+   "file": "DSC03816",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in striped shirt seated on the patterned sofa, smiling (portrait)"
+  },
+  {
+   "file": "DSC03817",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in striped shirt seated on the patterned sofa, smiling (portrait)"
+  },
+  {
+   "file": "DSC03818",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in striped shirt seated on the sofa beside the bronze bust (portrait)"
+  },
+  {
+   "file": "DSC03819",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in striped shirt seated on the sofa beside the bronze bust (portrait)"
+  },
+  {
+   "file": "DSC03820",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Team member in navy top seated on the sofa beside the bronze bust"
+  },
+  {
+   "file": "DSC03821",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Team member in navy top seated on the sofa beside the bronze bust"
+  },
+  {
+   "file": "DSC03822",
+   "w": 1132,
+   "h": 2000,
+   "group": "sofa",
+   "caption": "Team member in navy top seated on the sofa beside the bronze bust (portrait)"
+  },
+  {
+   "file": "DSC03823",
+   "w": 1132,
+   "h": 2000,
+   "group": "exterior",
+   "caption": "Two team members on the steps at the 11860 tower entrance (portrait)"
+  },
+  {
+   "file": "DSC03824",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Two team members on the steps at the 11860 tower entrance"
+  },
+  {
+   "file": "DSC03825",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Team member in navy top and black skirt on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03826",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Team member in navy top and black skirt on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03827",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Team member in navy top and black skirt on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03828",
+   "w": 1132,
+   "h": 2000,
+   "group": "exterior",
+   "caption": "Team member in navy top and black skirt on the steps at the 11860 entrance (portrait)"
+  },
+  {
+   "file": "DSC03829",
+   "w": 1132,
+   "h": 2000,
+   "group": "exterior",
+   "caption": "Team member in navy top and black skirt on the steps at the 11860 entrance (portrait)"
+  },
+  {
+   "file": "DSC03830",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Team member in striped shirt on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03831",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Team member in striped shirt on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03832",
+   "w": 1132,
+   "h": 2000,
+   "group": "exterior",
+   "caption": "Team member in striped shirt at the 11860 entrance, arms crossed (portrait)"
+  },
+  {
+   "file": "DSC03833",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Three team members seated together on the patterned sofa"
+  },
+  {
+   "file": "DSC03834",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Three team members seated together on the patterned sofa"
+  },
+  {
+   "file": "DSC03835",
+   "w": 2000,
+   "h": 1132,
+   "group": "sofa",
+   "caption": "Three team members seated on the sofa beside the bronze bust"
+  },
+  {
+   "file": "DSC03836",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Three team members on the steps at the 11860 tower entrance"
+  },
+  {
+   "file": "DSC03837",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Three team members in front of the entrance doors"
+  },
+  {
+   "file": "DSC03838",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Three team members in front of the entrance doors \u2014 playful pose"
+  },
+  {
+   "file": "DSC03839",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Three team members in front of the entrance doors \u2014 laughing"
+  },
+  {
+   "file": "DSC03840",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Three team members in front of the entrance doors, smiling"
+  },
+  {
+   "file": "DSC03841",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Three team members in front of the entrance doors, smiling"
+  },
+  {
+   "file": "DSC03842",
+   "w": 1132,
+   "h": 2000,
+   "group": "exterior",
+   "caption": "Three team members on the steps at the 11860 entrance (portrait)"
+  },
+  {
+   "file": "DSC03843",
+   "w": 1132,
+   "h": 2000,
+   "group": "exterior",
+   "caption": "Three team members on the steps at the 11860 entrance (portrait)"
+  },
+  {
+   "file": "DSC03844",
+   "w": 1132,
+   "h": 2000,
+   "group": "exterior",
+   "caption": "Three team members on the steps at the 11860 entrance (portrait)"
+  },
+  {
+   "file": "DSC03845",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Two team members (patterned shirt, black top) on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03846",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Two team members (patterned shirt, black top) on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03847",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Two team members (patterned shirt, black top) on the steps at the 11860 entrance"
+  },
+  {
+   "file": "DSC03848",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Two team members (patterned shirt, black top) on the steps at the 11860 entrance \u2014 candid"
+  },
+  {
+   "file": "DSC03849",
+   "w": 2000,
+   "h": 1132,
+   "group": "exterior",
+   "caption": "Two team members (patterned shirt, black top) on the steps at the 11860 entrance \u2014 candid"
+  }
+ ]
+}
