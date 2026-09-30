@@ -36,8 +36,13 @@ export const SITE = {
     online: { en: 'Texas online notary commission (remote online notarization)', es: 'Comisión de Notary Public en línea de Texas (notarización remota)' } as L,
   },
   travelFee: 39,
+  social: {
+    facebook: 'https://www.facebook.com/qwikmobilenotary/',
+    instagram: 'https://www.instagram.com/qwikmobilenotary/',
+  },
   sameAs: [
     'https://www.facebook.com/qwikmobilenotary/',
+    'https://www.instagram.com/qwikmobilenotary/',
     'https://www.yelp.com/biz/qwik-mobile-notary-public-el-paso-2',
     'https://www.yellowpages.com/el-paso-tx/mip/qwik-mobile-notary-public-534154091',
   ] as string[],
@@ -78,6 +83,7 @@ export const UI: Record<string, Record<Lang, string>> = {
   about: { en: 'About', es: 'Nosotros' },
   faq: { en: 'FAQ', es: 'Preguntas' },
   contact: { en: 'Contact', es: 'Contacto' },
+  followUs: { en: 'Follow us', es: 'Síganos' },
   call: { en: 'Call', es: 'Llamar' },
   text: { en: 'Text', es: 'Texto' },
   callNow: { en: 'Call (915) 302-0902', es: 'Llame al (915) 302-0902' },

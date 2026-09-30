@@ -35,6 +35,7 @@ const alt: Lang = lang === 'en' ? 'es' : 'en';
         <li>{SITE.hours[lang]}</li>
         <li style="margin-top:.5rem"><a href={PATHS.fees[lang]}>{t('fees', lang)}</a> · <a href={PATHS.serviceArea[lang]}>{t('serviceArea', lang)}</a> · <a href={PATHS.faq[lang]}>{t('faq', lang)}</a></li>
         <li><a href={PATHS.about[lang]}>{t('about', lang)}</a> · <a href={PATHS.contact[lang]}>{t('contact', lang)}</a></li>
+        <li>{t('followUs', lang)}: <a href={SITE.social.facebook} rel="me noopener" target="_blank" title={`${SITE.name} — Facebook`}>Facebook</a> · <a href={SITE.social.instagram} rel="me noopener" target="_blank" title={`${SITE.name} — Instagram`}>Instagram</a></li>
       </ul>
     </div>
   </div>
