@@ -37,7 +37,7 @@ export const SITE = {
   },
   travelFee: 39,
   sameAs: [
-    'https://www.facebook.com/mobilenotarypublicelpaso/',
+    'https://www.facebook.com/qwikmobilenotary/',
     'https://www.yelp.com/biz/qwik-mobile-notary-public-el-paso-2',
     'https://www.yellowpages.com/el-paso-tx/mip/qwik-mobile-notary-public-534154091',
   ] as string[],
