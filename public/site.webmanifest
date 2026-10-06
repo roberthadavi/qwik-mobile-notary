@@ -1,0 +1,27 @@
+{
+  "name": "QWIK Mobile Notary Public \u2014 El Paso, TX",
+  "short_name": "QWIK Notary",
+  "description": "Mobile notary, apostilles, loan signings and online notarization in El Paso County, Texas. We come to you.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#18304e",
+  "theme_color": "#0b0f1c",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
