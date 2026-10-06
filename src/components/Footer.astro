@@ -52,5 +52,11 @@ const alt: Lang = lang === 'en' ? 'es' : 'en';
       <span><a href={PATHS.privacy[lang]}>{t('privacy', lang)}</a> · <a href={lang === 'en' ? PATHS.home.es : PATHS.home.en} hreflang={alt} lang={alt}>{t('languageSwitch', lang)}</a></span>
     </div>
     <div class="container" style="display:block;margin-top:.6rem;max-width:var(--max)"><span>{t('disclaimer', lang)}</span></div>
+    <div class="container powered-row">
+      <a class="powered" href={SITE.agency.url} target="_blank" rel="noopener" title={t('poweredByTitle', lang)}>
+        <img src="/images/seocandy-rocket-mark.png" alt="" width="18" height="22" loading="lazy" decoding="async" />
+        <span>{t('poweredBy', lang)} <strong>{SITE.agency.name}</strong></span>
+      </a>
+    </div>
   </div>
 </footer>

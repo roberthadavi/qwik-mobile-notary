@@ -36,6 +36,7 @@ export const SITE = {
     online: { en: 'Texas online notary commission (remote online notarization)', es: 'Comisión de Notary Public en línea de Texas (notarización remota)' } as L,
   },
   travelFee: 39,
+  agency: { name: 'SEOCANDY.ai', url: 'https://seocandy.ai/?utm_source=mobilepublicnotaryelpaso.com&utm_medium=footer&utm_campaign=powered-by' },
   social: {
     facebook: 'https://www.facebook.com/qwikmobilenotary/',
     instagram: 'https://www.instagram.com/qwikmobilenotary/',
@@ -84,6 +85,8 @@ export const UI: Record<string, Record<Lang, string>> = {
   faq: { en: 'FAQ', es: 'Preguntas' },
   contact: { en: 'Contact', es: 'Contacto' },
   followUs: { en: 'Follow us', es: 'Síganos' },
+  poweredBy: { en: 'Website humbly powered by', es: 'Sitio web humildemente impulsado por' },
+  poweredByTitle: { en: 'SEOCANDY.ai — local SEO & web design, El Paso', es: 'SEOCANDY.ai — SEO local y diseño web, El Paso' },
   call: { en: 'Call', es: 'Llamar' },
   text: { en: 'Text', es: 'Texto' },
   callNow: { en: 'Call (915) 302-0902', es: 'Llame al (915) 302-0902' },
