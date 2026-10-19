@@ -20,8 +20,8 @@
     "es": "Cuando un familiar está detenido en el Centro de Detención del Condado de El Paso, en el centro, o en el Anexo de la cárcel sobre la avenida Montana, nuestro Notary Public bilingüe entra — siguiendo las reglas del centro — para que se firme y se notarice una carta poder, un VTR-271, una declaración jurada o un formulario de consentimiento."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "La ley no cambia porque la persona esté detenida; hay dos cosas que siempre se confirman. Primero, la identidad: Texas exige una identificación oficial vigente con fotografía, que el Notary Public conozca personalmente al firmante, o un testigo creíble que lo conozca, no tenga interés en el documento y muestre su propia identificación. El registro de ingreso (booking) y el brazalete nos ayudan a confirmar quién está frente a nosotros, pero no sustituyen esa identificación, que muchas veces está guardada con las pertenencias del interno. Segundo, la voluntad y la conciencia: el firmante debe entender el documento y querer firmarlo. Una carta poder duradera estatutaria (Texas Estates Code, capítulo 752) se reconoce; una declaración jurada se jura y se firma frente al Notary Public."
     },
     {
-      "en": "Booking and payment usually fall to the family. Text or call (915) 302-0902 with the facility, the inmate's name and the document; we confirm the fee, the statutory $10 per signature or oath plus the $39 El Paso travel fee, and check the facility's hours and procedure for notary visits, since each one decides where the signing happens, how paper reaches the inmate and what we may bring in. The document must arrive complete, unsigned if it needs an oath; the signing takes about 15 minutes, plus screening time. We cannot choose or fill out forms or advise on the case or the bond. Texas prints the statutory durable power of attorney form in Estates Code §752.051; TxDMV publishes the VTR-271.",
-      "es": "Reservar y pagar normalmente le toca a la familia. Envíe un texto o llame al (915) 302-0902 con el centro, el nombre del interno y el documento; le confirmamos la tarifa — los $10 por firma o juramento que fija la ley más los $39 de traslado en El Paso — y verificamos el horario y el procedimiento del centro para visitas de notarización, porque cada uno decide dónde se firma, cómo llega el papel al interno y qué podemos entrar. El documento debe llegar completo, sin firmar si requiere juramento; la firma toma unos 15 minutos, más el tiempo de revisión de seguridad. No escogemos ni llenamos formularios, ni damos asesoría sobre el caso o la fianza. Texas publica el formato de carta poder duradera en el Estates Code §752.051; el VTR-271 lo publica el TxDMV."
+      "en": "Booking and payment usually fall to the family. Text or call (915) 302-0902 with the facility, the inmate's name and the document; we confirm the quote and check the facility's hours and procedure for notary visits, since each one decides where the signing happens, how paper reaches the inmate and what we may bring in. The document must arrive complete, unsigned if it needs an oath; the signing takes about 15 minutes, plus screening time. We cannot choose or fill out forms or advise on the case or the bond. Texas prints the statutory durable power of attorney form in Estates Code §752.051; TxDMV publishes the VTR-271.",
+      "es": "Reservar y pagar normalmente le toca a la familia. Envíe un texto o llame al (915) 302-0902 con el centro, el nombre del interno y el documento; le confirmamos la cotización y verificamos el horario y el procedimiento del centro para visitas de notarización, porque cada uno decide dónde se firma, cómo llega el papel al interno y qué podemos entrar. El documento debe llegar completo, sin firmar si requiere juramento; la firma toma unos 15 minutos, más el tiempo de revisión de seguridad. No escogemos ni llenamos formularios, ni damos asesoría sobre el caso o la fianza. Texas publica el formato de carta poder duradera en el Estates Code §752.051; el VTR-271 lo publica el TxDMV."
     }
   ],
   "sections": [
@@ -94,7 +94,7 @@
     { "en": "The complete document with no blanks, unsigned if it needs an oath; text us a photo of it beforehand", "es": "El documento completo, sin espacios en blanco y sin firmar si requiere juramento; envíenos una foto por texto con antelación" },
     { "en": "The facility, the inmate's full name and booking number, and the facility's instructions for notary visits", "es": "El centro, el nombre completo y el número de registro (booking) del interno, y las instrucciones del centro para visitas de notarización" },
     { "en": "Your own unexpired photo ID if you are signing too — a caregiver's signature on an authorization agreement can be notarized on the same trip, outside the facility", "es": "Su propia identificación vigente si usted también firma — la firma del cuidador en un acuerdo de autorización puede notarizarse en el mismo viaje, fuera del centro" },
-    { "en": "Payment for the statutory fee plus the $39 travel fee — the family usually pays, and we confirm the total by text before the visit", "es": "El pago de la tarifa que fija la ley más los $39 de traslado — normalmente paga la familia, y confirmamos el total por texto antes de la visita" }
+    { "en": "Payment for the quoted total — the family usually pays, and we confirm it by text before the visit", "es": "El pago del total cotizado — normalmente paga la familia, y lo confirmamos por texto antes de la visita" }
   ],
   "process": [
     {
@@ -144,8 +144,8 @@
     {
       "q": { "en": "How much does a jail notary cost in El Paso?", "es": "¿Cuánto cuesta un Notary Public en la cárcel en El Paso?" },
       "a": {
-        "en": "The notarial fees are set by Texas law — $10 for the first signature acknowledged and $1 for each additional signature on the same document, or $10 per oath — plus our nominal $39 travel fee in El Paso County, itemized separately. A single power of attorney signed at the Downtown Detention Facility or the Jail Annex is $10 plus travel. The family usually pays; we confirm the total by text before the visit, and after-hours visits are quoted.",
-        "es": "Las tarifas de notarización las fija la ley de Texas — $10 por la primera firma reconocida y $1 por cada firma adicional en el mismo documento, o $10 por juramento — más nuestro traslado nominal de $39 en el condado de El Paso, detallado por separado. Una sola carta poder firmada en el Centro de Detención del centro o en el Anexo cuesta $10 más el traslado. Normalmente paga la familia; confirmamos el total por texto antes de la visita, y las visitas fuera de horario se cotizan."
+        "en": "Prices vary by the number of documents and signatures and by the facility; the notarial fee is capped by Texas law and travel in El Paso County is itemized separately. A single power of attorney signed at the Downtown Detention Facility or the Jail Annex is quoted before we go — call or text (915) 302-0902. The family usually pays; we confirm the total by text before the visit, and after-hours visits are quoted.",
+        "es": "Los precios varían según el número de documentos y firmas y según el centro; la tarifa de notarización tiene tope en la ley de Texas y el traslado en el condado de El Paso se detalla por separado. Una sola carta poder firmada en el Centro de Detención del centro o en el Anexo se cotiza antes de ir — llame o envíe un texto al (915) 302-0902. Normalmente paga la familia; confirmamos el total por texto antes de la visita, y las visitas fuera de horario se cotizan."
       }
     },
     {

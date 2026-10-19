@@ -35,7 +35,6 @@ export const SITE = {
     commission: { en: 'Texas Notary Public, commissioned by the Texas Secretary of State', es: 'Notary Public de Texas, comisionado por la Secretaría de Estado de Texas' } as L,
     online: { en: 'Texas online notary commission (remote online notarization)', es: 'Comisión de Notary Public en línea de Texas (notarización remota)' } as L,
   },
-  travelFee: 39,
   agency: { name: 'SEOCANDY.ai', url: 'https://seocandy.ai/?utm_source=mobilepublicnotaryelpaso.com&utm_medium=footer&utm_campaign=powered-by' },
   social: {
     facebook: 'https://www.facebook.com/qwikmobilenotary/',
@@ -62,14 +61,16 @@ export const PATHS = {
 };
 
 /** Texas statutory maximum notarial fees — Tex. Gov't Code §406.024 (eff. Sept. 1, 2023). */
-export const FEES = [
-  { act: { en: 'Acknowledgment or proof — first signature', es: 'Reconocimiento (acknowledgment) — primera firma' }, fee: '$10' },
-  { act: { en: 'Acknowledgment — each additional signature on the same document', es: 'Reconocimiento — cada firma adicional en el mismo documento' }, fee: '$1' },
-  { act: { en: 'Oath or affirmation with certificate and seal (jurat)', es: 'Juramento o afirmación con certificado y sello (jurat)' }, fee: '$10' },
-  { act: { en: 'Certified copy — certificate', es: 'Copia certificada — certificado' }, fee: '$10' },
-  { act: { en: 'Certified copy — per page copied', es: 'Copia certificada — por página copiada' }, fee: '$1' },
-  { act: { en: 'Any other notarial act', es: 'Cualquier otro acto notarial' }, fee: '$10' },
-  { act: { en: 'Online notarization (RON) — per notarial act, no travel fee', es: 'Notarización en línea (RON) — por acto, sin traslado' }, fee: '$25' },
+/** How QWIK prices each kind of work — no amounts are published; every job is quoted before we come. */
+export const PRICING = [
+  { item: { en: 'Acknowledgment (deed, power of attorney, title, contract)', es: 'Reconocimiento (acknowledgment) — escritura, carta poder, título, contrato' }, basis: { en: 'Per signature, per document — capped by Tex. Gov’t Code §406.024', es: 'Por firma y por documento — con tope en el Código de Gobierno §406.024' } },
+  { item: { en: 'Oath or affirmation (affidavit, jurat)', es: 'Juramento o afirmación (declaración jurada, jurat)' }, basis: { en: 'Per oath — capped by statute', es: 'Por juramento — con tope legal' } },
+  { item: { en: 'Certified copy of a non-recordable document', es: 'Copia certificada de un documento no registrable' }, basis: { en: 'Per copy plus the number of pages — capped by statute', es: 'Por copia más el número de páginas — con tope legal' } },
+  { item: { en: 'Online notarization (RON)', es: 'Notarización en línea (RON)' }, basis: { en: 'Per notarial act — capped by statute; no travel fee', es: 'Por acto notarial — con tope legal; sin traslado' } },
+  { item: { en: 'Travel to you', es: 'Traslado a donde usted está' }, basis: { en: 'One fee per visit, by location in El Paso County; itemized separately', es: 'Un cargo por visita, según la ubicación en el Condado de El Paso; detallado por separado' } },
+  { item: { en: 'After-hours, holiday and out-of-area visits', es: 'Visitas fuera de horario, en festivos y fuera del área' }, basis: { en: 'Quoted when you book', es: 'Se cotizan al agendar' } },
+  { item: { en: 'Loan signings', es: 'Firmas de préstamos' }, basis: { en: 'Flat fee per signing — call or text for a quote', es: 'Tarifa fija por firma — llame o envíe un texto para cotizar' } },
+  { item: { en: 'Apostilles', es: 'Apostillas' }, basis: { en: 'Service fee + Texas Secretary of State fee per document + shipping — quoted', es: 'Tarifa de servicio + cuota por documento de la Secretaría de Estado + envío — cotizado' } },
 ];
 
 export const UI: Record<string, Record<Lang, string>> = {
@@ -107,7 +108,7 @@ export const UI: Record<string, Record<Lang, string>> = {
   commonQuestions: { en: 'Common questions', es: 'Preguntas comunes' },
   relatedServices: { en: 'Related services', es: 'Servicios relacionados' },
   resources: { en: 'Official resources', es: 'Recursos oficiales' },
-  feeModel: { en: 'Fee', es: 'Tarifa' },
+  feeModel: { en: 'Pricing', es: 'Precio' },
   timeline: { en: 'Availability', es: 'Disponibilidad' },
   where: { en: 'Where', es: 'Dónde' },
   startHere: { en: 'Start here', es: 'Empiece aquí' },
@@ -118,7 +119,7 @@ export const UI: Record<string, Record<Lang, string>> = {
   haveACaseBody: { en: 'Call or text. We come to your home, office, hospital or title company anywhere in El Paso — same day, in English or Spanish.', es: 'Llame o envíe un texto. Vamos a su casa, oficina, hospital o compañía de título en cualquier parte de El Paso — el mismo día, en español o inglés.' },
   reviewed: { en: 'Texas Notary Public · commissioned by the Texas Secretary of State · online notary commission', es: 'Notary Public de Texas · comisionado por la Secretaría de Estado de Texas · comisión en línea' },
   notAttorney: { en: 'I AM NOT AN ATTORNEY LICENSED TO PRACTICE LAW IN TEXAS AND MAY NOT GIVE LEGAL ADVICE OR ACCEPT FEES FOR LEGAL ADVICE.', es: 'NO SOY ABOGADO(A) CON LICENCIA PARA EJERCER EL DERECHO EN TEXAS Y NO PUEDO DAR ASESORÍA LEGAL NI ACEPTAR HONORARIOS POR ASESORÍA LEGAL.' },
-  feeLine: { en: 'Notary fees: $10 first signature, $1 each additional signature; $10 per oath (Texas maximum, Tex. Gov’t Code §406.024). Nominal $39 travel fee in El Paso, itemized separately. Loan signings, apostilles and after-hours visits quoted — call or text.', es: 'Tarifas: $10 la primera firma, $1 cada firma adicional; $10 por juramento (máximo en Texas, Código de Gobierno §406.024). Traslado de $39 en El Paso, detallado por separado. Firmas de préstamos, apostillas y visitas fuera de horario se cotizan — llame o envíe un texto.' },
+  feeLine: { en: 'Notary fees: prices vary by document, number of signatures and location — call or text (915) 302-0902 for a quote. Texas caps notarial fees by statute (Tex. Gov’t Code §406.024); travel is itemized separately. Loan signings, apostilles and after-hours visits quoted.', es: 'Tarifas: los precios varían según el documento, el número de firmas y la ubicación — llame o envíe un texto al (915) 302-0902 para cotizar. La ley de Texas limita las tarifas de notarización (Código de Gobierno §406.024); el traslado se detalla por separado. Firmas de préstamos, apostillas y visitas fuera de horario se cotizan.' },
   seeFees: { en: 'See all fees', es: 'Ver todas las tarifas' },
   disclaimer: { en: 'QWIK Mobile Notary Public is a commissioned Texas notary service. We notarize documents you or your attorney have prepared; we do not draft documents, select forms or give legal advice. Notarial acts are performed only within the State of Texas.', es: 'QWIK Mobile Notary Public es un servicio de Notary Public comisionado en Texas. Notarizamos documentos que usted o su abogado prepararon; no redactamos documentos, no elegimos formularios ni damos asesoría legal. Los actos notariales se realizan únicamente dentro del Estado de Texas.' },
   principalOffice: { en: 'Mobile service based on the East Side of El Paso, Texas', es: 'Servicio móvil con base en el East Side de El Paso, Texas' },
@@ -153,8 +154,8 @@ export const UI: Record<string, Record<Lang, string>> = {
   serviceAreas: { en: 'Mobile notary for all of El Paso County, Texas', es: 'Notary Public móvil para todo el Condado de El Paso, Texas' },
   otherCategories: { en: 'Other service categories', es: 'Otras categorías de servicio' },
   alsoOffer: { en: 'Also', es: 'También' },
-  travelFee: { en: 'Nominal $39 travel fee', es: 'Traslado de $39' },
-  statutoryFees: { en: 'Texas statutory fees', es: 'Tarifas legales de Texas' },
+  travelFee: { en: 'Travel fee', es: 'Traslado' },
+  statutoryFees: { en: 'How pricing works', es: 'Cómo se cotiza' },
 };
 
 export function t(key: string, lang: Lang): string {

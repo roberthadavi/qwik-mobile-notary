@@ -20,8 +20,8 @@
     "es": "La declaración jurada de autenticidad (self-proving affidavit) de su testamento, más documentos de fideicomiso, codicilos, certificados de fideicomiso y escrituras de transferencia al fallecimiento, notarizados en su casa o en la oficina de su abogado en todo el condado de El Paso — con sus dos testigos presentes y las tarifas confirmadas de antemano."
   },
   "feeModel": {
-    "en": "$10 per oath or first signature, $1 each additional signature, plus $39 travel fee",
-    "es": "$10 por juramento o primera firma, $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "El capítulo 251 del Código de Sucesiones de Texas (Estates Code) hace válido un testamento cuando el testador lo firma ante dos testigos confiables de al menos 14 años; para que sea válido no se requiere Notary Public. La función del Notary Public es la declaración jurada de autenticidad (self-proving affidavit) de la sección 251.104, en la que el testador y los dos testigos juran ante el Notary Public que el testamento se firmó correctamente, para que el tribunal de sucesiones de El Paso pueda admitirlo después sin localizar a los testigos. Un testamento ológrafo (escrito a mano) puede autenticarse con la declaración jurada del propio testador. Los fideicomisos, sus modificaciones y los certificados de fideicomiso se reconocen (acknowledgment); la escritura de transferencia al fallecimiento debe reconocerse ante un Notary Public y registrarse en la Oficina del Secretario del Condado de El Paso (County Clerk) antes de la muerte del dueño para tener efecto."
     },
     {
-      "en": "Text or call (915) 302-0902 with the list of documents and how many people will sign; we confirm the statutory fees plus the $39 El Paso travel fee and come to your home, the attorney's office or the hospital. Everyone signing needs unexpired photo ID and your two witnesses must be there — ask when booking whether witnesses can be arranged for an additional fee. Leave the will and the affidavit unsigned until the notary arrives: the witnesses need to watch you sign, and the affidavit is sworn in the notary's presence. A will with its affidavit and a trust package usually takes 20 to 30 minutes. Our notary does not draft wills or trusts, fill in beneficiaries or say whether a document does what you intend; an El Paso estate planning attorney does that, and we recommend one.",
-      "es": "Envíe un texto o llame al (915) 302-0902 con la lista de documentos y cuántas personas van a firmar; le confirmamos las tarifas oficiales más los $39 de traslado en El Paso y vamos a su casa, al despacho del abogado o al hospital. Todos los que firman necesitan identificación vigente con fotografía y sus dos testigos deben estar presentes — pregunte al agendar si podemos conseguir testigos por un costo adicional. Deje el testamento y la declaración jurada sin firmar hasta que llegue el Notary Public: los testigos tienen que verlo firmar y la declaración se jura en presencia del Notary Public. Un testamento con su declaración y un paquete de fideicomiso suelen tomar de 20 a 30 minutos. Nuestro Notary Public no redacta testamentos ni fideicomisos, no llena beneficiarios ni le dice si el documento hace lo que usted quiere; un Notary Public de Texas no es abogado. Eso lo hace un abogado de planificación patrimonial en El Paso, y le recomendamos consultar uno."
+      "en": "Text or call (915) 302-0902 with the list of documents and how many people will sign; we confirm the quote and come to your home, the attorney's office or the hospital anywhere in El Paso. Everyone signing needs unexpired photo ID and your two witnesses must be there — ask when booking whether witnesses can be arranged for an additional fee. Leave the will and the affidavit unsigned until the notary arrives: the witnesses need to watch you sign, and the affidavit is sworn in the notary's presence. A will with its affidavit and a trust package usually takes 20 to 30 minutes. Our notary does not draft wills or trusts, fill in beneficiaries or say whether a document does what you intend; an El Paso estate planning attorney does that, and we recommend one.",
+      "es": "Envíe un texto o llame al (915) 302-0902 con la lista de documentos y cuántas personas van a firmar; le confirmamos la cotización y vamos a su casa, al despacho del abogado o al hospital en cualquier parte de El Paso. Todos los que firman necesitan identificación vigente con fotografía y sus dos testigos deben estar presentes — pregunte al agendar si podemos conseguir testigos por un costo adicional. Deje el testamento y la declaración jurada sin firmar hasta que llegue el Notary Public: los testigos tienen que verlo firmar y la declaración se jura en presencia del Notary Public. Un testamento con su declaración y un paquete de fideicomiso suelen tomar de 20 a 30 minutos. Nuestro Notary Public no redacta testamentos ni fideicomisos, no llena beneficiarios ni le dice si el documento hace lo que usted quiere; un Notary Public de Texas no es abogado. Eso lo hace un abogado de planificación patrimonial en El Paso, y le recomendamos consultar uno."
     }
   ],
   "sections": [
@@ -90,14 +90,14 @@
     { "en": "The complete will or trust package from your attorney, printed, with every blank filled and no signatures yet", "es": "El paquete completo del testamento o fideicomiso que preparó su abogado, impreso, con todos los espacios llenos y sin firmar" },
     { "en": "Two witnesses age 14 or older who are not beneficiaries — or ask when booking whether witnesses can be arranged for an additional fee", "es": "Dos testigos de 14 años o más que no sean beneficiarios — o pregunte al agendar si podemos conseguir testigos por un costo adicional" },
     { "en": "The attorney's signing instructions, if any (which pages are acknowledged and which are sworn)", "es": "Las instrucciones de firma del abogado, si las hay (qué páginas se reconocen y cuáles se juran)" },
-    { "en": "Payment for the statutory fees and the $39 travel fee, confirmed when you book", "es": "El pago de las tarifas oficiales y los $39 de traslado, confirmado al agendar" }
+    { "en": "Payment for the quoted total, confirmed when you book", "es": "El pago del total cotizado, confirmado al agendar" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para agendar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with the documents, the number of signers and witnesses, and the address. We confirm the statutory fees plus the $39 El Paso travel fee and schedule a time when your witnesses can be there — evenings and weekends included.",
-        "es": "Envíe un texto o llame al (915) 302-0902 con los documentos, el número de firmantes y testigos, y la dirección. Le confirmamos las tarifas oficiales más los $39 de traslado en El Paso y agendamos una hora en la que sus testigos puedan estar — tardes y fines de semana incluidos."
+        "en": "Text or call (915) 302-0902 with the documents, the number of signers and witnesses, and the address. We confirm the quote and schedule a time when your witnesses can be there — evenings and weekends included.",
+        "es": "Envíe un texto o llame al (915) 302-0902 con los documentos, el número de firmantes y testigos, y la dirección. Le confirmamos la cotización y agendamos una hora en la que sus testigos puedan estar — tardes y fines de semana incluidos."
       }
     },
     {
@@ -162,8 +162,8 @@
         "es": "¿Cuánto cuesta notarizar un testamento y un fideicomiso en El Paso?"
       },
       "a": {
-        "en": "Texas sets the fees: $10 per oath administered — the self-proving affidavit is sworn by the testator and both witnesses — and $10 for the first acknowledged signature plus $1 for each additional signature on a trust, deed or certificate. QWIK adds a nominal $39 travel fee anywhere in El Paso, itemized separately. Text or call (915) 302-0902 with your document list and we confirm the total before the visit.",
-        "es": "Texas fija las tarifas: $10 por cada juramento (jurat) — la declaración jurada de autenticidad la juran el testador y los dos testigos — y $10 por la primera firma reconocida más $1 por cada firma adicional en un fideicomiso, una escritura o un certificado. QWIK agrega $39 de traslado a cualquier parte de El Paso, detallados por separado. Envíe un texto o llame al (915) 302-0902 con su lista de documentos y le confirmamos el total antes de la visita."
+        "en": "Prices vary by the number of oaths and signatures — the self-proving affidavit is sworn by the testator and both witnesses, and a trust, deed or certificate is acknowledged separately; Texas caps every notarial fee by statute. Travel anywhere in El Paso is itemized separately. Text or call (915) 302-0902 with your document list and we confirm the total before the visit.",
+        "es": "Los precios varían según el número de juramentos y firmas — la declaración jurada de autenticidad la juran el testador y los dos testigos, y un fideicomiso, una escritura o un certificado se reconocen por separado; la ley de Texas limita cada tarifa de notarización. El traslado a cualquier parte de El Paso se detalla por separado. Envíe un texto o llame al (915) 302-0902 con su lista de documentos y le confirmamos el total antes de la visita."
       }
     }
   ],

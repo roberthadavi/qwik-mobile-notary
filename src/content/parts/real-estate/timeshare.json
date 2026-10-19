@@ -20,8 +20,8 @@
     "es": "Traspasos de escritura de tiempo compartido, documentos de deed-back y deed in lieu, declaraciones juradas de cancelación, formatos de estoppel y paquetes de traspaso que llegan por correo desde Florida, Nevada, California o México, notarizados en su casa en El Paso en una sola visita — con todos los dueños firmando en la misma mesa."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional per document, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional por documento, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "La mayoría de los documentos de tiempo compartido se reconocen: conforme al capítulo 406 del Código de Gobierno de Texas, el dueño comparece ante el Notary Public, se identifica con identificación vigente con fotografía y reconoce su firma, y nosotros completamos un certificado de reconocimiento (acknowledgment) de Texas con el condado de El Paso, Texas como lugar del acto. Los registros de los condados de Florida, Nevada y California generalmente aceptan un reconocimiento tomado conforme a la ley del lugar donde se hizo. Las declaraciones juradas de cancelación y de identidad son distintas: se juran (jurat), así que el dueño firma frente al Notary Public y jura que lo declarado es verdad, y esas páginas se quedan sin firmar hasta que lleguemos. Todos los dueños que aparecen en la escritura deben comparecer e identificarse, por eso los esposos o los hermanos que comparten una semana deben estar todos en casa para la visita."
     },
     {
-      "en": "Text or call (915) 302-0902 with the packet's contents and the number of owners who will sign; we confirm the fee ($10 for the first signature and $1 for each additional on each notarized document, plus the $39 El Paso travel fee) and come to your home. Have every signer's unexpired photo ID ready, leave affidavits unsigned and keep the cover letter handy so names match the deed. A typical packet takes 20 to 30 minutes. We do not fill in forms, interpret the transfer or contact the resort; questions go to the transfer company or an attorney. Afterward, seal the originals in the prepaid envelope and ship them promptly, or ask when booking whether a drop-off can be arranged.",
-      "es": "Envíe un texto o llame al (915) 302-0902 con el contenido del paquete y el número de dueños que van a firmar; le confirmamos la tarifa ($10 la primera firma y $1 cada firma adicional en cada documento notarizado, más los $39 de traslado en El Paso) y vamos a su casa. Tenga lista la identificación vigente con fotografía de cada firmante, deje las declaraciones juradas sin firmar y tenga a la mano la carta del resort para que los nombres coincidan exactamente con la escritura. Un paquete típico toma de 20 a 30 minutos. No llenamos formatos, no interpretamos el traspaso ni contactamos al resort; esas preguntas van a la compañía de traspasos o a un abogado. Al terminar, selle los originales en el sobre prepagado y envíelos pronto, o pregunte al agendar si se puede coordinar que dejemos el paquete en la paquetería."
+      "en": "Text or call (915) 302-0902 with the packet's contents and the number of owners who will sign; we confirm the quote and come to your home anywhere in El Paso. Have every signer's unexpired photo ID ready, leave affidavits unsigned and keep the cover letter handy so names match the deed. A typical packet takes 20 to 30 minutes. We do not fill in forms, interpret the transfer or contact the resort; questions go to the transfer company or an attorney. Afterward, seal the originals in the prepaid envelope and ship them promptly, or ask when booking whether a drop-off can be arranged.",
+      "es": "Envíe un texto o llame al (915) 302-0902 con el contenido del paquete y el número de dueños que van a firmar; le confirmamos la cotización y vamos a su casa en cualquier parte de El Paso. Tenga lista la identificación vigente con fotografía de cada firmante, deje las declaraciones juradas sin firmar y tenga a la mano la carta del resort para que los nombres coincidan exactamente con la escritura. Un paquete típico toma de 20 a 30 minutos. No llenamos formatos, no interpretamos el traspaso ni contactamos al resort; esas preguntas van a la compañía de traspasos o a un abogado. Al terminar, selle los originales en el sobre prepagado y envíelos pronto, o pregunte al agendar si se puede coordinar que dejemos el paquete en la paquetería."
     }
   ],
   "sections": [
@@ -93,14 +93,14 @@
     { "en": "Affidavits unsigned and undated — they are sworn in front of the notary", "es": "Las declaraciones juradas sin firmar y sin fecha — se juran frente al Notary Public" },
     { "en": "Two witnesses if the packet requires them, or ask when booking whether witnesses can be arranged for an additional fee", "es": "Dos testigos si el paquete los exige, o pregunte al agendar si podemos conseguir testigos por un costo adicional" },
     { "en": "The original power of attorney if one owner is signing for another", "es": "La carta poder original si un dueño firma por otro" },
-    { "en": "Payment for the statutory fees and the $39 travel fee, confirmed when you book", "es": "El pago de las tarifas oficiales y los $39 de traslado, confirmado al agendar" }
+    { "en": "Payment for the quoted total, confirmed when you book", "es": "El pago del total cotizado, confirmado al agendar" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para agendar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with a photo of the packet's instruction page, the number of owners and your address. We confirm the per-document statutory fees plus the $39 El Paso travel fee and set a time when everyone on the deed can be there.",
-        "es": "Envíe un texto o llame al (915) 302-0902 con una foto de la hoja de instrucciones del paquete, el número de dueños y su dirección. Le confirmamos las tarifas oficiales por documento más los $39 de traslado en El Paso y fijamos una hora en la que todos los dueños puedan estar."
+        "en": "Text or call (915) 302-0902 with a photo of the packet's instruction page, the number of owners and your address. We confirm the quote and set a time when everyone on the deed can be there.",
+        "es": "Envíe un texto o llame al (915) 302-0902 con una foto de la hoja de instrucciones del paquete, el número de dueños y su dirección. Le confirmamos la cotización y fijamos una hora en la que todos los dueños puedan estar."
       }
     },
     {
@@ -135,8 +135,8 @@
         "es": "¿Los dos esposos tienen que estar presentes para firmar los documentos de traspaso del tiempo compartido?"
       },
       "a": {
-        "en": "If both names are on the deed, yes — each owner must personally appear before the notary with unexpired photo ID and acknowledge the signature. One spouse cannot sign for the other without a valid power of attorney that the transfer company has agreed to accept. We schedule evenings and weekends across El Paso so both owners can sign in one visit, which also keeps the trip to a single $39 travel fee.",
-        "es": "Si los dos nombres están en la escritura, sí: cada dueño debe comparecer personalmente ante el Notary Public con identificación vigente con fotografía y reconocer su firma. Un cónyuge no puede firmar por el otro sin una carta poder válida que la compañía de traspasos haya aceptado. Agendamos tardes y fines de semana en todo El Paso para que los dos dueños firmen en una sola visita, lo que además mantiene un solo traslado de $39."
+        "en": "If both names are on the deed, yes — each owner must personally appear before the notary with unexpired photo ID and acknowledge the signature. One spouse cannot sign for the other without a valid power of attorney that the transfer company has agreed to accept. We schedule evenings and weekends across El Paso so both owners can sign in one visit, which also keeps the trip to a single travel fee.",
+        "es": "Si los dos nombres están en la escritura, sí: cada dueño debe comparecer personalmente ante el Notary Public con identificación vigente con fotografía y reconocer su firma. Un cónyuge no puede firmar por el otro sin una carta poder válida que la compañía de traspasos haya aceptado. Agendamos tardes y fines de semana en todo El Paso para que los dos dueños firmen en una sola visita, lo que además mantiene un solo traslado."
       }
     },
     {
@@ -145,8 +145,8 @@
         "es": "¿Cuánto cuesta notarizar un paquete de tiempo compartido en El Paso?"
       },
       "a": {
-        "en": "Texas caps the fee per notarial act: $10 for the first signature acknowledged on each document, $1 for each additional signature on the same document, and $10 per oath on a sworn affidavit. A packet with a deed, an affidavit and a transfer form for two owners is priced document by document. QWIK adds a $39 travel fee anywhere in El Paso, itemized separately. Text or call (915) 302-0902 with the packet's contents for a total.",
-        "es": "Texas limita la tarifa por cada acto: $10 por la primera firma reconocida en cada documento, $1 por cada firma adicional en ese mismo documento, y $10 por cada juramento (jurat) en una declaración jurada. Un paquete con una escritura, una declaración jurada y un formato de traspaso para dos dueños se cobra documento por documento, y le confirmamos el total antes de ir. QWIK agrega $39 de traslado a cualquier parte de El Paso, detallados por separado. Envíe un texto o llame al (915) 302-0902 con el contenido del paquete."
+        "en": "Prices vary by the number of documents in the packet, the signatures on each and any sworn affidavits; Texas caps the fee per notarial act by statute. A packet with a deed, an affidavit and a transfer form for two owners is priced document by document. Travel anywhere in El Paso is itemized separately. Text or call (915) 302-0902 with the packet's contents for a total.",
+        "es": "Los precios varían según el número de documentos del paquete, las firmas en cada uno y las declaraciones juradas; la ley de Texas limita la tarifa por cada acto notarial. Un paquete con una escritura, una declaración jurada y un formato de traspaso para dos dueños se cobra documento por documento, y le confirmamos el total antes de ir. El traslado a cualquier parte de El Paso se detalla por separado. Envíe un texto o llame al (915) 302-0902 con el contenido del paquete."
       }
     },
     {

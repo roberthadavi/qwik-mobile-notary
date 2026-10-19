@@ -20,8 +20,8 @@
     "es": "Declaraciones juradas de gravamen de contratista (mechanic's lien affidavit), liberaciones de gravamen, liberaciones parciales, renuncias (waivers) estatutarias y declaraciones de cuentas pagadas, juradas o reconocidas en la obra, en su oficina o en su casa en todo el condado de El Paso — listas para presentarse ante el County Clerk de El Paso dentro del plazo legal."
   },
   "feeModel": {
-    "en": "$10 per oath or first signature, $1 each additional signature, plus $39 travel fee",
-    "es": "$10 por juramento o primera firma, $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "El capítulo 53 del Código de Propiedad de Texas (Property Code) fija las reglas. La declaración jurada de gravamen de la sección 53.054 debe firmarla el reclamante o alguien en su nombre y debe contener una declaración bajo juramento del monto que se le debe, así que se notariza con un juramento (jurat): el firmante firma frente a nuestro Notary Public y jura que el contenido es verdad, y después se presenta ante el County Clerk de El Paso dentro del plazo legal. Las liberaciones de gravamen y las liberaciones del prestamista se reconocen (acknowledgment) para poder registrarse conforme a la sección 12.001. Los formatos estatutarios de renuncia y liberación de la sección 53.284 ya no requieren notarización según la ley de Texas, pero muchos contratistas generales y compañías de título todavía piden una firma notarizada, y nosotros la hacemos."
     },
     {
-      "en": "Text or call (915) 302-0902 with the document, the number of signers and where the crew is; we confirm the fee ($10 per oath on an affidavit, or $10 for the first signature and $1 each additional on a release) plus the $39 El Paso travel fee, and meet you at the job site, your office or your home. Bring unexpired photo ID and the completed, unsigned affidavit; we cannot notarize blanks, so the amount, property and claimant details must be filled in. Signing takes about 15 minutes. We do not prepare lien affidavits, calculate deadlines or say whether you have lien rights; a construction attorney does that. Filing with the El Paso County Clerk is your step.",
-      "es": "Envíe un texto o llame al (915) 302-0902 con el documento, el número de firmantes y dónde está la cuadrilla; le confirmamos la tarifa ($10 por juramento en una declaración jurada, o $10 la primera firma y $1 cada firma adicional en una liberación) más los $39 de traslado en El Paso, y lo vemos en la obra, en su oficina o en su casa. Traiga identificación vigente con fotografía y la declaración completa pero sin firmar; no podemos notarizar espacios en blanco, así que el monto, la descripción de la propiedad y los datos del reclamante deben estar llenos. La firma toma unos 15 minutos. No preparamos declaraciones de gravamen, no calculamos plazos ni le decimos si tiene derecho a un gravamen; un Notary Public de Texas no es abogado ni equivale a la figura legal de México. Eso lo hace un abogado de construcción. Presentar el documento ante el County Clerk de El Paso es su paso o el de su abogado."
+      "en": "Text or call (915) 302-0902 with the document, the number of signers and where the crew is; we confirm the quote and meet you at the job site, your office or your home anywhere in El Paso. Bring unexpired photo ID and the completed, unsigned affidavit; we cannot notarize blanks, so the amount, property and claimant details must be filled in. Signing takes about 15 minutes. We do not prepare lien affidavits, calculate deadlines or say whether you have lien rights; a construction attorney does that. Filing with the El Paso County Clerk is your step.",
+      "es": "Envíe un texto o llame al (915) 302-0902 con el documento, el número de firmantes y dónde está la cuadrilla; le confirmamos la cotización y lo vemos en la obra, en su oficina o en su casa en cualquier parte de El Paso. Traiga identificación vigente con fotografía y la declaración completa pero sin firmar; no podemos notarizar espacios en blanco, así que el monto, la descripción de la propiedad y los datos del reclamante deben estar llenos. La firma toma unos 15 minutos. No preparamos declaraciones de gravamen, no calculamos plazos ni le decimos si tiene derecho a un gravamen; un Notary Public de Texas no es abogado ni equivale a la figura legal de México. Eso lo hace un abogado de construcción. Presentar el documento ante el County Clerk de El Paso es su paso o el de su abogado."
     }
   ],
   "sections": [
@@ -96,14 +96,14 @@
     { "en": "Proof that the signer may act for the company, when the claimant is a business", "es": "Prueba de que el firmante puede actuar por la empresa, cuando el reclamante es un negocio" },
     { "en": "The general contractor's, lender's or title company's instructions and the exact form they require", "es": "Las instrucciones del contratista general, el prestamista o la compañía de título y el formato exacto que exigen" },
     { "en": "A copy for your own records in addition to the one you will file", "es": "Una copia para su archivo además de la que va a presentar" },
-    { "en": "Payment for the statutory fees and the $39 travel fee, confirmed when you book", "es": "El pago de las tarifas oficiales y los $39 de traslado, confirmado al agendar" }
+    { "en": "Payment for the quoted total, confirmed when you book", "es": "El pago del total cotizado, confirmado al agendar" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para agendar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with the document type, how many people sign and the job-site or office address in El Paso County. We confirm the statutory fee plus the $39 travel fee and set a time that works around the crew's day.",
-        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, cuántas personas firman y la dirección de la obra o la oficina en el condado de El Paso. Le confirmamos la tarifa oficial más los $39 de traslado y fijamos una hora que se acomode al día de la cuadrilla, temprano o tarde."
+        "en": "Text or call (915) 302-0902 with the document type, how many people sign and the job-site or office address in El Paso County. We confirm the quote and set a time that works around the crew's day.",
+        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, cuántas personas firman y la dirección de la obra o la oficina en el condado de El Paso. Le confirmamos la cotización y fijamos una hora que se acomode al día de la cuadrilla, temprano o tarde."
       }
     },
     {
@@ -158,8 +158,8 @@
         "es": "¿Cuánto cuesta notarizar una declaración de gravamen o una liberación en El Paso?"
       },
       "a": {
-        "en": "Texas sets the fees: $10 per oath, so a sworn lien affidavit is $10, and $10 for the first acknowledged signature plus $1 for each additional signature on a release or waiver. QWIK adds a nominal $39 travel fee for the trip anywhere in El Paso, itemized separately; early-morning or after-hours job-site visits are quoted when you book. The El Paso County Clerk's recording fee is paid separately, per page. Text or call (915) 302-0902 for a total.",
-        "es": "Texas fija las tarifas: $10 por juramento, así que una declaración de gravamen jurada cuesta $10, y $10 por la primera firma reconocida más $1 por cada firma adicional en una liberación o renuncia. QWIK agrega $39 de traslado por el viaje a cualquier parte de El Paso, detallados por separado; las visitas a la obra muy temprano o fuera de horario se cotizan al agendar. La cuota de registro del County Clerk de El Paso se paga por separado, por página. Envíe un texto o llame al (915) 302-0902 para el total."
+        "en": "Prices vary by the number of oaths and signatures — a lien affidavit is sworn, while a release or waiver is acknowledged per signature — and Texas caps every notarial fee by statute. Travel anywhere in El Paso is itemized separately; early-morning or after-hours job-site visits are quoted when you book. The El Paso County Clerk's recording fee is paid separately, per page. Text or call (915) 302-0902 for a total.",
+        "es": "Los precios varían según el número de juramentos y firmas — una declaración de gravamen se jura, mientras que una liberación o renuncia se reconoce por firma — y la ley de Texas limita cada tarifa de notarización. El traslado a cualquier parte de El Paso se detalla por separado; las visitas a la obra muy temprano o fuera de horario se cotizan al agendar. La cuota de registro del County Clerk de El Paso se paga por separado, por página. Envíe un texto o llame al (915) 302-0902 para el total."
       }
     },
     {

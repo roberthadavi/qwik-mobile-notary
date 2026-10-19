@@ -26,8 +26,8 @@
         "es": "La mayoría de los documentos que se notarizan en El Paso son trámites comunes: una carta poder (power of attorney) para un padre en un asilo, una declaración jurada (affidavit) para la corte, la factura de venta de un vehículo o los documentos de un préstamo de la compañía de título. La ley de Texas reconoce pocos actos de notarización — reconocimientos (acknowledgments), juramentos (jurats), copias certificadas de documentos no registrables y pruebas por testigo — y todos exigen que el firmante comparezca en persona ante un Notary Public comisionado en Texas. QWIK Mobile Notary Public va a donde usted está, en inglés o español, en todo el condado de El Paso."
       },
       {
-        "en": "The process is the same for every document. Call or text (915) 302-0902, tell us what you have and where you are, and we confirm the fee: the Texas statutory fee — $10 for the first signature and $1 for each additional, or $10 per oath — plus a $39 travel fee in El Paso. Each signer brings an unexpired government-issued photo ID (Texas driver license, passport or Mexican consular ID) and the complete document, unsigned if it needs a jurat. We verify identity, witness the signature, complete the certificate and apply the seal. We never give legal advice, choose forms or fill in blanks — you bring the document, we notarize it.",
-        "es": "El proceso es el mismo para cualquier documento. Llame o envíe un texto al (915) 302-0902, díganos qué tiene y dónde está, y le confirmamos el costo: la tarifa legal de Texas — $10 por la primera firma y $1 por cada firma adicional, o $10 por juramento — más $39 de traslado en El Paso. Cada firmante presenta una identificación oficial vigente con fotografía (licencia de Texas, pasaporte o matrícula consular mexicana) y el documento completo, sin firmar si requiere juramento. Verificamos la identidad, presenciamos la firma, llenamos el certificado y ponemos el sello. Nunca damos asesoría legal ni llenamos espacios en blanco: usted trae el documento y nosotros lo notarizamos."
+        "en": "The process is the same for every document. Call or text (915) 302-0902, tell us what you have and where you are, and we confirm your quote: prices vary by document, number of signatures and location in El Paso, with the notarial fee and travel itemized separately. Each signer brings an unexpired government-issued photo ID (Texas driver license, passport or Mexican consular ID) and the complete document, unsigned if it needs a jurat. We verify identity, witness the signature, complete the certificate and apply the seal. We never give legal advice, choose forms or fill in blanks — you bring the document, we notarize it.",
+        "es": "El proceso es el mismo para cualquier documento. Llame o envíe un texto al (915) 302-0902, díganos qué tiene y dónde está, y le confirmamos la cotización: los precios varían según el documento, el número de firmas y la ubicación en El Paso, con la tarifa de notarización y el traslado detallados por separado. Cada firmante presenta una identificación oficial vigente con fotografía (licencia de Texas, pasaporte o matrícula consular mexicana) y el documento completo, sin firmar si requiere juramento. Verificamos la identidad, presenciamos la firma, llenamos el certificado y ponemos el sello. Nunca damos asesoría legal ni llenamos espacios en blanco: usted trae el documento y nosotros lo notarizamos."
       }
     ],
     "faqs": [
@@ -37,8 +37,8 @@
           "es": "¿Cuánto cuesta un Notary Public móvil en El Paso?"
         },
         "a": {
-          "en": "Texas caps notarial fees by law: $10 for the first signature on an acknowledgment and $1 for each additional signature, $10 for an oath or affirmation, and $10 plus $1 per page for a certified copy. QWIK adds one nominal $39 travel fee anywhere in El Paso, itemized separately, so a single-signature document at your kitchen table comes to $49. After-hours and out-of-area trips are quoted before we drive out — call or text (915) 302-0902.",
-          "es": "La ley de Texas fija el máximo: $10 por la primera firma en un reconocimiento y $1 por cada firma adicional, $10 por juramento y $10 más $1 por página en una copia certificada. QWIK agrega un solo cargo de traslado de $39 en El Paso, detallado por separado, así que un documento con una sola firma sale en $49. Fuera de horario o fuera del área se cotiza antes de salir; llame o envíe un texto al (915) 302-0902."
+          "en": "Prices vary by document, number of signatures and location; Texas caps notarial fees by law (Tex. Gov't Code §406.024). QWIK adds one travel fee per visit anywhere in El Paso, itemized separately. After-hours and out-of-area trips are quoted before we drive out — call or text (915) 302-0902.",
+          "es": "Los precios varían según el documento, el número de firmas y la ubicación; la ley de Texas fija el máximo de las tarifas de notarización (Código de Gobierno §406.024). QWIK agrega un solo cargo de traslado por visita en El Paso, detallado por separado. Fuera de horario o fuera del área se cotiza antes de salir; llame o envíe un texto al (915) 302-0902."
         }
       },
       {
@@ -86,8 +86,8 @@
         "es": "Cuando un documento no puede esperar al horario de oficina, QWIK Mobile Notary va a donde usted está en todo el condado de El Paso — el mismo día, por la tarde, fines de semana y festivos, con cita — para permisos de viaje, cartas poder, documentos de préstamo, declaraciones juradas y más, en inglés o español."
       },
       "feeModel": {
-        "en": "$10 first signature + $1 each additional, plus $39 travel fee; after-hours and holiday trips quoted — call or text",
-        "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado; fuera de horario y festivos se cotiza — llame o envíe un texto"
+        "en": "Prices vary; after-hours and holiday trips quoted — call or text",
+        "es": "Los precios varían; fuera de horario y festivos se cotiza — llame o envíe un texto"
       },
       "timeline": {
         "en": "Same day by appointment · evenings, weekends & holidays available",
@@ -99,8 +99,8 @@
           "es": "Las urgencias de notarización rara vez ocurren un martes a las 10 de la mañana. En El Paso se ven así: una madre que se entera la noche anterior a un vuelo de las 6 a.m. de que su hijo necesita un permiso de viaje notarizado para volar a México, una familia en el University Medical Center un domingo por la tarde que necesita firmar un poder médico antes de una cirugía, un prestatario cuyo paquete de refinanciamiento debe firmarse antes de que venza la tasa el viernes, o un familiar que tramita una carta poder en el Centro de Detención del Condado de El Paso para poder vender un carro. QWIK Mobile Notary Public atiende justo en estos momentos: el mismo día, por la tarde, fines de semana y días festivos, en todo el condado de El Paso, en inglés o español."
         },
         {
-          "en": "Texas notary law does not change after 5 p.m. Every requirement of Tex. Gov't Code ch. 406 applies at midnight as at noon: the signer appears in person, proves identity with an unexpired government-issued photo ID or a credible witness, signs willingly and aware of what the document is, and the document is complete — no blanks. The statutory fee never changes — $10 for the first signature and $1 for each additional, or $10 per oath, capped by Tex. Gov't Code §406.024 — and the travel fee stays $39 anywhere in El Paso; an after-hours or holiday visit adds a quoted charge, itemized separately and confirmed before we leave.",
-          "es": "La ley de Texas no cambia después de las 5 de la tarde. Cada requisito del Código de Gobierno de Texas, capítulo 406, aplica a medianoche igual que a mediodía: el firmante comparece en persona, comprueba su identidad con una identificación oficial vigente con fotografía o con un testigo creíble, firma por voluntad propia y consciente de qué documento es, y el documento está completo, sin espacios en blanco. La tarifa legal tampoco cambia — $10 por la primera firma y $1 por cada adicional, o $10 por juramento, con tope en el §406.024 — y el traslado sigue siendo $39 en cualquier punto de El Paso; una visita fuera de horario o en día festivo agrega un cargo cotizado, detallado por separado y confirmado antes de salir."
+          "en": "Texas notary law does not change after 5 p.m. Every requirement of Tex. Gov't Code ch. 406 applies at midnight as at noon: the signer appears in person, proves identity with an unexpired government-issued photo ID or a credible witness, signs willingly and aware of what the document is, and the document is complete — no blanks. The notarial fee stays capped by Tex. Gov't Code §406.024 at any hour, and travel anywhere in El Paso is itemized separately; an after-hours or holiday visit adds a quoted charge, confirmed before we leave.",
+          "es": "La ley de Texas no cambia después de las 5 de la tarde. Cada requisito del Código de Gobierno de Texas, capítulo 406, aplica a medianoche igual que a mediodía: el firmante comparece en persona, comprueba su identidad con una identificación oficial vigente con fotografía o con un testigo creíble, firma por voluntad propia y consciente de qué documento es, y el documento está completo, sin espacios en blanco. La tarifa de notarización mantiene su tope legal (§406.024) a cualquier hora, y el traslado en cualquier punto de El Paso se detalla por separado; una visita fuera de horario o en día festivo agrega un cargo cotizado, confirmado antes de salir."
         },
         {
           "en": "Text (915) 302-0902 — texting is fastest outside business hours — with the document, the number of signers, the address and the time you need. We confirm the total and an arrival window; 24/7 means after-hours appointments are available, not instant arrival, so the earlier you reach out the more options you have. We come to homes, hospital rooms, title companies and, during visiting hours, the jail — anywhere in El Paso County, Texas, never New Mexico. Bring an unexpired photo ID and the complete document, unsigned if it needs a jurat; most signings take about 15 minutes. We cannot draft the document or fill in blanks at any hour, so if you still need the form, download the official version first.",
@@ -197,8 +197,8 @@
           "es": "Para hospital o cárcel, los datos del cuarto o del centro y sus reglas de acceso"
         },
         {
-          "en": "Payment for the statutory fee, the $39 travel fee and any quoted after-hours charge",
-          "es": "El pago de la tarifa legal, los $39 de traslado y el cargo fuera de horario cotizado"
+          "en": "Payment for the quoted total, including any after-hours charge",
+          "es": "El pago del total cotizado, incluido cualquier cargo fuera de horario"
         }
       ],
       "process": [
@@ -208,8 +208,8 @@
             "es": "Envíe un texto o llame para agendar"
           },
           "body": {
-            "en": "Text or call (915) 302-0902 at any hour with the document, number of signers, address in El Paso and the time you need. We reply with the total — statutory fee, $39 travel and any after-hours charge — and an appointment window.",
-            "es": "Envíe un texto o llame al (915) 302-0902 a cualquier hora con el documento, el número de firmantes, la dirección en El Paso y la hora que necesita. Le respondemos con el total — tarifa legal, $39 de traslado y cualquier cargo fuera de horario — y una ventana de cita."
+            "en": "Text or call (915) 302-0902 at any hour with the document, number of signers, address in El Paso and the time you need. We reply with the quoted total — notarial fee, travel and any after-hours charge — and an appointment window.",
+            "es": "Envíe un texto o llame al (915) 302-0902 a cualquier hora con el documento, el número de firmantes, la dirección en El Paso y la hora que necesita. Le respondemos con el total cotizado — tarifa de notarización, traslado y cualquier cargo fuera de horario — y una ventana de cita."
           }
         },
         {
@@ -250,8 +250,8 @@
             "es": "¿Cuánto cuesta un Notary Public fuera de horario o en fin de semana en El Paso?"
           },
           "a": {
-            "en": "The notarial fee is fixed by Texas law and does not go up at night: $10 for the first signature and $1 for each additional, or $10 per oath (Tex. Gov't Code §406.024). Our travel fee stays $39 anywhere in El Paso, itemized separately. An after-hours, holiday or out-of-area appointment adds a quoted charge for the time and distance involved, which we confirm by text before we leave. Call or text (915) 302-0902 for the exact figure.",
-            "es": "La tarifa de notarización la fija la ley de Texas y no sube de noche: $10 por la primera firma y $1 por cada adicional, o $10 por juramento (Código de Gobierno §406.024). Nuestro traslado sigue siendo $39 en cualquier punto de El Paso, detallado por separado. Una cita fuera de horario, en día festivo o fuera del área agrega un cargo cotizado por el tiempo y la distancia, que confirmamos por texto antes de salir. Llame o envíe un texto al (915) 302-0902 para la cifra exacta."
+            "en": "The notarial fee is capped by Texas law (Tex. Gov't Code §406.024) and does not go up at night. Our travel fee anywhere in El Paso is itemized separately; prices vary by location and timing. An after-hours, holiday or out-of-area appointment adds a quoted charge for the time and distance involved, which we confirm by text before we leave. Call or text (915) 302-0902 for the exact figure.",
+            "es": "La tarifa de notarización tiene tope en la ley de Texas (Código de Gobierno §406.024) y no sube de noche. Nuestro traslado en cualquier punto de El Paso se detalla por separado; los precios varían según la ubicación y el horario. Una cita fuera de horario, en día festivo o fuera del área agrega un cargo cotizado por el tiempo y la distancia, que confirmamos por texto antes de salir. Llame o envíe un texto al (915) 302-0902 para la cifra exacta."
           }
         },
         {
@@ -280,8 +280,8 @@
             "es": "¿Cobran extra por el servicio el mismo día en El Paso?"
           },
           "a": {
-            "en": "Not for same-day service during the day: a same-day appointment in El Paso is the statutory fee plus the $39 travel fee, the same as one booked a week ahead. Extra charges apply only to after-hours, holiday and out-of-area trips, and those are quoted before we commit. Texas caps the notarial fee itself, so no notary may raise the per-signature or per-oath charge for urgency; anything beyond the statute must be a separate, itemized travel or service fee.",
-            "es": "No por el servicio el mismo día durante el día: una cita el mismo día en El Paso cuesta la tarifa legal más los $39 de traslado, igual que una agendada con una semana de anticipación. Los cargos adicionales aplican solo a las visitas fuera de horario, en días festivos y fuera del área, y se cotizan antes de comprometernos. Texas pone tope a la tarifa de notarización, así que ningún Notary Public puede subir el cobro por firma o por juramento por la urgencia; cualquier cargo adicional debe ser un traslado o servicio detallado por separado."
+            "en": "Not for same-day service during the day: a same-day appointment in El Paso is quoted the same as one booked a week ahead. Extra charges apply only to after-hours, holiday and out-of-area trips, and those are quoted before we commit. Texas caps the notarial fee itself, so no notary may raise the per-signature or per-oath charge for urgency; anything beyond the statute must be a separate, itemized travel or service fee.",
+            "es": "No por el servicio el mismo día durante el día: una cita el mismo día en El Paso se cotiza igual que una agendada con una semana de anticipación. Los cargos adicionales aplican solo a las visitas fuera de horario, en días festivos y fuera del área, y se cotizan antes de comprometernos. Texas pone tope a la tarifa de notarización, así que ningún Notary Public puede subir el cobro por firma o por juramento por la urgencia; cualquier cargo adicional debe ser un traslado o servicio detallado por separado."
           }
         }
       ],
@@ -345,8 +345,8 @@
         "es": "Casi toda notarización en Texas es un reconocimiento (acknowledgment) o un juramento (jurat). Realizamos ambos en todo el condado de El Paso, en inglés o español, con la redacción de certificado que exige la ley de Texas y que espera quien recibe su documento."
       },
       "feeModel": {
-        "en": "$10 first signature + $1 each additional (acknowledgment) or $10 per oath (jurat), plus $39 travel fee",
-        "es": "$10 la primera firma + $1 cada firma adicional (reconocimiento) o $10 por juramento, más $39 de traslado"
+        "en": "Prices vary — call or text for a quote",
+        "es": "Los precios varían — llame o envíe un texto para cotizar"
       },
       "timeline": {
         "en": "Same day by appointment · evenings & weekends available",
@@ -358,12 +358,12 @@
           "es": "El reconocimiento (acknowledgment) y el juramento (jurat) son los dos actos de notarización detrás de casi cualquier documento que se notariza en El Paso. En un reconocimiento, usted declara ante el Notary Public que la firma del documento es suya y que firmó por voluntad propia; es lo que piden las escrituras, las cartas poder (power of attorney), los contratos y los documentos de préstamo. En un juramento, usted jura o afirma ante el Notary Public que el contenido del documento es verdadero; es lo que exigen las declaraciones juradas (affidavits) y las verificaciones. Un propietario en Horizon City que firma una escritura, un familiar en Fort Bliss que reconoce una carta poder y un contratista que jura una declaración de gravamen necesitan certificados distintos, y quien recibe el documento rechazará el equivocado."
         },
         {
-          "en": "Texas law draws the line clearly. For an acknowledgment you may have signed the document earlier — the notary verifies your identity and you acknowledge the signature as your own. For a jurat you must sign in the notary's presence and take the oath or affirmation; the notary then completes a certificate that says so. Texas prescribes the wording of both certificates by statute — the Texas statutory certificate wording — and the notary may not alter or invent it. Your identity is proved by an unexpired government-issued photo ID, by the notary's personal knowledge or by a credible witness. Fees are capped under Tex. Gov't Code §406.024: $10 for the first acknowledged signature and $1 for each additional, or $10 per oath or affirmation.",
-          "es": "La ley de Texas marca la diferencia con claridad. Para un reconocimiento usted puede haber firmado antes: el Notary Public verifica su identidad y usted reconoce la firma como suya. Para un juramento debe firmar en presencia del Notary Public y prestar el juramento o la afirmación; después se llena el certificado que así lo hace constar. Texas fija por ley la redacción de ambos certificados — la redacción estatutaria de Texas — y el Notary Public no puede cambiarla ni inventarla. Su identidad se comprueba con una identificación oficial vigente con fotografía, por conocimiento personal del Notary Public o mediante un testigo creíble. Las tarifas tienen tope en el Código de Gobierno de Texas §406.024: $10 por la primera firma reconocida y $1 por cada adicional, o $10 por juramento o afirmación."
+          "en": "Texas law draws the line clearly. For an acknowledgment you may have signed the document earlier — the notary verifies your identity and you acknowledge the signature as your own. For a jurat you must sign in the notary's presence and take the oath or affirmation; the notary then completes a certificate that says so. Texas prescribes the wording of both certificates by statute — the Texas statutory certificate wording — and the notary may not alter or invent it. Your identity is proved by an unexpired government-issued photo ID, by the notary's personal knowledge or by a credible witness. Fees are capped under Tex. Gov't Code §406.024, whether the act is an acknowledgment or an oath or affirmation.",
+          "es": "La ley de Texas marca la diferencia con claridad. Para un reconocimiento usted puede haber firmado antes: el Notary Public verifica su identidad y usted reconoce la firma como suya. Para un juramento debe firmar en presencia del Notary Public y prestar el juramento o la afirmación; después se llena el certificado que así lo hace constar. Texas fija por ley la redacción de ambos certificados — la redacción estatutaria de Texas — y el Notary Public no puede cambiarla ni inventarla. Su identidad se comprueba con una identificación oficial vigente con fotografía, por conocimiento personal del Notary Public o mediante un testigo creíble. Las tarifas tienen tope en el Código de Gobierno de Texas §406.024, ya sea un reconocimiento o un juramento o afirmación."
         },
         {
-          "en": "Booking takes one text or call to (915) 302-0902. Tell us what the document is and whether the recipient asked for an acknowledgment or a jurat — the certificate printed on the page usually says — and we confirm the total, including the $39 travel fee anywhere in El Paso. We come to your home, office, hospital room or title company, in English or Spanish, seven days a week by appointment. Bring your ID and the complete document; leave it unsigned if it needs a jurat. A single document takes about 15 minutes. We cannot tell you which act your document needs if it is silent, draft language or give legal advice — ask the recipient or an attorney, then bring us the finished document.",
-          "es": "Para agendar basta un texto o una llamada al (915) 302-0902. Díganos qué documento es y si quien lo recibe pidió reconocimiento o juramento — el certificado impreso en la hoja normalmente lo indica — y le confirmamos el total, incluidos los $39 de traslado en cualquier punto de El Paso. Vamos a su casa, oficina, cuarto de hospital o compañía de título, en inglés o español, los siete días de la semana con cita. Traiga su identificación y el documento completo; déjelo sin firmar si requiere juramento. Un solo documento toma unos 15 minutos. No podemos decirle qué acto necesita su documento si no lo indica, ni redactar texto ni dar asesoría legal: pregunte a quien lo recibe o a un abogado y después tráiganos el documento terminado."
+          "en": "Booking takes one text or call to (915) 302-0902. Tell us what the document is and whether the recipient asked for an acknowledgment or a jurat — the certificate printed on the page usually says — and we confirm the quoted total, including travel anywhere in El Paso. We come to your home, office, hospital room or title company, in English or Spanish, seven days a week by appointment. Bring your ID and the complete document; leave it unsigned if it needs a jurat. A single document takes about 15 minutes. We cannot tell you which act your document needs if it is silent, draft language or give legal advice — ask the recipient or an attorney, then bring us the finished document.",
+          "es": "Para agendar basta un texto o una llamada al (915) 302-0902. Díganos qué documento es y si quien lo recibe pidió reconocimiento o juramento — el certificado impreso en la hoja normalmente lo indica — y le confirmamos el total cotizado, incluido el traslado en cualquier punto de El Paso. Vamos a su casa, oficina, cuarto de hospital o compañía de título, en inglés o español, los siete días de la semana con cita. Traiga su identificación y el documento completo; déjelo sin firmar si requiere juramento. Un solo documento toma unos 15 minutos. No podemos decirle qué acto necesita su documento si no lo indica, ni redactar texto ni dar asesoría legal: pregunte a quien lo recibe o a un abogado y después tráiganos el documento terminado."
         }
       ],
       "sections": [
@@ -386,8 +386,8 @@
           },
           "body": [
             {
-              "en": "Beyond the two main acts, a Texas notary administers oaths and affirmations on their own — for a deposition on written questions or a verification attached to a court pleading — and takes proofs by subscribing witness, where a witness who watched the signer sign appears in the signer's place. An affirmation is simply an oath without religious language; it carries the same $10 fee and the same penalty for a false statement. When a contract asks for a witnessed signature, Texas has no separate signature-witnessing act, so the notary completes an acknowledgment or a jurat instead. El Paso attorneys, paralegals and court reporters book these regularly.",
-              "es": "Además de los dos actos principales, un Notary Public de Texas administra juramentos y afirmaciones por sí solos — para una deposición por preguntas escritas o una verificación anexa a un escrito judicial — y toma pruebas por testigo suscriptor, en las que un testigo que vio firmar comparece en lugar del firmante. La afirmación es simplemente un juramento sin lenguaje religioso; tiene la misma tarifa de $10 y la misma sanción por declarar en falso. Cuando un contrato pide una firma presenciada, Texas no tiene un acto separado para ello, así que el Notary Public completa un reconocimiento o un juramento. Abogados, asistentes legales y reporteros judiciales de El Paso agendan estos servicios con frecuencia."
+              "en": "Beyond the two main acts, a Texas notary administers oaths and affirmations on their own — for a deposition on written questions or a verification attached to a court pleading — and takes proofs by subscribing witness, where a witness who watched the signer sign appears in the signer's place. An affirmation is simply an oath without religious language; it carries the same fee and the same penalty for a false statement. When a contract asks for a witnessed signature, Texas has no separate signature-witnessing act, so the notary completes an acknowledgment or a jurat instead. El Paso attorneys, paralegals and court reporters book these regularly.",
+              "es": "Además de los dos actos principales, un Notary Public de Texas administra juramentos y afirmaciones por sí solos — para una deposición por preguntas escritas o una verificación anexa a un escrito judicial — y toma pruebas por testigo suscriptor, en las que un testigo que vio firmar comparece en lugar del firmante. La afirmación es simplemente un juramento sin lenguaje religioso; tiene la misma tarifa y la misma sanción por declarar en falso. Cuando un contrato pide una firma presenciada, Texas no tiene un acto separado para ello, así que el Notary Public completa un reconocimiento o un juramento. Abogados, asistentes legales y reporteros judiciales de El Paso agendan estos servicios con frecuencia."
             }
           ]
         }
@@ -456,8 +456,8 @@
           "es": "Testigos, si el documento mismo los requiere"
         },
         {
-          "en": "Payment for the statutory fee and the $39 travel fee, confirmed when you book",
-          "es": "El pago de la tarifa legal y los $39 de traslado, confirmado al agendar"
+          "en": "Payment for the quoted total, confirmed when you book",
+          "es": "El pago del total cotizado, confirmado al agendar"
         }
       ],
       "process": [
@@ -467,8 +467,8 @@
             "es": "Envíe un texto o llame para agendar"
           },
           "body": {
-            "en": "Text or call (915) 302-0902 with the document type, whether it needs an acknowledgment or a jurat, your location in El Paso and a time that works. We confirm the statutory fee plus the $39 travel fee before we leave.",
-            "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, si necesita reconocimiento o juramento, su ubicación en El Paso y la hora que le convenga. Confirmamos la tarifa legal más los $39 de traslado antes de salir."
+            "en": "Text or call (915) 302-0902 with the document type, whether it needs an acknowledgment or a jurat, your location in El Paso and a time that works. We confirm the quote before we leave.",
+            "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, si necesita reconocimiento o juramento, su ubicación en El Paso y la hora que le convenga. Confirmamos la cotización antes de salir."
           }
         },
         {
@@ -509,8 +509,8 @@
             "es": "¿Cuánto cuesta notarizar un reconocimiento o un juramento en El Paso?"
           },
           "a": {
-            "en": "Texas sets the notarial fee by statute: $10 for the first signature acknowledged and $1 for each additional signature on the same document, or $10 for each oath or affirmation with a jurat certificate. QWIK adds a nominal $39 travel fee anywhere in El Paso, itemized separately, so one signature on one document comes to $49. A married couple acknowledging the same deed pays $11 plus travel. After-hours and out-of-area appointments are quoted first — call or text (915) 302-0902.",
-            "es": "Texas fija la tarifa por ley: $10 por la primera firma reconocida y $1 por cada firma adicional en el mismo documento, o $10 por cada juramento o afirmación con certificado. QWIK agrega un traslado de $39 en cualquier punto de El Paso, detallado por separado, así que una firma en un documento sale en $49. Un matrimonio que reconoce la misma escritura paga $11 más el traslado. Las citas fuera de horario o fuera del área se cotizan primero; llame o envíe un texto al (915) 302-0902."
+            "en": "Prices vary by the number of signatures or oaths, the number of documents and your location; Texas caps the notarial fee by statute. QWIK itemizes travel anywhere in El Paso separately and confirms the total before we come. A married couple acknowledging the same deed is one document with two signatures. After-hours and out-of-area appointments are quoted first — call or text (915) 302-0902.",
+            "es": "Los precios varían según el número de firmas o juramentos, el número de documentos y su ubicación; la ley de Texas fija un tope a la tarifa de notarización. QWIK detalla por separado el traslado en cualquier punto de El Paso y confirma el total antes de ir. Un matrimonio que reconoce la misma escritura es un solo documento con dos firmas. Las citas fuera de horario o fuera del área se cotizan primero; llame o envíe un texto al (915) 302-0902."
           }
         },
         {
@@ -596,8 +596,8 @@
         "es": "Declaraciones juradas (affidavits), declaraciones escritas y verificaciones notarizadas con juramento en todo el condado de El Paso: usted firma y jura frente a nuestro Notary Public bilingüe, en su casa, oficina u hospital, el mismo día con cita."
       },
       "feeModel": {
-        "en": "$10 per oath or affirmation, plus $39 travel fee",
-        "es": "$10 por juramento, más $39 de traslado"
+        "en": "Prices vary — call or text for a quote",
+        "es": "Los precios varían — llame o envíe un texto para cotizar"
       },
       "timeline": {
         "en": "Same day by appointment · evenings & weekends available",
@@ -609,12 +609,12 @@
           "es": "Una declaración jurada (affidavit) es una declaración escrita de hechos que usted jura o afirma como verdaderos ante un Notary Public, y es uno de los documentos que más se notarizan en El Paso. Cortes, distritos escolares, bancos, aseguradoras y oficinas de gobierno la exigen: un padre de familia del Lower Valley que firma una declaración de residencia para inscribir a su hijo en Ysleta ISD, una familia de Socorro que llena una declaración de herederos por una camioneta que quedó a nombre del padre fallecido, un prestatario que firma una declaración de firma porque su segundo nombre aparece distinto en dos documentos, o un propietario que jura los hechos de un reclamo al seguro por granizo. Cada una vale lo que vale el juramento que la respalda."
         },
         {
-          "en": "Under Texas law an affidavit takes a jurat, not an acknowledgment: you sign in the notary's presence, the notary administers the oath or affirmation, and the certificate — in the Texas statutory wording, “Sworn to and subscribed before me” — records the date and how you were identified. Do not pre-sign. A signature made before the notary arrived cannot be sworn after the fact, so the page would have to be signed again. Identity is verified with an unexpired government-issued photo ID bearing your signature — Texas driver license, U.S. or Mexican passport, military ID or consular matrícula — or through a credible witness. Tex. Gov't Code §406.024 fixes the fee at $10 per oath or affirmation with certificate and seal.",
-          "es": "Según la ley de Texas, una declaración jurada lleva juramento (jurat), no reconocimiento (acknowledgment): usted firma en presencia del Notary Public, este le toma el juramento o la afirmación, y el certificado — con la redacción estatutaria de Texas, “Sworn to and subscribed before me” — hace constar la fecha y cómo se identificó usted. No firme antes. Una firma puesta antes de que llegue el Notary Public no se puede jurar después, y la hoja tendría que firmarse de nuevo. La identidad se comprueba con una identificación oficial vigente con fotografía y firma — licencia de Texas, pasaporte estadounidense o mexicano, identificación militar o matrícula consular — o mediante un testigo creíble. El Código de Gobierno de Texas §406.024 fija la tarifa en $10 por juramento o afirmación con certificado y sello."
+          "en": "Under Texas law an affidavit takes a jurat, not an acknowledgment: you sign in the notary's presence, the notary administers the oath or affirmation, and the certificate — in the Texas statutory wording, “Sworn to and subscribed before me” — records the date and how you were identified. Do not pre-sign. A signature made before the notary arrived cannot be sworn after the fact, so the page would have to be signed again. Identity is verified with an unexpired government-issued photo ID bearing your signature — Texas driver license, U.S. or Mexican passport, military ID or consular matrícula — or through a credible witness. Tex. Gov't Code §406.024 caps the fee for each oath or affirmation with certificate and seal.",
+          "es": "Según la ley de Texas, una declaración jurada lleva juramento (jurat), no reconocimiento (acknowledgment): usted firma en presencia del Notary Public, este le toma el juramento o la afirmación, y el certificado — con la redacción estatutaria de Texas, “Sworn to and subscribed before me” — hace constar la fecha y cómo se identificó usted. No firme antes. Una firma puesta antes de que llegue el Notary Public no se puede jurar después, y la hoja tendría que firmarse de nuevo. La identidad se comprueba con una identificación oficial vigente con fotografía y firma — licencia de Texas, pasaporte estadounidense o mexicano, identificación militar o matrícula consular — o mediante un testigo creíble. El Código de Gobierno de Texas §406.024 limita la tarifa por juramento o afirmación con certificado y sello."
         },
         {
-          "en": "To book, text or call (915) 302-0902 with the type of affidavit, the number of signers and your location in El Paso; we confirm the total — $10 per oath plus the $39 travel fee — before we leave. We come to your home, office or hospital room, in English or Spanish, by appointment seven days a week. Bring your ID and the affidavit complete but unsigned; one affidavit takes about 15 minutes. What we cannot do is write the affidavit, fill in the facts or tell you what to say — a Texas notary is not an attorney. Courts, school districts, TxDMV and insurers publish their own affidavit forms; use the one the recipient gives you and bring us the finished document.",
-          "es": "Para agendar, envíe un texto o llame al (915) 302-0902 con el tipo de declaración, el número de firmantes y su ubicación en El Paso; le confirmamos el total — $10 por juramento más $39 de traslado — antes de salir. Vamos a su casa, oficina o cuarto de hospital, en inglés o español, con cita los siete días de la semana. Tenga a la mano su identificación y la declaración completa pero sin firmar; una declaración toma unos 15 minutos. Lo que no podemos hacer es redactar la declaración, llenar los hechos ni decirle qué declarar: un Notary Public de Texas no es abogado ni equivale a la figura legal de México. Las cortes, los distritos escolares, el TxDMV y las aseguradoras publican sus propios formatos; use el que le indique quien recibe el documento y tráiganoslo terminado."
+          "en": "To book, text or call (915) 302-0902 with the type of affidavit, the number of signers and your location in El Paso; we confirm the quoted total before we leave. We come to your home, office or hospital room, in English or Spanish, by appointment seven days a week. Bring your ID and the affidavit complete but unsigned; one affidavit takes about 15 minutes. What we cannot do is write the affidavit, fill in the facts or tell you what to say — a Texas notary is not an attorney. Courts, school districts, TxDMV and insurers publish their own affidavit forms; use the one the recipient gives you and bring us the finished document.",
+          "es": "Para agendar, envíe un texto o llame al (915) 302-0902 con el tipo de declaración, el número de firmantes y su ubicación en El Paso; le confirmamos el total cotizado antes de salir. Vamos a su casa, oficina o cuarto de hospital, en inglés o español, con cita los siete días de la semana. Tenga a la mano su identificación y la declaración completa pero sin firmar; una declaración toma unos 15 minutos. Lo que no podemos hacer es redactar la declaración, llenar los hechos ni decirle qué declarar: un Notary Public de Texas no es abogado ni equivale a la figura legal de México. Las cortes, los distritos escolares, el TxDMV y las aseguradoras publican sus propios formatos; use el que le indique quien recibe el documento y tráiganoslo terminado."
         }
       ],
       "sections": [
@@ -711,8 +711,8 @@
           "es": "Las instrucciones de quien recibe el documento (corte, distrito escolar, banco o aseguradora)"
         },
         {
-          "en": "Payment for the $10 oath fee and the $39 travel fee, confirmed when you book",
-          "es": "El pago de los $10 por juramento y los $39 de traslado, confirmado al agendar"
+          "en": "Payment for the quoted total, confirmed when you book",
+          "es": "El pago del total cotizado, confirmado al agendar"
         }
       ],
       "process": [
@@ -722,8 +722,8 @@
             "es": "Envíe un texto o llame para agendar"
           },
           "body": {
-            "en": "Text or call (915) 302-0902 with the kind of affidavit, how many people will swear to it and where in El Paso you are. We confirm $10 per oath plus the $39 travel fee and set a time, evenings and weekends included.",
-            "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de declaración, cuántas personas la van a jurar y en qué parte de El Paso está. Confirmamos $10 por juramento más $39 de traslado y fijamos la hora, incluso tardes y fines de semana."
+            "en": "Text or call (915) 302-0902 with the kind of affidavit, how many people will swear to it and where in El Paso you are. We confirm the quote and set a time, evenings and weekends included.",
+            "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de declaración, cuántas personas la van a jurar y en qué parte de El Paso está. Confirmamos la cotización y fijamos la hora, incluso tardes y fines de semana."
           }
         },
         {
@@ -764,8 +764,8 @@
             "es": "¿Cuánto cuesta notarizar una declaración jurada (affidavit) en El Paso?"
           },
           "a": {
-            "en": "Texas caps the fee for an oath or affirmation with certificate and seal at $10 (Tex. Gov't Code §406.024). QWIK adds a nominal $39 travel fee anywhere in El Paso, itemized separately, so one affidavit sworn at your kitchen table comes to $49; two people swearing to separate affidavits at the same visit pay $20 plus one travel fee. After-hours and out-of-area appointments are quoted first — call or text (915) 302-0902.",
-            "es": "Texas fija en $10 la tarifa por juramento o afirmación con certificado y sello (Código de Gobierno §406.024). QWIK agrega un traslado de $39 en cualquier punto de El Paso, detallado por separado, así que una declaración jurada en la mesa de su cocina sale en $49; dos personas que juran declaraciones distintas en la misma visita pagan $20 más un solo traslado. Las citas fuera de horario o fuera del área se cotizan primero; llame o envíe un texto al (915) 302-0902."
+            "en": "Prices vary by the number of oaths and your location; Texas caps the fee for each oath or affirmation with certificate and seal (Tex. Gov't Code §406.024). QWIK itemizes travel anywhere in El Paso separately; two people swearing to separate affidavits at the same visit share one trip. After-hours and out-of-area appointments are quoted first — call or text (915) 302-0902.",
+            "es": "Los precios varían según el número de juramentos y su ubicación; Texas limita la tarifa por juramento o afirmación con certificado y sello (Código de Gobierno §406.024). QWIK detalla por separado el traslado en cualquier punto de El Paso; dos personas que juran declaraciones distintas en la misma visita comparten un solo traslado. Las citas fuera de horario o fuera del área se cotizan primero; llame o envíe un texto al (915) 302-0902."
           }
         },
         {
@@ -842,8 +842,8 @@
         "es": "Copias Certificadas en El Paso, TX | QWIK Notary Public Móvil"
       },
       "metaDescription": {
-        "en": "Certified copies of passports, IDs, diplomas and contracts — El Paso mobile notary, $10 + $1 per page, we come to you. Call or text (915) 302-0902.",
-        "es": "Copias certificadas de pasaportes, diplomas y contratos en El Paso: $10 más $1 por página, a domicilio y en español. Llame o envíe un texto al (915) 302-0902."
+        "en": "Certified copies of passports, IDs, diplomas and contracts — El Paso mobile notary, we come to you. Call or text (915) 302-0902 for a quote.",
+        "es": "Copias certificadas de pasaportes, diplomas y contratos en El Paso: a domicilio y en español, cotización por texto. Llame o envíe un texto al (915) 302-0902."
       },
       "eyebrow": {
         "en": "EL PASO MOBILE NOTARY · CERTIFIED COPIES",
@@ -858,8 +858,8 @@
         "es": "Un Notary Public de Texas puede certificar la copia de un documento que no sea registrable ni un acta de registro civil: pasaporte, licencia, diploma, carta o contrato. Copiamos el original frente a usted, comparamos ambos y anexamos el certificado, en cualquier punto de El Paso."
       },
       "feeModel": {
-        "en": "$10 per certified copy + $1 per page copied, plus $39 travel fee",
-        "es": "$10 por copia certificada + $1 por página copiada, más $39 de traslado"
+        "en": "Prices vary by page count — call or text for a quote",
+        "es": "Los precios varían según el número de páginas — llame o envíe un texto para cotizar"
       },
       "timeline": {
         "en": "Same day by appointment · evenings & weekends available",
@@ -871,12 +871,12 @@
           "es": "Una copia certificada es una fotocopia que un Notary Public de Texas comparó con el original y certificó como copia fiel y completa. En El Paso se piden con frecuencia: un egresado de UTEP que envía copia de su diploma a un empleador en el extranjero, un soldado de Fort Bliss que quiere una copia certificada de su pasaporte antes de un despliegue, una familia que necesita copia de un contrato de renta firmado para una disputa, o un negocio de la avenida Montana que certifica copias de sus propios registros para una licitación. El certificado le dice a quien lo recibe que la copia reproduce fielmente el documento que se le mostró al Notary Public en esa fecha; nada más y nada menos."
         },
         {
-          "en": "Under Tex. Gov't Code §406.016 and Texas Secretary of State guidance, a notary may certify a copy only of a document that is not recordable in the public records and is not a vital record. Birth, death and marriage certificates, divorce decrees, deeds and court documents are out: those certified copies come only from the agency that holds the record — the El Paso County Clerk for deeds and marriage licenses, Texas DSHS Vital Statistics for birth and death records. A passport, driver license, diploma, transcript, letter, contract or business record qualifies. The notary makes or supervises the copy, compares it with the original and attaches a certificate; the statutory fee is $10 plus $1 per page copied.",
-          "es": "Según el Código de Gobierno de Texas §406.016 y las guías de la Secretaría de Estado, un Notary Public solo puede certificar la copia de un documento que no sea registrable en los registros públicos ni un acta de registro civil. Quedan fuera las actas de nacimiento, defunción y matrimonio, las sentencias de divorcio, las escrituras y los documentos judiciales: esas copias certificadas solo las emite la oficina que guarda el registro — el County Clerk del condado de El Paso para escrituras y licencias de matrimonio, Texas DSHS Vital Statistics para actas de nacimiento y defunción. Pasaporte, licencia de conducir, diploma, certificado de estudios, carta, contrato o registro de negocio sí califican. El Notary Public hace o supervisa la copia, la compara con el original y anexa el certificado; la tarifa legal es de $10 más $1 por página copiada."
+          "en": "Under Tex. Gov't Code §406.016 and Texas Secretary of State guidance, a notary may certify a copy only of a document that is not recordable in the public records and is not a vital record. Birth, death and marriage certificates, divorce decrees, deeds and court documents are out: those certified copies come only from the agency that holds the record — the El Paso County Clerk for deeds and marriage licenses, Texas DSHS Vital Statistics for birth and death records. A passport, driver license, diploma, transcript, letter, contract or business record qualifies. The notary makes or supervises the copy, compares it with the original and attaches a certificate; the fee, capped by Texas statute, depends on the page count.",
+          "es": "Según el Código de Gobierno de Texas §406.016 y las guías de la Secretaría de Estado, un Notary Public solo puede certificar la copia de un documento que no sea registrable en los registros públicos ni un acta de registro civil. Quedan fuera las actas de nacimiento, defunción y matrimonio, las sentencias de divorcio, las escrituras y los documentos judiciales: esas copias certificadas solo las emite la oficina que guarda el registro — el County Clerk del condado de El Paso para escrituras y licencias de matrimonio, Texas DSHS Vital Statistics para actas de nacimiento y defunción. Pasaporte, licencia de conducir, diploma, certificado de estudios, carta, contrato o registro de negocio sí califican. El Notary Public hace o supervisa la copia, la compara con el original y anexa el certificado; la tarifa, con tope en la ley de Texas, depende del número de páginas."
         },
         {
-          "en": "Text or call (915) 302-0902 with the document and page count; we confirm the total — $10 per certified copy, $1 per page and the $39 travel fee — before we head out. We come to your home, office, campus or hospital anywhere in El Paso, in English or Spanish, by appointment seven days a week, and a single document takes about 15 minutes. Bring the original — a photocopy of a photocopy cannot be certified. We cannot certify a vital record or a recorded deed however urgent the need, and only the recipient can say whether a notarized copy will be accepted — ask them first. If the copy is headed abroad, ask us about the apostille.",
-          "es": "Envíe un texto o llame al (915) 302-0902 con el documento y el número de páginas; le confirmamos el total — $10 por copia certificada, $1 por página y $39 de traslado — antes de salir. Vamos a su casa, oficina, escuela u hospital en cualquier punto de El Paso, en inglés o español, con cita los siete días de la semana; un solo documento toma unos 15 minutos. Traiga el original: la fotocopia de una fotocopia no se puede certificar. No podemos certificar un acta de registro civil ni una escritura registrada por más urgente que sea, y solo quien recibe la copia puede decir si aceptará una copia notarizada; pregúntele primero. Si la copia va al extranjero, pregúntenos por la apostilla."
+          "en": "Text or call (915) 302-0902 with the document and page count; we confirm the quoted total before we head out. We come to your home, office, campus or hospital anywhere in El Paso, in English or Spanish, by appointment seven days a week, and a single document takes about 15 minutes. Bring the original — a photocopy of a photocopy cannot be certified. We cannot certify a vital record or a recorded deed however urgent the need, and only the recipient can say whether a notarized copy will be accepted — ask them first. If the copy is headed abroad, ask us about the apostille.",
+          "es": "Envíe un texto o llame al (915) 302-0902 con el documento y el número de páginas; le confirmamos el total cotizado antes de salir. Vamos a su casa, oficina, escuela u hospital en cualquier punto de El Paso, en inglés o español, con cita los siete días de la semana; un solo documento toma unos 15 minutos. Traiga el original: la fotocopia de una fotocopia no se puede certificar. No podemos certificar un acta de registro civil ni una escritura registrada por más urgente que sea, y solo quien recibe la copia puede decir si aceptará una copia notarizada; pregúntele primero. Si la copia va al extranjero, pregúntenos por la apostilla."
         }
       ],
       "sections": [
@@ -961,8 +961,8 @@
           "es": "Si el documento va al extranjero, el país de destino, para explicarle el trámite de apostilla"
         },
         {
-          "en": "Payment for $10 per certified copy, $1 per page and the $39 travel fee, confirmed when you book",
-          "es": "El pago de $10 por copia certificada, $1 por página y $39 de traslado, confirmado al agendar"
+          "en": "Payment for the quoted total, based on the page count, confirmed when you book",
+          "es": "El pago del total cotizado según el número de páginas, confirmado al agendar"
         }
       ],
       "process": [
@@ -972,8 +972,8 @@
             "es": "Envíe un texto o llame para agendar"
           },
           "body": {
-            "en": "Text or call (915) 302-0902 with the document type, the number of pages and how many certified copies you need. We confirm whether a Texas notary may certify it and the total — $10 per copy, $1 per page, plus the $39 travel fee.",
-            "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, el número de páginas y cuántas copias certificadas necesita. Le confirmamos si un Notary Public de Texas puede certificarlo y el total: $10 por copia, $1 por página, más $39 de traslado."
+            "en": "Text or call (915) 302-0902 with the document type, the number of pages and how many certified copies you need. We confirm whether a Texas notary may certify it and quote the total based on the page count.",
+            "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, el número de páginas y cuántas copias certificadas necesita. Le confirmamos si un Notary Public de Texas puede certificarlo y cotizamos el total según el número de páginas."
           }
         },
         {
@@ -1014,8 +1014,8 @@
             "es": "¿Cuánto cuesta una copia certificada con un Notary Public en El Paso?"
           },
           "a": {
-            "en": "The Texas statutory fee is $10 for the certificate plus $1 for each page copied (Tex. Gov't Code §406.024), and QWIK adds a nominal $39 travel fee anywhere in El Paso, itemized separately. A certified copy of a one-page passport data page therefore comes to $50; a five-page contract comes to $54. Each additional certified copy of the same document is another $10 plus its pages. After-hours and out-of-area appointments are quoted first — call or text (915) 302-0902.",
-            "es": "La tarifa legal de Texas es de $10 por el certificado más $1 por cada página copiada (Código de Gobierno §406.024), y QWIK agrega un traslado de $39 en cualquier punto de El Paso, detallado por separado. La copia certificada de la hoja de datos de un pasaporte sale entonces en $50; un contrato de cinco páginas, en $54. Cada copia certificada adicional del mismo documento cuesta otros $10 más sus páginas. Fuera de horario o fuera del área se cotiza primero; llame o envíe un texto al (915) 302-0902."
+            "en": "Prices vary by the number of pages and copies and by your location; the notarial fee is capped by Texas statute (Tex. Gov't Code §406.024) and travel anywhere in El Paso is itemized separately. Each additional certified copy of the same document is priced separately. After-hours and out-of-area appointments are quoted first — call or text (915) 302-0902.",
+            "es": "Los precios varían según el número de páginas y copias y según su ubicación; la tarifa de notarización tiene tope en la ley de Texas (Código de Gobierno §406.024) y el traslado en cualquier punto de El Paso se detalla por separado. Cada copia certificada adicional del mismo documento se cotiza por separado. Fuera de horario o fuera del área se cotiza primero; llame o envíe un texto al (915) 302-0902."
           }
         },
         {
@@ -1034,8 +1034,8 @@
             "es": "¿Puede un Notary Public certificar la copia de mi diploma o certificado de estudios para apostillarla?"
           },
           "a": {
-            "en": "Yes — a common request from El Paso graduates headed to Mexico or overseas. A diploma is not a recordable document, so the notary certifies a copy of the original, and the Texas Secretary of State then apostilles the notarized certificate for $15. Transcripts should be the official, school-issued version; some universities prefer a notarized registrar statement instead, so ask the school and the receiving institution which path they accept. We handle the notarization and the Secretary of State step.",
-            "es": "Sí; es una solicitud común de egresados de El Paso que van a México o al extranjero. El diploma no es un documento registrable, así que el Notary Public certifica una copia del original y después la Secretaría de Estado de Texas apostilla el certificado notarizado por $15. El certificado de estudios debe ser la versión oficial emitida por la escuela; algunas universidades prefieren una constancia notarizada del registrador, así que pregunte a la escuela y a la institución que lo recibe qué vía aceptan. Nosotros hacemos la notarización y el trámite ante la Secretaría de Estado."
+            "en": "Yes — a common request from El Paso graduates headed to Mexico or overseas. A diploma is not a recordable document, so the notary certifies a copy of the original, and the Texas Secretary of State then apostilles the notarized certificate for its per-document fee. Transcripts should be the official, school-issued version; some universities prefer a notarized registrar statement instead, so ask the school and the receiving institution which path they accept. We handle the notarization and the Secretary of State step.",
+            "es": "Sí; es una solicitud común de egresados de El Paso que van a México o al extranjero. El diploma no es un documento registrable, así que el Notary Public certifica una copia del original y después la Secretaría de Estado de Texas apostilla el certificado notarizado por su cuota por documento. El certificado de estudios debe ser la versión oficial emitida por la escuela; algunas universidades prefieren una constancia notarizada del registrador, así que pregunte a la escuela y a la institución que lo recibe qué vía aceptan. Nosotros hacemos la notarización y el trámite ante la Secretaría de Estado."
           }
         },
         {
@@ -1108,8 +1108,8 @@
         "es": "Cuando un paciente no puede salir del hospital, nuestro Notary Public bilingüe va hasta la habitación — UMC, Providence, Las Palmas, Del Sol, asilos, centros de rehabilitación y hospicios en todo El Paso — para notarizar un poder médico, una directiva, una carta poder o un testamento."
       },
       "feeModel": {
-        "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-        "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+        "en": "Prices vary — call or text for a quote",
+        "es": "Los precios varían — llame o envíe un texto para cotizar"
       },
       "timeline": {
         "en": "Same day by appointment · evenings & weekends available",
@@ -1125,8 +1125,8 @@
           "es": "La ley de Texas define lo que puede pasar junto a la cama. Un poder médico y una directiva al médico (Texas Health and Safety Code, capítulo 166) pueden firmarse ante dos testigos calificados o ante un Notary Public; una carta poder duradera estatutaria (Texas Estates Code, capítulo 752) debe reconocerse ante un Notary Public; y un testamento sigue necesitando dos testigos creíbles de 14 años o más, siendo la función del Notary Public la declaración jurada de autoprueba (self-proving affidavit) del artículo 251.104. Lo que no se puede doblar es el firmante. El paciente debe estar despierto, saber qué documento es y querer firmarlo. Si la medicina o la enfermedad le quitaron eso, no podemos notarizar, y un familiar no puede firmar por el paciente a menos que ya exista una carta poder válida."
         },
         {
-          "en": "Booking is easy: text or call (915) 302-0902 with the facility, the room number and the document you have, and we confirm the fee up front — the statutory $10 per notarization plus the $39 El Paso travel fee, itemized separately. Ask the nurses' station about visiting hours and whether the charge nurse wants to know a notary is coming; at William Beaumont and some locked units the family must arrange access. Bring the patient's unexpired photo ID; if it was left at home, a credible witness who knows the patient and has no stake in the document can identify them. Signing usually takes about 15 minutes. We cannot give legal advice, choose forms or fill anything in — bring the completed document, and use the free Texas HHS advance directive forms if you need one.",
-          "es": "Reservar es fácil: envíe un texto o llame al (915) 302-0902 con el hospital, el número de cuarto y el documento que tiene, y le confirmamos la tarifa desde el principio: los $10 por notarización que fija la ley más los $39 de traslado en El Paso, detallados por separado. Pregunte en la estación de enfermería por el horario de visitas y si la enfermera encargada quiere saber que viene un Notary Public; en William Beaumont y en algunas unidades cerradas la familia debe gestionar el acceso. Traiga la identificación con foto vigente del paciente; si se quedó en casa, un testigo creíble que conozca al paciente y no tenga interés en el documento puede identificarlo. La firma toma unos 15 minutos. No damos asesoría legal ni escogemos ni llenamos formularios: traiga el documento completo y use los formularios gratuitos de directivas anticipadas de Texas HHS si necesita uno."
+          "en": "Booking is easy: text or call (915) 302-0902 with the facility, the room number and the document you have, and we confirm the quote up front, with the notarial fee and El Paso travel itemized separately. Ask the nurses' station about visiting hours and whether the charge nurse wants to know a notary is coming; at William Beaumont and some locked units the family must arrange access. Bring the patient's unexpired photo ID; if it was left at home, a credible witness who knows the patient and has no stake in the document can identify them. Signing usually takes about 15 minutes. We cannot give legal advice, choose forms or fill anything in — bring the completed document, and use the free Texas HHS advance directive forms if you need one.",
+          "es": "Reservar es fácil: envíe un texto o llame al (915) 302-0902 con el hospital, el número de cuarto y el documento que tiene, y le confirmamos la cotización desde el principio, con la tarifa de notarización y el traslado en El Paso detallados por separado. Pregunte en la estación de enfermería por el horario de visitas y si la enfermera encargada quiere saber que viene un Notary Public; en William Beaumont y en algunas unidades cerradas la familia debe gestionar el acceso. Traiga la identificación con foto vigente del paciente; si se quedó en casa, un testigo creíble que conozca al paciente y no tenga interés en el documento puede identificarlo. La firma toma unos 15 minutos. No damos asesoría legal ni escogemos ni llenamos formularios: traiga el documento completo y use los formularios gratuitos de directivas anticipadas de Texas HHS si necesita uno."
         }
       ],
       "sections": [
@@ -1215,8 +1215,8 @@
           "es": "El número de cuarto, el horario de visitas y las instrucciones de acceso de la estación de enfermería o del centro"
         },
         {
-          "en": "Payment for the statutory fee plus the $39 travel fee — we confirm the total by text before we come",
-          "es": "El pago de la tarifa que fija la ley más los $39 de traslado — le confirmamos el total por texto antes de ir"
+          "en": "Payment for the quoted total — we confirm it by text before we come",
+          "es": "El pago del total cotizado — se lo confirmamos por texto antes de ir"
         }
       ],
       "process": [
@@ -1298,8 +1298,8 @@
             "es": "¿Cuánto cuesta un Notary Public en el hospital en El Paso?"
           },
           "a": {
-            "en": "The notarial fees are set by Texas law: $10 for the first signature acknowledged and $1 for each additional signature on the same document, $10 for each oath or jurat, and $10 for any other notarial act. On top of that we charge a nominal $39 travel fee anywhere in the El Paso area, listed separately on your receipt. Late-night and holiday visits are quoted in advance. Text or call (915) 302-0902 with your documents and we confirm the total before we leave.",
-            "es": "Las tarifas de notarización las fija la ley de Texas: $10 por la primera firma reconocida y $1 por cada firma adicional en el mismo documento, $10 por cada juramento (jurat) y $10 por cualquier otro acto de notarización. Además cobramos un traslado nominal de $39 en toda el área de El Paso, detallado por separado en su recibo. Las visitas de madrugada y en días festivos se cotizan por adelantado. Envíe un texto o llame al (915) 302-0902 con sus documentos y le confirmamos el total antes de salir."
+            "en": "Prices vary by the number of documents, signatures and oaths; the notarial fees are capped by Texas law. Travel anywhere in the El Paso area is listed separately on your receipt. Late-night and holiday visits are quoted in advance. Text or call (915) 302-0902 with your documents and we confirm the total before we leave.",
+            "es": "Los precios varían según el número de documentos, firmas y juramentos; las tarifas de notarización tienen tope en la ley de Texas. El traslado en toda el área de El Paso se detalla por separado en su recibo. Las visitas de madrugada y en días festivos se cotizan por adelantado. Envíe un texto o llame al (915) 302-0902 con sus documentos y le confirmamos el total antes de salir."
           }
         }
       ],
@@ -1362,8 +1362,8 @@
         "es": "Cuando un familiar está detenido en el Centro de Detención del Condado de El Paso, en el centro, o en el Anexo de la cárcel sobre la avenida Montana, nuestro Notary Public bilingüe entra — siguiendo las reglas del centro — para que se firme y se notarice una carta poder, un VTR-271, una declaración jurada o un formulario de consentimiento."
       },
       "feeModel": {
-        "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-        "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+        "en": "Prices vary — call or text for a quote",
+        "es": "Los precios varían — llame o envíe un texto para cotizar"
       },
       "timeline": {
         "en": "Same day by appointment · evenings & weekends available",
@@ -1379,8 +1379,8 @@
           "es": "La ley no cambia porque la persona esté detenida; hay dos cosas que siempre se confirman. Primero, la identidad: Texas exige una identificación oficial vigente con fotografía, que el Notary Public conozca personalmente al firmante, o un testigo creíble que lo conozca, no tenga interés en el documento y muestre su propia identificación. El registro de ingreso (booking) y el brazalete nos ayudan a confirmar quién está frente a nosotros, pero no sustituyen esa identificación, que muchas veces está guardada con las pertenencias del interno. Segundo, la voluntad y la conciencia: el firmante debe entender el documento y querer firmarlo. Una carta poder duradera estatutaria (Texas Estates Code, capítulo 752) se reconoce; una declaración jurada se jura y se firma frente al Notary Public."
         },
         {
-          "en": "Booking and payment usually fall to the family. Text or call (915) 302-0902 with the facility, the inmate's name and the document; we confirm the fee, the statutory $10 per signature or oath plus the $39 El Paso travel fee, and check the facility's hours and procedure for notary visits, since each one decides where the signing happens, how paper reaches the inmate and what we may bring in. The document must arrive complete, unsigned if it needs an oath; the signing takes about 15 minutes, plus screening time. We cannot choose or fill out forms or advise on the case or the bond. Texas prints the statutory durable power of attorney form in Estates Code §752.051; TxDMV publishes the VTR-271.",
-          "es": "Reservar y pagar normalmente le toca a la familia. Envíe un texto o llame al (915) 302-0902 con el centro, el nombre del interno y el documento; le confirmamos la tarifa — los $10 por firma o juramento que fija la ley más los $39 de traslado en El Paso — y verificamos el horario y el procedimiento del centro para visitas de notarización, porque cada uno decide dónde se firma, cómo llega el papel al interno y qué podemos entrar. El documento debe llegar completo, sin firmar si requiere juramento; la firma toma unos 15 minutos, más el tiempo de revisión de seguridad. No escogemos ni llenamos formularios, ni damos asesoría sobre el caso o la fianza. Texas publica el formato de carta poder duradera en el Estates Code §752.051; el VTR-271 lo publica el TxDMV."
+          "en": "Booking and payment usually fall to the family. Text or call (915) 302-0902 with the facility, the inmate's name and the document; we confirm the quote and check the facility's hours and procedure for notary visits, since each one decides where the signing happens, how paper reaches the inmate and what we may bring in. The document must arrive complete, unsigned if it needs an oath; the signing takes about 15 minutes, plus screening time. We cannot choose or fill out forms or advise on the case or the bond. Texas prints the statutory durable power of attorney form in Estates Code §752.051; TxDMV publishes the VTR-271.",
+          "es": "Reservar y pagar normalmente le toca a la familia. Envíe un texto o llame al (915) 302-0902 con el centro, el nombre del interno y el documento; le confirmamos la cotización y verificamos el horario y el procedimiento del centro para visitas de notarización, porque cada uno decide dónde se firma, cómo llega el papel al interno y qué podemos entrar. El documento debe llegar completo, sin firmar si requiere juramento; la firma toma unos 15 minutos, más el tiempo de revisión de seguridad. No escogemos ni llenamos formularios, ni damos asesoría sobre el caso o la fianza. Texas publica el formato de carta poder duradera en el Estates Code §752.051; el VTR-271 lo publica el TxDMV."
         }
       ],
       "sections": [
@@ -1485,8 +1485,8 @@
           "es": "Su propia identificación vigente si usted también firma — la firma del cuidador en un acuerdo de autorización puede notarizarse en el mismo viaje, fuera del centro"
         },
         {
-          "en": "Payment for the statutory fee plus the $39 travel fee — the family usually pays, and we confirm the total by text before the visit",
-          "es": "El pago de la tarifa que fija la ley más los $39 de traslado — normalmente paga la familia, y confirmamos el total por texto antes de la visita"
+          "en": "Payment for the quoted total — the family usually pays, and we confirm it by text before the visit",
+          "es": "El pago del total cotizado — normalmente paga la familia, y lo confirmamos por texto antes de la visita"
         }
       ],
       "process": [
@@ -1558,8 +1558,8 @@
             "es": "¿Cuánto cuesta un Notary Public en la cárcel en El Paso?"
           },
           "a": {
-            "en": "The notarial fees are set by Texas law — $10 for the first signature acknowledged and $1 for each additional signature on the same document, or $10 per oath — plus our nominal $39 travel fee in El Paso County, itemized separately. A single power of attorney signed at the Downtown Detention Facility or the Jail Annex is $10 plus travel. The family usually pays; we confirm the total by text before the visit, and after-hours visits are quoted.",
-            "es": "Las tarifas de notarización las fija la ley de Texas — $10 por la primera firma reconocida y $1 por cada firma adicional en el mismo documento, o $10 por juramento — más nuestro traslado nominal de $39 en el condado de El Paso, detallado por separado. Una sola carta poder firmada en el Centro de Detención del centro o en el Anexo cuesta $10 más el traslado. Normalmente paga la familia; confirmamos el total por texto antes de la visita, y las visitas fuera de horario se cotizan."
+            "en": "Prices vary by the number of documents and signatures and by the facility; the notarial fee is capped by Texas law and travel in El Paso County is itemized separately. A single power of attorney signed at the Downtown Detention Facility or the Jail Annex is quoted before we go — call or text (915) 302-0902. The family usually pays; we confirm the total by text before the visit, and after-hours visits are quoted.",
+            "es": "Los precios varían según el número de documentos y firmas y según el centro; la tarifa de notarización tiene tope en la ley de Texas y el traslado en el condado de El Paso se detalla por separado. Una sola carta poder firmada en el Centro de Detención del centro o en el Anexo se cotiza antes de ir — llame o envíe un texto al (915) 302-0902. Normalmente paga la familia; confirmamos el total por texto antes de la visita, y las visitas fuera de horario se cotizan."
           }
         },
         {
@@ -1632,8 +1632,8 @@
         "es": "Nuestra comisión de Notary Public en línea de Texas nos permite notarizar su documento en una sesión segura de video en dos sentidos — sin cargo de traslado, tardes y fines de semana, en español o inglés — esté en El Paso, en una misión militar o en otro estado."
       },
       "feeModel": {
-        "en": "$25 per online notarization (Texas maximum), no travel fee",
-        "es": "$25 por notarización en línea (máximo en Texas), sin traslado"
+        "en": "Online notarization, no travel fee — call or text for a quote",
+        "es": "Notarización en línea, sin traslado — llame o envíe un texto para cotizar"
       },
       "timeline": {
         "en": "Same day by appointment · evenings & weekends available",
@@ -1649,8 +1649,8 @@
           "es": "Texas autorizó la notarización en línea en 2018 bajo el Capítulo 406, Subcapítulo C, del Código de Gobierno de Texas. Solo puede realizarla un Notary Public que tenga una comisión en línea separada, emitida por la Secretaría de Estado de Texas, y únicamente a través de una plataforma aprobada. La identidad del firmante se confirma de dos formas: análisis de la credencial con fotografía y preguntas de verificación basadas en registros públicos, o el conocimiento personal que el Notary Public tenga del firmante. La sesión se graba, y la grabación y la entrada del registro electrónico se conservan por lo menos cinco años. El Notary Public debe estar físicamente en Texas durante la sesión; el firmante puede estar en cualquier parte del mundo. El documento terminado lleva un certificado electrónico que indica que la notarización se realizó en línea."
         },
         {
-          "en": "To book, text or call (915) 302-0902 and tell us what document you have and where the signer is. We confirm the $25 fee per notarization — there is no travel fee for an online session — and send a secure link. You will need a computer, tablet or phone with a camera, a current photo ID, and the document as a PDF; we can also walk you through uploading it. Before the session we ask one practical question: will the recipient accept an electronically notarized document? Most Texas title companies, banks and agencies do, but a few still require wet ink, and we would rather tell you that up front and send a mobile notary to your door in El Paso instead. We cannot give legal advice or choose a form for you.",
-          "es": "Para agendar, envíe un texto o llame al (915) 302-0902 y díganos qué documento tiene y dónde está el firmante. Confirmamos la tarifa de $25 por notarización — no hay cargo de traslado en una sesión en línea — y le enviamos un enlace seguro. Necesitará una computadora, tableta o teléfono con cámara, una identificación vigente con fotografía y el documento en PDF; también le ayudamos a subirlo. Antes de la sesión hacemos una pregunta práctica: ¿la institución que recibirá el documento acepta una notarización electrónica? La mayoría de las compañías de título, bancos y agencias de Texas la aceptan, pero algunas todavía exigen tinta y papel, y preferimos decírselo desde el principio y enviar un Notary Public móvil a su puerta en El Paso. No podemos dar asesoría legal ni elegir un formulario por usted."
+          "en": "To book, text or call (915) 302-0902 and tell us what document you have and where the signer is. We confirm the quote — there is no travel fee for an online session — and send a secure link. You will need a computer, tablet or phone with a camera, a current photo ID, and the document as a PDF; we can also walk you through uploading it. Before the session we ask one practical question: will the recipient accept an electronically notarized document? Most Texas title companies, banks and agencies do, but a few still require wet ink, and we would rather tell you that up front and send a mobile notary to your door in El Paso instead. We cannot give legal advice or choose a form for you.",
+          "es": "Para agendar, envíe un texto o llame al (915) 302-0902 y díganos qué documento tiene y dónde está el firmante. Confirmamos la cotización — no hay cargo de traslado en una sesión en línea — y le enviamos un enlace seguro. Necesitará una computadora, tableta o teléfono con cámara, una identificación vigente con fotografía y el documento en PDF; también le ayudamos a subirlo. Antes de la sesión hacemos una pregunta práctica: ¿la institución que recibirá el documento acepta una notarización electrónica? La mayoría de las compañías de título, bancos y agencias de Texas la aceptan, pero algunas todavía exigen tinta y papel, y preferimos decírselo desde el principio y enviar un Notary Public móvil a su puerta en El Paso. No podemos dar asesoría legal ni elegir un formulario por usted."
         }
       ],
       "sections": [
@@ -1746,8 +1746,8 @@
             "es": "Envíe un texto o llame para agendar"
           },
           "body": {
-            "en": "Tell us what the document is and where the signer is. We confirm the $25 fee, check that the recipient accepts online notarization, and email a secure session link with a time that works — including evenings.",
-            "es": "Díganos qué documento es y dónde está el firmante. Confirmamos la tarifa de $25, verificamos que la institución acepte la notarización en línea y le enviamos por correo un enlace seguro con un horario conveniente — incluso de noche."
+            "en": "Tell us what the document is and where the signer is. We confirm the quote, check that the recipient accepts online notarization, and email a secure session link with a time that works — including evenings.",
+            "es": "Díganos qué documento es y dónde está el firmante. Confirmamos la cotización, verificamos que la institución acepte la notarización en línea y le enviamos por correo un enlace seguro con un horario conveniente — incluso de noche."
           }
         },
         {
@@ -1798,8 +1798,8 @@
             "es": "¿Cuánto cuesta una notarización en línea?"
           },
           "a": {
-            "en": "Texas caps the fee for an online notarization at $25 per notarial act, and that is what we charge. Because nobody drives anywhere, there is no travel fee. If your document has several signatures or several certificates, we quote the total before the session so there are no surprises. Payment is taken online before the session begins.",
-            "es": "Texas limita la tarifa de una notarización en línea a $25 por acto notarial, y eso es lo que cobramos. Como nadie tiene que trasladarse, no hay cargo de traslado. Si su documento tiene varias firmas o varios certificados, cotizamos el total antes de la sesión para que no haya sorpresas. El pago se hace en línea antes de comenzar."
+            "en": "Prices vary by the number of notarial acts in the session; Texas caps the fee for each online notarization by statute, and we quote the total before the session. Because nobody drives anywhere, there is no travel fee. If your document has several signatures or several certificates, we quote the total before the session so there are no surprises. Payment is taken online before the session begins.",
+            "es": "Los precios varían según el número de actos notariales en la sesión; la ley de Texas limita la tarifa de cada notarización en línea, y cotizamos el total antes de la sesión. Como nadie tiene que trasladarse, no hay cargo de traslado. Si su documento tiene varias firmas o varios certificados, cotizamos el total antes de la sesión para que no haya sorpresas. El pago se hace en línea antes de comenzar."
           }
         },
         {
@@ -1808,8 +1808,8 @@
             "es": "¿Qué pasa si no paso las preguntas de identidad?"
           },
           "a": {
-            "en": "It happens, especially to people who moved recently or have little credit history. Texas lets you try again, allows the notary to rely on personal knowledge of the signer where that exists, and we can always convert the appointment to an in-person visit anywhere in El Paso for the statutory fee plus the $39 travel fee. Nothing is charged for a session that cannot be completed.",
-            "es": "Sucede, sobre todo a personas que se mudaron recientemente o tienen poco historial de crédito. Texas permite intentarlo de nuevo, permite que el Notary Public se base en su conocimiento personal del firmante cuando exista, y siempre podemos convertir la cita en una visita en persona en cualquier parte de El Paso por la tarifa legal más $39 de traslado. No se cobra nada por una sesión que no se pueda completar."
+            "en": "It happens, especially to people who moved recently or have little credit history. Texas lets you try again, allows the notary to rely on personal knowledge of the signer where that exists, and we can always convert the appointment to an in-person visit anywhere in El Paso, quoted with travel. Nothing is charged for a session that cannot be completed.",
+            "es": "Sucede, sobre todo a personas que se mudaron recientemente o tienen poco historial de crédito. Texas permite intentarlo de nuevo, permite que el Notary Public se base en su conocimiento personal del firmante cuando exista, y siempre podemos convertir la cita en una visita en persona en cualquier parte de El Paso, cotizada con el traslado. No se cobra nada por una sesión que no se pueda completar."
           }
         },
         {

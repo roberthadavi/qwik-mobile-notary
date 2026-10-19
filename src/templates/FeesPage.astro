@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Faq from '../components/Faq.astro';
 import CtaBand from '../components/CtaBand.astro';
 import type { Lang } from '../data/catalog';
-import { SITE, PATHS, FEES, t } from '../data/site';
+import { SITE, PATHS, PRICING, t } from '../data/site';
 import { FEES_PAGE } from '../data/pages';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -34,14 +34,13 @@ const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity
         <h2>{t('statutoryFees', lang)}</h2>
         <div class="tablewrap">
           <table class="fee-table">
-            <thead><tr><th>{lang === 'en' ? 'Notarial act' : 'Acto notarial'}</th><th>{lang === 'en' ? 'Texas maximum · our fee' : 'Máximo en Texas · nuestra tarifa'}</th></tr></thead>
+            <thead><tr><th>{lang === 'en' ? 'What we do' : 'Qué hacemos'}</th><th>{lang === 'en' ? 'How it is priced' : 'Cómo se cotiza'}</th></tr></thead>
             <tbody>
-              {FEES.map((f) => <tr><td>{f.act[lang]}</td><td class="num">{f.fee}</td></tr>)}
-              <tr class="travel"><td>{t('travelFee', lang)} — {lang === 'en' ? 'per visit, anywhere in El Paso, itemized separately' : 'por visita, en cualquier parte de El Paso, detallado por separado'}</td><td class="num">${SITE.travelFee}</td></tr>
+              {PRICING.map((r) => <tr><td>{r.item[lang]}</td><td>{r.basis[lang]}</td></tr>)}
             </tbody>
           </table>
         </div>
-        <p class="fine">{lang === 'en' ? 'Source: Texas Government Code §406.024 (notarial fees) and §406.111 (online notarization), current schedule effective September 1, 2023.' : 'Fuente: Código de Gobierno de Texas §406.024 (tarifas notariales) y §406.111 (notarización en línea), tabla vigente desde el 1 de septiembre de 2023.'} <a href="https://statutes.capitol.texas.gov/Docs/GV/htm/GV.406.htm" target="_blank" rel="noopener">{lang === 'en' ? 'Read the statute' : 'Leer la ley'} ↗</a></p>
+        <p class="fine">{lang === 'en' ? 'Notarial fee maximums: Texas Government Code §406.024 (notarial acts) and §406.111 (online notarization). We never exceed them.' : 'Máximos de las tarifas notariales: Código de Gobierno de Texas §406.024 (actos notariales) y §406.111 (notarización en línea). Nunca los excedemos.'} <a href="https://statutes.capitol.texas.gov/Docs/GV/htm/GV.406.htm" target="_blank" rel="noopener">{lang === 'en' ? 'Read the statute' : 'Leer la ley'} ↗</a></p>
 
         <h2>{FEES_PAGE.quotedHeading[lang]}</h2>
         <div class="grid grid-2">

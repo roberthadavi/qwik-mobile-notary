@@ -20,8 +20,8 @@
     "es": "La notarización más solicitada en El Paso: cartas de consentimiento para menores que cruzan a Ciudad Juárez o viajan con uno solo de sus padres, y el formulario DS-3053 para el pasaporte de un menor — notarizadas en su casa, en español o inglés."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "La Oficina de Aduanas y Protección Fronteriza (CBP) recomienda que un menor de 18 años que no viaja con ambos padres lleve una carta del padre o madre ausente — o de ambos, cuando viaja con otra persona — y sugiere que la carta esté notarizada. Las aerolíneas, las líneas de cruceros y las autoridades mexicanas pueden pedir la misma carta, y si una dependencia del gobierno de México va a usarla, puede requerir además una apostilla. Con el DS-3053 la regla es firme: el padre o madre que no acude a la cita del pasaporte lo firma frente al Notary Public, adjunta una fotocopia de la identificación que mostró, y la oficina de pasaportes debe recibirlo dentro de los 90 días siguientes a la notarización. Nuestro Notary Public lo identifica con identificación oficial vigente con fotografía, lo ve firmar y llena el certificado de reconocimiento (acknowledgment) o de juramento (jurat) del documento."
     },
     {
-      "en": "Booking is simple. Text or call (915) 302-0902, tell us what you are signing and where you are — your home in Horizon City, your office downtown, a hospital room, a coffee shop near UTEP — and we confirm the fee: $10 for the first notarized signature and $1 for each additional signature on the same letter, plus a nominal $39 travel fee anywhere in El Paso County. Have the finished letter and your photo ID ready; the child does not need to be present, and both parents can sign at the same visit or at separate ones. The signing takes about 15 minutes. We cannot write the letter or tell you what it should say — we notarize the letter you bring. There is no official CBP form; the DS-3053 is downloaded free from travel.state.gov.",
-      "es": "Reservar es sencillo. Envíe un texto o llame al (915) 302-0902, díganos qué va a firmar y dónde está — su casa en Horizon City, su oficina en el centro, un cuarto de hospital, un café cerca de UTEP — y confirmamos la tarifa: $10 por la primera firma notarizada y $1 por cada firma adicional en la misma carta, más $39 de traslado en cualquier punto del Condado de El Paso. Tenga lista la carta terminada y su identificación; el menor no necesita estar presente, y ambos padres pueden firmar en la misma visita o en visitas separadas. La firma toma unos 15 minutos. No podemos redactar la carta ni decirle qué debe decir: notarizamos la carta que usted trae. No existe un formato oficial de CBP; el DS-3053 se descarga gratis en travel.state.gov."
+      "en": "Booking is simple. Text or call (915) 302-0902, tell us what you are signing and where you are — your home in Horizon City, your office downtown, a hospital room, a coffee shop near UTEP — and we confirm your quote up front; prices vary by the number of signatures and your location in El Paso County. Have the finished letter and your photo ID ready; the child does not need to be present, and both parents can sign at the same visit or at separate ones. The signing takes about 15 minutes. We cannot write the letter or tell you what it should say — we notarize the letter you bring. There is no official CBP form; the DS-3053 is downloaded free from travel.state.gov.",
+      "es": "Reservar es sencillo. Envíe un texto o llame al (915) 302-0902, díganos qué va a firmar y dónde está — su casa en Horizon City, su oficina en el centro, un cuarto de hospital, un café cerca de UTEP — y le confirmamos la cotización por adelantado; los precios varían según el número de firmas y su ubicación en el Condado de El Paso. Tenga lista la carta terminada y su identificación; el menor no necesita estar presente, y ambos padres pueden firmar en la misma visita o en visitas separadas. La firma toma unos 15 minutos. No podemos redactar la carta ni decirle qué debe decir: notarizamos la carta que usted trae. No existe un formato oficial de CBP; el DS-3053 se descarga gratis en travel.state.gov."
     }
   ],
   "sections": [
@@ -139,8 +139,8 @@
       "es": "Copia del acta de nacimiento o del pasaporte del menor para que viaje junto con la carta (no se necesita para la notarización en sí)"
     },
     {
-      "en": "Payment for the notarial fee and the $39 travel fee — ask about accepted methods when booking",
-      "es": "El pago de la cuota de notarización y los $39 de traslado; pregunte por las formas de pago al reservar"
+      "en": "Payment for the quoted total — ask about accepted methods when booking",
+      "es": "El pago del total cotizado; pregunte por las formas de pago al reservar"
     }
   ],
   "process": [
@@ -150,8 +150,8 @@
         "es": "Envíe un texto o llame para reservar"
       },
       "body": {
-        "en": "Text or call (915) 302-0902 with the type of letter, how many parents are signing, your address in El Paso County and when you need it — before an early bridge crossing or a flight out of El Paso International. We confirm the statutory fee and the $39 travel fee up front.",
-        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de carta, cuántos padres firman, su dirección en el Condado de El Paso y cuándo la necesita — antes de cruzar el puente temprano o de un vuelo desde el aeropuerto de El Paso. Confirmamos la cuota legal y los $39 de traslado desde el principio."
+        "en": "Text or call (915) 302-0902 with the type of letter, how many parents are signing, your address in El Paso County and when you need it — before an early bridge crossing or a flight out of El Paso International. We confirm your quote up front.",
+        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de carta, cuántos padres firman, su dirección en el Condado de El Paso y cuándo la necesita — antes de cruzar el puente temprano o de un vuelo desde el aeropuerto de El Paso. Confirmamos la cotización desde el principio."
       }
     },
     {
@@ -192,8 +192,8 @@
         "es": "¿Ambos padres tienen que firmar el permiso de viaje del menor en El Paso?"
       },
       "a": {
-        "en": "CBP's guidance describes a letter from the parent who is not traveling when the child travels with one parent, and a letter signed by both parents when the child travels with grandparents, other relatives, friends or a group. If both parents sign the same letter at one visit, the fee is $10 for the first signature and $1 for the second; a separate visit for the other parent is its own appointment. A parent with sole custody usually travels with a copy of the court order instead — ask your attorney what your decree requires.",
-        "es": "La guía de CBP describe una carta del padre o madre que no viaja cuando el menor va con uno solo de ellos, y una carta firmada por ambos cuando viaja con abuelos, otros familiares, amigos o un grupo. Si ambos padres firman la misma carta en una visita, la tarifa es $10 por la primera firma y $1 por la segunda; una visita aparte para el otro padre es una cita distinta. Quien tiene la custodia exclusiva normalmente viaja con copia de la orden judicial en su lugar; pregunte a su abogado qué exige su decreto."
+        "en": "CBP's guidance describes a letter from the parent who is not traveling when the child travels with one parent, and a letter signed by both parents when the child travels with grandparents, other relatives, friends or a group. If both parents sign the same letter at one visit, it is a single notarization with two signatures; a separate visit for the other parent is its own appointment with its own travel. A parent with sole custody usually travels with a copy of the court order instead — ask your attorney what your decree requires.",
+        "es": "La guía de CBP describe una carta del padre o madre que no viaja cuando el menor va con uno solo de ellos, y una carta firmada por ambos cuando viaja con abuelos, otros familiares, amigos o un grupo. Si ambos padres firman la misma carta en una visita, es una sola notarización con dos firmas; una visita aparte para el otro padre es una cita distinta con su propio traslado. Quien tiene la custodia exclusiva normalmente viaja con copia de la orden judicial en su lugar; pregunte a su abogado qué exige su decreto."
       }
     },
     {
@@ -202,8 +202,8 @@
         "es": "¿Cuánto cuesta notarizar un DS-3053 en El Paso?"
       },
       "a": {
-        "en": "The notarial fee is the Texas statutory $10 for the signature, plus our nominal $39 travel fee anywhere in the El Paso area, itemized separately. Only the parent who will not be at the passport appointment signs the DS-3053, so it is normally one signature. Remember to bring a photocopy of the front and back of the ID you show the notary — it must be submitted with the form — and apply within 90 days of the notarization. Online notarization is $25 with no travel fee.",
-        "es": "La cuota de notarización es la que fija la ley de Texas, $10 por la firma, más nuestros $39 de traslado en cualquier punto del área de El Paso, desglosados por separado. Solo firma el DS-3053 el padre o madre que no estará en la cita del pasaporte, así que normalmente es una sola firma. Recuerde traer una fotocopia del frente y reverso de la identificación que mostrará — se entrega junto con la forma — y presentar la solicitud dentro de los 90 días siguientes a la notarización. La notarización en línea cuesta $25 sin traslado."
+        "en": "Prices vary by location and timing; the notarial fee is capped by Texas statute and our travel anywhere in the El Paso area is itemized separately — call or text (915) 302-0902 for a quote. Only the parent who will not be at the passport appointment signs the DS-3053, so it is normally one signature. Remember to bring a photocopy of the front and back of the ID you show the notary — it must be submitted with the form — and apply within 90 days of the notarization. Online notarization has no travel fee.",
+        "es": "Los precios varían según la ubicación y el horario; la cuota de notarización tiene tope en la ley de Texas y nuestro traslado en el área de El Paso se desglosa por separado — llame o envíe un texto al (915) 302-0902 para cotizar. Solo firma el DS-3053 el padre o madre que no estará en la cita del pasaporte, así que normalmente es una sola firma. Recuerde traer una fotocopia del frente y reverso de la identificación que mostrará — se entrega junto con la forma — y presentar la solicitud dentro de los 90 días siguientes a la notarización. La notarización en línea no tiene traslado."
       }
     },
     {
@@ -222,8 +222,8 @@
         "es": "¿Una carta de permiso notarizada en Texas sirve en México?"
       },
       "a": {
-        "en": "For the trip itself, a Texas notarization is what CBP suggests for the return into the United States, and airlines and Mexican officials commonly accept the same letter, especially with a Spanish version attached. If a Mexican government office will rely on the letter as an official document, it may require an apostille from the Texas Secretary of State ($15 per document), which we can handle. Mexico also has its own rules for Mexican-national minors leaving Mexico without their parents — the Consulate of Mexico in El Paso can explain them.",
-        "es": "Para el viaje en sí, la notarización de Texas es lo que CBP sugiere para el regreso a Estados Unidos, y las aerolíneas y las autoridades mexicanas suelen aceptar la misma carta, sobre todo con una versión en español anexa. Si una dependencia del gobierno de México va a usar la carta como documento oficial, puede exigir una apostilla de la Secretaría de Estado de Texas ($15 por documento), trámite que podemos hacer por usted. México también tiene sus propias reglas para menores mexicanos que salen del país sin sus padres; el Consulado de México en El Paso puede explicarlas."
+        "en": "For the trip itself, a Texas notarization is what CBP suggests for the return into the United States, and airlines and Mexican officials commonly accept the same letter, especially with a Spanish version attached. If a Mexican government office will rely on the letter as an official document, it may require an apostille from the Texas Secretary of State (a per-document state fee applies), which we can handle. Mexico also has its own rules for Mexican-national minors leaving Mexico without their parents — the Consulate of Mexico in El Paso can explain them.",
+        "es": "Para el viaje en sí, la notarización de Texas es lo que CBP sugiere para el regreso a Estados Unidos, y las aerolíneas y las autoridades mexicanas suelen aceptar la misma carta, sobre todo con una versión en español anexa. Si una dependencia del gobierno de México va a usar la carta como documento oficial, puede exigir una apostilla de la Secretaría de Estado de Texas (aplica una cuota estatal por documento), trámite que podemos hacer por usted. México también tiene sus propias reglas para menores mexicanos que salen del país sin sus padres; el Consulado de México en El Paso puede explicarlas."
       }
     }
   ],

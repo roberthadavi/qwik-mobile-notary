@@ -20,8 +20,8 @@
     "es": "Renuncias de citación (waivers), acuerdos de custodia, peticiones de cambio de nombre y las declaraciones juradas que los acompañan, firmados bajo juramento ante un Notary Public móvil en su casa u oficina en El Paso — el mismo día, tardes y fines de semana, en español o inglés."
   },
   "feeModel": {
-    "en": "$10 per oath or acknowledgment ($1 each additional signature), plus $39 travel fee",
-    "es": "$10 por juramento o reconocimiento ($1 por firma adicional), más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "El documento más común es la renuncia de citación bajo la Sección 6.4035 del Código Familiar de Texas: el demandado renuncia a la notificación formal de la petición de divorcio, pero la renuncia debe firmarse bajo juramento ante un Notary Public y, muy importante, después de que la petición haya sido presentada — una renuncia firmada un día antes no sirve. Los cambios de nombre bajo el Capítulo 45 del Código Familiar de Texas comienzan con una petición verificada, lo que significa que quien la presenta jura su contenido ante un Notary Public. Los acuerdos de custodia y de crianza, las declaraciones de incapacidad para pagar costos de corte y los acuerdos de reparto de bienes normalmente se firman como reconocimientos o declaraciones juradas según cómo estén redactados los formularios del abogado o de la corte. En todos los casos el Notary Public confirma su identidad, lo observa firmar cuando se requiere juramento y completa el certificado de Texas en el formulario."
     },
     {
-      "en": "Text or call (915) 302-0902 with the type of document and where you are. We confirm the fee — $10 per oath or acknowledgment, $1 for each additional signature on the same document, plus a $39 travel fee in El Paso — and set a time, including evenings and weekends. Bring an unexpired photo ID and leave sworn documents unsigned until the notary arrives; a spouse who lives elsewhere can sign in a separate appointment or by remote online notarization when the court accepts it. We are not attorneys and cannot tell you which form to use, fill in blanks for you, or explain what a clause means; your attorney or the El Paso County law library's self-help resources do that. What we guarantee is a correct, properly dated notarization the clerk will accept.",
-      "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento y el lugar donde se encuentra. Confirmamos la tarifa — $10 por juramento o reconocimiento, $1 por cada firma adicional en el mismo documento, más $39 de traslado en El Paso — y fijamos una hora, incluso en la tarde o el fin de semana. Tenga a la mano una identificación vigente con fotografía y no firme los documentos bajo juramento hasta que llegue el Notary Public; un cónyuge que vive en otro lugar puede firmar en una cita separada o por notarización en línea cuando la corte lo acepte. No somos abogados y no podemos decirle qué formulario usar, llenar los espacios por usted ni explicarle qué significa una cláusula; eso lo hace su abogado o los recursos de autoayuda de la biblioteca legal del Condado de El Paso. Lo que sí garantizamos es una notarización correcta y bien fechada que el secretario aceptará."
+      "en": "Text or call (915) 302-0902 with the type of document and where you are. We confirm the quote and set a time anywhere in El Paso, including evenings and weekends. Bring an unexpired photo ID and leave sworn documents unsigned until the notary arrives; a spouse who lives elsewhere can sign in a separate appointment or by remote online notarization when the court accepts it. We are not attorneys and cannot tell you which form to use, fill in blanks for you, or explain what a clause means; your attorney or the El Paso County law library's self-help resources do that. What we guarantee is a correct, properly dated notarization the clerk will accept.",
+      "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento y el lugar donde se encuentra. Confirmamos la cotización y fijamos una hora en cualquier parte de El Paso, incluso en la tarde o el fin de semana. Tenga a la mano una identificación vigente con fotografía y no firme los documentos bajo juramento hasta que llegue el Notary Public; un cónyuge que vive en otro lugar puede firmar en una cita separada o por notarización en línea cuando la corte lo acepte. No somos abogados y no podemos decirle qué formulario usar, llenar los espacios por usted ni explicarle qué significa una cláusula; eso lo hace su abogado o los recursos de autoayuda de la biblioteca legal del Condado de El Paso. Lo que sí garantizamos es una notarización correcta y bien fechada que el secretario aceptará."
     }
   ],
   "sections": [
@@ -146,8 +146,8 @@
         "es": "Envíe un texto o llame para agendar"
       },
       "body": {
-        "en": "Tell us the document and whether the case has been filed. We confirm the fee — statutory notarial fee plus the $39 El Paso travel fee — and set a time that works for everyone who signs, including evenings.",
-        "es": "Díganos qué documento es y si el caso ya fue presentado. Confirmamos la tarifa — la tarifa legal más $39 de traslado en El Paso — y fijamos una hora que funcione para todos los que firman, incluso en la tarde."
+        "en": "Tell us the document and whether the case has been filed. We confirm the quote and set a time that works for everyone who signs, including evenings.",
+        "es": "Díganos qué documento es y si el caso ya fue presentado. Confirmamos la cotización y fijamos una hora que funcione para todos los que firman, incluso en la tarde."
       }
     },
     {
@@ -198,8 +198,8 @@
         "es": "¿Cuánto cuesta notarizar documentos de divorcio en El Paso?"
       },
       "a": {
-        "en": "Texas sets the notarial fee: $10 for an oath or the first acknowledged signature and $1 for each additional signature on the same document. We add a nominal $39 travel fee anywhere in El Paso, itemized separately. A typical waiver of service costs $10 plus travel; a packet with several affidavits is quoted before we come. Text (915) 302-0902 for an exact number.",
-        "es": "Texas fija la tarifa: $10 por un juramento o la primera firma reconocida y $1 por cada firma adicional en el mismo documento. Agregamos $39 de traslado en cualquier parte de El Paso, detallados por separado. Una renuncia de citación típica cuesta $10 más el traslado; un paquete con varias declaraciones juradas se cotiza antes de ir. Envíe un texto al (915) 302-0902 para un total exacto."
+        "en": "Prices vary by the number of oaths, signatures and documents; Texas caps the notarial fee by statute. Travel anywhere in El Paso is itemized separately. A single waiver of service and a packet with several affidavits are both quoted before we come. Text (915) 302-0902 for an exact number.",
+        "es": "Los precios varían según el número de juramentos, firmas y documentos; la ley de Texas limita la tarifa de notarización. El traslado en cualquier parte de El Paso se detalla por separado. Una renuncia de citación sola o un paquete con varias declaraciones juradas se cotizan antes de ir. Envíe un texto al (915) 302-0902 para un total exacto."
       }
     },
     {

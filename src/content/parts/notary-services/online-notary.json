@@ -20,8 +20,8 @@
     "es": "Nuestra comisión de Notary Public en línea de Texas nos permite notarizar su documento en una sesión segura de video en dos sentidos — sin cargo de traslado, tardes y fines de semana, en español o inglés — esté en El Paso, en una misión militar o en otro estado."
   },
   "feeModel": {
-    "en": "$25 per online notarization (Texas maximum), no travel fee",
-    "es": "$25 por notarización en línea (máximo en Texas), sin traslado"
+    "en": "Online notarization, no travel fee — call or text for a quote",
+    "es": "Notarización en línea, sin traslado — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "Texas autorizó la notarización en línea en 2018 bajo el Capítulo 406, Subcapítulo C, del Código de Gobierno de Texas. Solo puede realizarla un Notary Public que tenga una comisión en línea separada, emitida por la Secretaría de Estado de Texas, y únicamente a través de una plataforma aprobada. La identidad del firmante se confirma de dos formas: análisis de la credencial con fotografía y preguntas de verificación basadas en registros públicos, o el conocimiento personal que el Notary Public tenga del firmante. La sesión se graba, y la grabación y la entrada del registro electrónico se conservan por lo menos cinco años. El Notary Public debe estar físicamente en Texas durante la sesión; el firmante puede estar en cualquier parte del mundo. El documento terminado lleva un certificado electrónico que indica que la notarización se realizó en línea."
     },
     {
-      "en": "To book, text or call (915) 302-0902 and tell us what document you have and where the signer is. We confirm the $25 fee per notarization — there is no travel fee for an online session — and send a secure link. You will need a computer, tablet or phone with a camera, a current photo ID, and the document as a PDF; we can also walk you through uploading it. Before the session we ask one practical question: will the recipient accept an electronically notarized document? Most Texas title companies, banks and agencies do, but a few still require wet ink, and we would rather tell you that up front and send a mobile notary to your door in El Paso instead. We cannot give legal advice or choose a form for you.",
-      "es": "Para agendar, envíe un texto o llame al (915) 302-0902 y díganos qué documento tiene y dónde está el firmante. Confirmamos la tarifa de $25 por notarización — no hay cargo de traslado en una sesión en línea — y le enviamos un enlace seguro. Necesitará una computadora, tableta o teléfono con cámara, una identificación vigente con fotografía y el documento en PDF; también le ayudamos a subirlo. Antes de la sesión hacemos una pregunta práctica: ¿la institución que recibirá el documento acepta una notarización electrónica? La mayoría de las compañías de título, bancos y agencias de Texas la aceptan, pero algunas todavía exigen tinta y papel, y preferimos decírselo desde el principio y enviar un Notary Public móvil a su puerta en El Paso. No podemos dar asesoría legal ni elegir un formulario por usted."
+      "en": "To book, text or call (915) 302-0902 and tell us what document you have and where the signer is. We confirm the quote — there is no travel fee for an online session — and send a secure link. You will need a computer, tablet or phone with a camera, a current photo ID, and the document as a PDF; we can also walk you through uploading it. Before the session we ask one practical question: will the recipient accept an electronically notarized document? Most Texas title companies, banks and agencies do, but a few still require wet ink, and we would rather tell you that up front and send a mobile notary to your door in El Paso instead. We cannot give legal advice or choose a form for you.",
+      "es": "Para agendar, envíe un texto o llame al (915) 302-0902 y díganos qué documento tiene y dónde está el firmante. Confirmamos la cotización — no hay cargo de traslado en una sesión en línea — y le enviamos un enlace seguro. Necesitará una computadora, tableta o teléfono con cámara, una identificación vigente con fotografía y el documento en PDF; también le ayudamos a subirlo. Antes de la sesión hacemos una pregunta práctica: ¿la institución que recibirá el documento acepta una notarización electrónica? La mayoría de las compañías de título, bancos y agencias de Texas la aceptan, pero algunas todavía exigen tinta y papel, y preferimos decírselo desde el principio y enviar un Notary Public móvil a su puerta en El Paso. No podemos dar asesoría legal ni elegir un formulario por usted."
     }
   ],
   "sections": [
@@ -89,8 +89,8 @@
     {
       "title": { "en": "Text or call to book", "es": "Envíe un texto o llame para agendar" },
       "body": {
-        "en": "Tell us what the document is and where the signer is. We confirm the $25 fee, check that the recipient accepts online notarization, and email a secure session link with a time that works — including evenings.",
-        "es": "Díganos qué documento es y dónde está el firmante. Confirmamos la tarifa de $25, verificamos que la institución acepte la notarización en línea y le enviamos por correo un enlace seguro con un horario conveniente — incluso de noche."
+        "en": "Tell us what the document is and where the signer is. We confirm the quote, check that the recipient accepts online notarization, and email a secure session link with a time that works — including evenings.",
+        "es": "Díganos qué documento es y dónde está el firmante. Confirmamos la cotización, verificamos que la institución acepte la notarización en línea y le enviamos por correo un enlace seguro con un horario conveniente — incluso de noche."
       }
     },
     {
@@ -126,15 +126,15 @@
     {
       "q": { "en": "How much does an online notarization cost?", "es": "¿Cuánto cuesta una notarización en línea?" },
       "a": {
-        "en": "Texas caps the fee for an online notarization at $25 per notarial act, and that is what we charge. Because nobody drives anywhere, there is no travel fee. If your document has several signatures or several certificates, we quote the total before the session so there are no surprises. Payment is taken online before the session begins.",
-        "es": "Texas limita la tarifa de una notarización en línea a $25 por acto notarial, y eso es lo que cobramos. Como nadie tiene que trasladarse, no hay cargo de traslado. Si su documento tiene varias firmas o varios certificados, cotizamos el total antes de la sesión para que no haya sorpresas. El pago se hace en línea antes de comenzar."
+        "en": "Prices vary by the number of notarial acts in the session; Texas caps the fee for each online notarization by statute, and we quote the total before the session. Because nobody drives anywhere, there is no travel fee. If your document has several signatures or several certificates, we quote the total before the session so there are no surprises. Payment is taken online before the session begins.",
+        "es": "Los precios varían según el número de actos notariales en la sesión; la ley de Texas limita la tarifa de cada notarización en línea, y cotizamos el total antes de la sesión. Como nadie tiene que trasladarse, no hay cargo de traslado. Si su documento tiene varias firmas o varios certificados, cotizamos el total antes de la sesión para que no haya sorpresas. El pago se hace en línea antes de comenzar."
       }
     },
     {
       "q": { "en": "What if I fail the identity questions?", "es": "¿Qué pasa si no paso las preguntas de identidad?" },
       "a": {
-        "en": "It happens, especially to people who moved recently or have little credit history. Texas lets you try again, allows the notary to rely on personal knowledge of the signer where that exists, and we can always convert the appointment to an in-person visit anywhere in El Paso for the statutory fee plus the $39 travel fee. Nothing is charged for a session that cannot be completed.",
-        "es": "Sucede, sobre todo a personas que se mudaron recientemente o tienen poco historial de crédito. Texas permite intentarlo de nuevo, permite que el Notary Public se base en su conocimiento personal del firmante cuando exista, y siempre podemos convertir la cita en una visita en persona en cualquier parte de El Paso por la tarifa legal más $39 de traslado. No se cobra nada por una sesión que no se pueda completar."
+        "en": "It happens, especially to people who moved recently or have little credit history. Texas lets you try again, allows the notary to rely on personal knowledge of the signer where that exists, and we can always convert the appointment to an in-person visit anywhere in El Paso, quoted with travel. Nothing is charged for a session that cannot be completed.",
+        "es": "Sucede, sobre todo a personas que se mudaron recientemente o tienen poco historial de crédito. Texas permite intentarlo de nuevo, permite que el Notary Public se base en su conocimiento personal del firmante cuando exista, y siempre podemos convertir la cita en una visita en persona en cualquier parte de El Paso, cotizada con el traslado. No se cobra nada por una sesión que no se pueda completar."
       }
     },
     {

@@ -20,8 +20,8 @@
     "es": "Poder médico, Directiva al Médico, autorización HIPAA y otras directivas de salud de Texas notarizadas en su casa, en el University Medical Center o en cualquier hospital, asilo u hospicio de El Paso — en español o en inglés, muchas veces el mismo día."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "El capítulo 166 del Código de Salud y Seguridad de Texas permite que el poder médico y la directiva al médico se firmen ante dos testigos calificados o ante un Notary Public. Los testigos tienen límites — al menos uno no puede ser familiar, heredero, el médico tratante ni empleado de la instalación que participe en su atención, y el agente que usted nombra no puede ser testigo — justamente las personas que están en un cuarto de hospital. Con un Notary Public, quien firma muestra una identificación vigente con fotografía y reconoce el documento; el agente puede estar presente pero no firma. El Nombramiento de Agente para Disponer de los Restos también se reconoce ante un Notary Public; la Orden de No Resucitar Fuera del Hospital es un formato aparte del DSHS con sus propias reglas."
     },
     {
-      "en": "Text or call (915) 302-0902 and tell us which forms you have, where the signer is and any hospital visiting hours. We confirm the fee — Texas statutory fees plus a $39 travel fee in El Paso — and come to the home, room or care facility; a set of directives usually takes about 15 minutes once ID is checked. The signer must be awake and understand what the document does; if a patient is sedated or confused we cannot notarize, and no one else can sign for them. We cannot recommend an agent, fill in choices about treatment or explain what the options mean. Texas Health and Human Services publishes the official forms in English and Spanish at no charge.",
-      "es": "Envíe un texto o llame al (915) 302-0902 y díganos qué formatos tiene, dónde está quien firma y los horarios de visita del hospital. Le confirmamos el costo — las tarifas oficiales de Texas más $39 de traslado en El Paso — y vamos a la casa, al cuarto o al centro de cuidados; un juego de directivas suele tomar unos 15 minutos una vez revisada la identificación. Quien firma debe estar despierto y entender lo que hace el documento; si el paciente está sedado o confundido no podemos notarizar, y nadie más puede firmar por él. No podemos recomendarle un agente, llenar las opciones de tratamiento ni explicarle qué significan: un Notary Public de Texas no es abogado ni equivale a la figura legal de México. La Comisión de Salud y Servicios Humanos de Texas (HHS) publica los formatos oficiales en inglés y español sin costo."
+      "en": "Text or call (915) 302-0902 and tell us which forms you have, where the signer is and any hospital visiting hours. We confirm the quote and come to the home, room or care facility anywhere in El Paso; a set of directives usually takes about 15 minutes once ID is checked. The signer must be awake and understand what the document does; if a patient is sedated or confused we cannot notarize, and no one else can sign for them. We cannot recommend an agent, fill in choices about treatment or explain what the options mean. Texas Health and Human Services publishes the official forms in English and Spanish at no charge.",
+      "es": "Envíe un texto o llame al (915) 302-0902 y díganos qué formatos tiene, dónde está quien firma y los horarios de visita del hospital. Le confirmamos la cotización y vamos a la casa, al cuarto o al centro de cuidados en cualquier parte de El Paso; un juego de directivas suele tomar unos 15 minutos una vez revisada la identificación. Quien firma debe estar despierto y entender lo que hace el documento; si el paciente está sedado o confundido no podemos notarizar, y nadie más puede firmar por él. No podemos recomendarle un agente, llenar las opciones de tratamiento ni explicarle qué significan: un Notary Public de Texas no es abogado ni equivale a la figura legal de México. La Comisión de Salud y Servicios Humanos de Texas (HHS) publica los formatos oficiales en inglés y español sin costo."
     }
   ],
   "sections": [
@@ -87,14 +87,14 @@
     { "en": "The complete form with the agent's name, alternates and any treatment choices already marked", "es": "El formato completo, con el nombre del agente, los suplentes y las opciones de tratamiento ya marcadas" },
     { "en": "No witnesses are needed when the notary acknowledges the form; if your provider still wants them, the agent cannot be one", "es": "No se necesitan testigos cuando el Notary Public reconoce el formato; si su proveedor aun así los pide, el agente no puede ser testigo" },
     { "en": "The hospital's or provider's instructions, if they sent a specific version", "es": "Las instrucciones del hospital o del proveedor, si le enviaron una versión específica" },
-    { "en": "Payment for the notarial fees and the $39 travel fee, confirmed when you book", "es": "El pago de las tarifas de notarización y los $39 de traslado, confirmado al agendar" }
+    { "en": "Payment for the quoted total, confirmed when you book", "es": "El pago del total cotizado, confirmado al agendar" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para agendar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with the forms you have, the signer's location and any hospital visiting hours. We confirm the fee — statutory notary fees plus a $39 El Paso travel fee — and schedule the visit, including evenings and weekends.",
-        "es": "Envíe un texto o llame al (915) 302-0902 con los formatos que tiene, dónde está quien firma y los horarios de visita del hospital. Le confirmamos el costo — tarifas oficiales más $39 de traslado en El Paso — y agendamos la visita, tardes y fines de semana incluidos."
+        "en": "Text or call (915) 302-0902 with the forms you have, the signer's location and any hospital visiting hours. We confirm the quote and schedule the visit, including evenings and weekends.",
+        "es": "Envíe un texto o llame al (915) 302-0902 con los formatos que tiene, dónde está quien firma y los horarios de visita del hospital. Le confirmamos la cotización y agendamos la visita, tardes y fines de semana incluidos."
       }
     },
     {
@@ -159,8 +159,8 @@
         "es": "¿Cuánto cuesta notarizar un poder médico y una directiva en El Paso?"
       },
       "a": {
-        "en": "The Texas statutory fee is $10 for the first signature on each document and $1 for each additional signature on that document, plus QWIK's nominal $39 travel fee anywhere in El Paso, itemized separately. A medical power of attorney, directive to physicians and HIPAA release for one person is three documents; two spouses signing their own sets is six. After-hours visits are quoted — text or call (915) 302-0902 and we confirm the total first.",
-        "es": "La tarifa oficial de Texas es $10 por la primera firma de cada documento y $1 por cada firma adicional en ese documento, más los $39 de traslado de QWIK a cualquier parte de El Paso, detallados por separado. Un poder médico, una directiva al médico y una autorización HIPAA para una persona son tres documentos; dos esposos firmando cada uno su juego son seis. Las visitas fuera de horario se cotizan — envíe un texto o llame al (915) 302-0902 y le confirmamos el total primero."
+        "en": "Prices vary by the number of documents and signatures and by location; Texas caps the notarial fee by statute, travel anywhere in El Paso is itemized separately, and we confirm the total before the visit. A medical power of attorney, directive to physicians and HIPAA release for one person is three documents; two spouses signing their own sets is six. After-hours visits are quoted — text or call (915) 302-0902 and we confirm the total first.",
+        "es": "Los precios varían según el número de documentos y firmas y según la ubicación; la ley de Texas limita la tarifa de notarización, el traslado a cualquier parte de El Paso se detalla por separado y confirmamos el total antes de la visita. Un poder médico, una directiva al médico y una autorización HIPAA para una persona son tres documentos; dos esposos firmando cada uno su juego son seis. Las visitas fuera de horario se cotizan — envíe un texto o llame al (915) 302-0902 y le confirmamos el total primero."
       }
     }
   ],

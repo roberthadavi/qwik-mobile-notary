@@ -9,20 +9,17 @@ You are writing bilingual (English + Spanish) website copy for **QWIK Mobile Not
 - Credentials you may state: commissioned Texas Notary Public (Texas Secretary of State); **Texas online notary commission** (Remote Online Notarization is offered); experienced **loan signing agent** who works with title companies, lenders and escrow officers; fully **bilingual English/Spanish** (a large share of signings are in Spanish); an **ordained wedding officiant** (separate, non-notary service).
 - Do NOT state: the notary's name (unknown — write "our notary", "your notary", "QWIK Mobile Notary"), NNA certification, background-screen status, E&O amounts, years in business, review counts, number of signings, or any statistic.
 
-## Fees (state these exactly; they are the law and the business's pricing)
-Texas caps notarial fees (Tex. Gov't Code §406.024, effective Sept. 1, 2023):
-- Acknowledgment or proof: **$10 for the first signature, $1 for each additional signature** on the same document.
-- Oath or affirmation with certificate and seal (jurat): **$10**.
-- Certified copy: **$10** for the certificate plus **$1 per page** copied.
-- Any other notarial act: **$10**. Online notarization (RON): up to **$25** per online notarization (Tex. Gov't Code §406.111).
-QWIK charges those statutory fees plus a **nominal $39 travel fee** in the El Paso area, itemized separately (a travel fee is never part of the notarial fee). Loan signings, apostille packages, after-hours and out-of-area trips are **quoted — "call or text (915) 302-0902 for a quote"**. Apostille: Texas Secretary of State charges **$15 per document**; federal documents go to the U.S. Department of State (federal fee applies). Never say "free" for anything. Never fold the travel fee into a per-signature price.
+## Fees — never publish an amount (policy since 2026-10-19)
+Do **not** write any dollar amount anywhere on the site — not QWIK's prices, not the Texas statutory maximums, not the Secretary of State apostille fee, not examples ("two signatures is …"). Every price-shaped statement becomes a quote statement:
+- EN: "Prices vary by document, number of signatures and location — call or text (915) 302-0902 for a quote." / "we confirm your quote up front" / "quoted when you book".
+- ES: "Los precios varían según el documento, el número de firmas y la ubicación — llame o envíe un texto al (915) 302-0902 para cotizar." / "le confirmamos la cotización por adelantado" / "se cotiza al agendar".
+You may still say, without numbers, that Texas caps notarial fees by statute (Tex. Gov't Code §406.024; RON §406.111), that the travel fee is separate and itemized, that the Texas Secretary of State charges a per-document fee for apostilles, and that online sessions have no travel fee. Never say "free" for anything. Never fold the travel fee into a per-signature price.
 
-Standard `feeModel` strings (use or adapt):
-- General notarizations: EN "$10 first signature + $1 each additional, plus $39 travel fee" · ES "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
-- Jurat/affidavit: EN "$10 per oath or affirmation, plus $39 travel fee" · ES "$10 por juramento, más $39 de traslado"
+Standard `feeModel` strings:
+- General notarizations: EN "Prices vary — call or text for a quote" · ES "Los precios varían — llame o envíe un texto para cotizar"
 - Loan signings: EN "Flat fee per signing — call or text for a quote" · ES "Tarifa fija por firma — llame o envíe un texto para cotizar"
-- Apostille: EN "Service fee + $15 Texas SOS fee per document — call or text for a quote" · ES "Tarifa de servicio + $15 por documento de la Secretaría de Estado — llame o envíe un texto para cotizar"
-- RON: EN "$25 per online notarization (Texas maximum), no travel fee" · ES "$25 por notarización en línea (máximo en Texas), sin traslado"
+- Apostille: EN "Service fee + state fee per document — call or text for a quote" · ES "Tarifa de servicio + cuota estatal por documento — llame o envíe un texto para cotizar"
+- RON: EN "Online notarization, no travel fee — call or text for a quote" · ES "Notarización en línea, sin traslado — llame o envíe un texto para cotizar"
 Standard `timeline` strings: EN "Same day by appointment · evenings & weekends available" · ES "El mismo día con cita · tardes y fines de semana". Apostille: EN "Mail-in: typically 2–4 weeks; expedited options quoted" · ES "Por correo: normalmente 2 a 4 semanas; opciones urgentes cotizadas".
 
 ## Legal rules that shape every page (Texas)
@@ -55,7 +52,7 @@ Write ONE JSON file per unit into `src/content/parts/<hub-id>/`: `hub.json` for 
 - `eyebrow` L — small caps label, e.g. "EL PASO MOBILE NOTARY · ESTATE PLANNING DOCUMENTS".
 - `h1` L — ≤90 chars, keyword-rich, human.
 - `summary` L — 1–2 sentences for cards and menus.
-- `intro` L[] — exactly 2 paragraphs (70–110 words each): what this group of documents is, why they get notarized in El Paso, and how the mobile visit works (ID, who must be present, fee).
+- `intro` L[] — exactly 2 paragraphs (70–110 words each): what this group of documents is, why they get notarized in El Paso, and how the mobile visit works (ID, who must be present, quote confirmed up front).
 - `faqs` — exactly 3 `{ "q": L, "a": L }`, answers 40–80 words, phrased like real searches.
 
 ### HubContent — rich hubs (`apostille`, `wedding-officiant` — the hub page is itself a service page)
@@ -66,12 +63,12 @@ Everything above, plus: `intro` exactly 3 paragraphs; `faqs` 5–6; `feeModel` L
 - `metaDescription` L — ≤155 EN / ≤165 ES. Unique per page.
 - `eyebrow` L; `h1` L ≤90 (e.g. "Power of Attorney Notary in El Paso — We Come to You, Same Day"); `summary` L 1–2 sentences.
 - `feeModel` L, `timeline` L — from the standard strings above, adapted.
-- `intro` L[] — exactly 3 paragraphs (70–120 words). P1: what the document is, who in El Paso needs it, a concrete local situation. P2: the Texas/federal rule with a real statute, code or form number (from the rules above or the brief below) and what the notary actually does (acknowledgment vs. jurat, witnesses, ID). P3: how the mobile appointment works — you text or call, we confirm the fee, we come to you (home, office, hospital, title company), bring ID, signing takes about 15 minutes; what we cannot do (advice/drafting) and where to get the official form.
+- `intro` L[] — exactly 3 paragraphs (70–120 words). P1: what the document is, who in El Paso needs it, a concrete local situation. P2: the Texas/federal rule with a real statute, code or form number (from the rules above or the brief below) and what the notary actually does (acknowledgment vs. jurat, witnesses, ID). P3: how the mobile appointment works — you text or call, we confirm the quote, we come to you (home, office, hospital, title company), bring ID, signing takes about 15 minutes; what we cannot do (advice/drafting) and where to get the official form.
 - `sections` — exactly 2 `{ "heading": L, "body": L[] (1–2 paragraphs, 60–100 words) }`. Good headings: "Documents in this category we notarize", "Common mistakes that get documents rejected", "El Paso specifics" (county clerk, DSHS, detention facility, EPISD, Fort Bliss), "What happens after notarization".
 - `documents` L[] — 5–14 bullets: the **exact document names from the brief below** (this is the long-tail SEO layer). Short noun phrases, e.g. "Borrower's Certification and Authorization".
 - `bring` L[] — 3–6 bullets: unexpired photo ID; the complete, unsigned (for jurats) document; witnesses if the document needs them; the lender's/agency's instructions; payment method.
 - `process` — exactly 3 steps `{ "title": L, "body": L (25–45 words) }`: 1 Text or call to book · 2 We come to you · 3 Signed, sealed, done (what to do next).
-- `faqs` — exactly 5 `{ "q": L, "a": L }`, answers 40–80 words, matching real queries ("Can a notary…", "How much does it cost to notarize a … in El Paso?", "Do I need witnesses…", "Can you come to …").
+- `faqs` — exactly 5 `{ "q": L, "a": L }`, answers 40–80 words, matching real queries ("Can a notary…", "How much does it cost to notarize a … in El Paso?" — answered with what drives the quote, never an amount — "Do I need witnesses…", "Can you come to …").
 - `keywords` string[] — 4–6 English target phrases.
 - `related` string[] — 2–4 service ids from the catalog (any hub; not itself).
 - `outbound` — 1–3 `{ "label": L, "url": "https://..." }` from the approved URL list below only.

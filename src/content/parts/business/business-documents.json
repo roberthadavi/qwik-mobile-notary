@@ -20,8 +20,8 @@
     "es": "Desde un Certificado de Nombre Comercial (DBA) para el County Clerk de El Paso hasta una resolución corporativa que su banco exige reconocida, notarizamos sus documentos donde usted trabaja, con la redacción legal de Texas para quien firma en nombre de una empresa."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "Los nombres comerciales se rigen por el Código de Negocios y Comercio de Texas, capítulo 71. Las corporaciones y LLC lo registran solo ante la Secretaría de Estado; los propietarios únicos y las sociedades generales presentan su Certificado de Nombre Comercial ante el clerk de cada condado donde operan, y el formulario del County Clerk de El Paso incluye un reconocimiento (acknowledgment) ante un Notary Public. Cuando un directivo firma por la empresa, el Notary Public usa la redacción legal de Texas para un reconocimiento en capacidad representativa: nombre del firmante, cargo y entidad. El Notary Public identifica a la persona, no la autoridad interna de la empresa; tenga a la mano la resolución o el acuerdo operativo."
     },
     {
-      "en": "Text or call (915) 302-0902 with the document type, the number of signers and your address; we confirm the statutory fee and the $39 El Paso travel fee up front. We come to your office, job site or home, check each signer's unexpired government photo ID, watch the signatures and complete the certificates — usually about fifteen minutes for a short stack. Bring the finished document: a notary cannot draft your contract, fill in blanks or advise you on entity structure. The Assumed Name Certificate form comes from the El Paso County Clerk, and Secretary of State filings use the SOS's own forms.",
-      "es": "Llame o envíe un texto al (915) 302-0902 con el tipo de documento, el número de firmantes y su dirección; confirmamos por adelantado la tarifa legal y los $39 de traslado en El Paso. Vamos a su oficina, obra o casa, revisamos la identificación oficial vigente con foto de cada firmante, presenciamos las firmas y completamos los certificados — normalmente unos quince minutos para unos cuantos documentos. Traiga el documento terminado: un Notary Public no puede redactar su contrato, llenar espacios en blanco ni asesorarle sobre la estructura de su empresa. El formulario del Certificado de Nombre Comercial lo proporciona el County Clerk de El Paso, y los registros ante la Secretaría de Estado usan los formularios de la SOS."
+      "en": "Text or call (915) 302-0902 with the document type, the number of signers and your address; we confirm your quote up front. We come to your office, job site or home, check each signer's unexpired government photo ID, watch the signatures and complete the certificates — usually about fifteen minutes for a short stack. Bring the finished document: a notary cannot draft your contract, fill in blanks or advise you on entity structure. The Assumed Name Certificate form comes from the El Paso County Clerk, and Secretary of State filings use the SOS's own forms.",
+      "es": "Llame o envíe un texto al (915) 302-0902 con el tipo de documento, el número de firmantes y su dirección; confirmamos la cotización por adelantado. Vamos a su oficina, obra o casa, revisamos la identificación oficial vigente con foto de cada firmante, presenciamos las firmas y completamos los certificados — normalmente unos quince minutos para unos cuantos documentos. Traiga el documento terminado: un Notary Public no puede redactar su contrato, llenar espacios en blanco ni asesorarle sobre la estructura de su empresa. El formulario del Certificado de Nombre Comercial lo proporciona el County Clerk de El Paso, y los registros ante la Secretaría de Estado usan los formularios de la SOS."
     }
   ],
   "sections": [
@@ -86,14 +86,14 @@
     { "en": "The complete document with no blank spaces — we cannot fill anything in for you", "es": "El documento completo, sin espacios en blanco — no podemos llenar nada por usted" },
     { "en": "Proof of authority the recipient expects: corporate resolution, operating agreement or letter of authorization naming the signer", "es": "Prueba de autoridad que el destinatario espere: resolución corporativa, acuerdo operativo o carta de autorización que nombre al firmante" },
     { "en": "The recipient's instructions (bank, landlord, County Clerk or Secretary of State) so the certificate matches what they accept", "es": "Las instrucciones del destinatario (banco, arrendador, County Clerk o Secretaría de Estado) para que el certificado coincida con lo que aceptan" },
-    { "en": "A payment method for the statutory fees and the $39 travel fee (confirmed when you book)", "es": "Forma de pago para las tarifas legales y los $39 de traslado (se confirma al reservar)" }
+    { "en": "A payment method for the quoted total (confirmed when you book)", "es": "Forma de pago para el total cotizado (se confirma al reservar)" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para reservar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with the document type, number of signers and your El Paso address. We confirm the statutory fee, the $39 travel fee and a time — same day, evening or weekend as needed.",
-        "es": "Llame o envíe un texto al (915) 302-0902 con el tipo de documento, el número de firmantes y su dirección en El Paso. Confirmamos la tarifa legal, los $39 de traslado y la hora — el mismo día, tarde o fin de semana."
+        "en": "Text or call (915) 302-0902 with the document type, number of signers and your El Paso address. We confirm the quote and a time — same day, evening or weekend as needed.",
+        "es": "Llame o envíe un texto al (915) 302-0902 con el tipo de documento, el número de firmantes y su dirección en El Paso. Confirmamos la cotización y la hora — el mismo día, tarde o fin de semana."
       }
     },
     {
@@ -138,8 +138,8 @@
         "es": "¿Cuánto cuesta notarizar documentos comerciales en El Paso?"
       },
       "a": {
-        "en": "Texas caps notarial fees by statute: $10 for the first signature acknowledged on each document and $1 for each additional signature, $10 per oath or affirmation, and $10 plus $1 per page for a certified copy. QWIK adds a nominal $39 travel fee for the trip anywhere in El Paso, itemized separately, and one visit can cover a whole stack of documents. After-hours and out-of-area trips are quoted in advance.",
-        "es": "La ley de Texas limita las tarifas: $10 por la primera firma reconocida en cada documento y $1 por cada firma adicional, $10 por juramento (jurat), y $10 más $1 por página por una copia certificada. QWIK agrega $39 de traslado por el viaje a cualquier punto de El Paso, detallados por separado, y una sola visita puede cubrir todos sus documentos. Las citas fuera de horario y fuera del área se cotizan por adelantado."
+        "en": "Prices vary by the number of documents, signatures and oaths; Texas caps notarial fees by statute, and we quote the total before we come. Travel anywhere in El Paso is itemized separately, and one visit can cover a whole stack of documents — call or text (915) 302-0902 for a quote. After-hours and out-of-area trips are quoted in advance.",
+        "es": "Los precios varían según el número de documentos, firmas y juramentos; la ley de Texas limita las tarifas de notarización, y cotizamos el total antes de ir. El traslado a cualquier punto de El Paso se detalla por separado, y una sola visita puede cubrir todos sus documentos — llame o envíe un texto al (915) 302-0902 para cotizar. Las citas fuera de horario y fuera del área se cotizan por adelantado."
       }
     },
     {
@@ -158,8 +158,8 @@
         "es": "¿Puede un Notary Public de Texas certificar una copia de mi licencia comercial, contrato o registros corporativos?"
       },
       "a": {
-        "en": "Usually yes. A Texas notary may certify copies of documents that are not recordable in public records and are not vital records — contracts, letters, business licenses, minutes and permits qualify. The fee is $10 for the certificate plus $1 per page copied. A filed or recorded document — a deed or certificate of formation — is certified by the agency that holds it, such as the El Paso County Clerk or the Secretary of State.",
-        "es": "Normalmente sí. Un Notary Public de Texas puede certificar copias de documentos que no se registran en archivos públicos y que no son actas vitales — contratos, cartas, licencias comerciales, minutas y permisos califican. La tarifa es $10 por el certificado más $1 por página copiada. Un documento ya registrado — una escritura o un certificado de formación — lo certifica la agencia que lo guarda, como el County Clerk de El Paso o la Secretaría de Estado."
+        "en": "Usually yes. A Texas notary may certify copies of documents that are not recordable in public records and are not vital records — contracts, letters, business licenses, minutes and permits qualify. The fee depends on the page count and is quoted when you book. A filed or recorded document — a deed or certificate of formation — is certified by the agency that holds it, such as the El Paso County Clerk or the Secretary of State.",
+        "es": "Normalmente sí. Un Notary Public de Texas puede certificar copias de documentos que no se registran en archivos públicos y que no son actas vitales — contratos, cartas, licencias comerciales, minutas y permisos califican. La tarifa depende del número de páginas y se cotiza al agendar. Un documento ya registrado — una escritura o un certificado de formación — lo certifica la agencia que lo guarda, como el County Clerk de El Paso o la Secretaría de Estado."
       }
     }
   ],

@@ -20,8 +20,8 @@
     "es": "Los planes de retiro, bancos, casas de bolsa y compañías de alivio de deudas muchas veces exigen una firma notarizada antes de mover su dinero. Notarizamos consentimientos conyugales, designaciones de beneficiario, formularios de distribución y acuerdos de liquidación en su casa u oficina en El Paso — y le decimos con claridad cuándo un formulario no necesita Notary Public."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional ($10 per oath), plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional ($10 por juramento), más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "Muchas de estas exigencias vienen de la ley federal. ERISA y el Código de Rentas Internas exigen que el cónyuge de un participante casado consienta por escrito — ante un representante del plan o un Notary Public — antes de que el participante renuncie a la anualidad de sobreviviente o nombre a otra persona como beneficiario. El Código de Prácticas y Recursos Civiles de Texas, capítulo 141, exige aprobación judicial antes de transferir los derechos de pago de un structured settlement, y las divulgaciones y acuerdos de ese proceso normalmente llevan reconocimiento o juramento. Según el formulario, el Notary Public hace un reconocimiento (acknowledgment), en el que usted confirma una firma que pudo hacer antes, o un juramento (jurat), en el que firma frente al Notary Public y jura que el contenido es verdadero. En ambos casos comparece en persona con identificación oficial vigente con foto, y el certificado lleva la redacción que exige la ley de Texas."
     },
     {
-      "en": "Text or call (915) 302-0902 with the form name, the number of signers and where you are; we confirm the statutory fee — $10 for the first signature and $1 for each additional signature on the same document, $10 per oath — plus the $39 El Paso travel fee, itemized separately. We come to your home, office, bank branch or hospital room, check each signer's ID, watch the signatures and complete the certificates; most visits take about fifteen minutes. Bring the form complete, and leave any sworn statement unsigned until the notary arrives. A notary cannot fill in your beneficiary choices, explain the tax consequences of a distribution or tell you whether to settle a debt; those questions belong to your plan administrator, a financial advisor or an attorney. The forms come from the institution that requires them.",
-      "es": "Llame o envíe un texto al (915) 302-0902 con el nombre del formulario, el número de firmantes y dónde se encuentra; confirmamos la tarifa legal — $10 por la primera firma y $1 por cada firma adicional en el mismo documento, $10 por juramento — más los $39 de traslado en El Paso, detallados por separado. Vamos a su casa, oficina, sucursal bancaria o cuarto de hospital, revisamos la identificación de cada firmante, presenciamos las firmas y completamos los certificados; la mayoría de las visitas toma unos quince minutos. Traiga el formulario completo y deje sin firmar cualquier declaración jurada hasta que llegue el Notary Public. Un Notary Public no puede llenar sus designaciones de beneficiario, explicarle las consecuencias fiscales de una distribución ni decirle si conviene liquidar una deuda; eso corresponde al administrador del plan, a un asesor financiero o a un abogado. Los formularios los proporciona la institución que los exige."
+      "en": "Text or call (915) 302-0902 with the form name, the number of signers and where you are; we confirm the quote — notarial fee plus El Paso travel, itemized separately. We come to your home, office, bank branch or hospital room, check each signer's ID, watch the signatures and complete the certificates; most visits take about fifteen minutes. Bring the form complete, and leave any sworn statement unsigned until the notary arrives. A notary cannot fill in your beneficiary choices, explain the tax consequences of a distribution or tell you whether to settle a debt; those questions belong to your plan administrator, a financial advisor or an attorney. The forms come from the institution that requires them.",
+      "es": "Llame o envíe un texto al (915) 302-0902 con el nombre del formulario, el número de firmantes y dónde se encuentra; confirmamos la cotización — tarifa de notarización más el traslado en El Paso, detallados por separado. Vamos a su casa, oficina, sucursal bancaria o cuarto de hospital, revisamos la identificación de cada firmante, presenciamos las firmas y completamos los certificados; la mayoría de las visitas toma unos quince minutos. Traiga el formulario completo y deje sin firmar cualquier declaración jurada hasta que llegue el Notary Public. Un Notary Public no puede llenar sus designaciones de beneficiario, explicarle las consecuencias fiscales de una distribución ni decirle si conviene liquidar una deuda; eso corresponde al administrador del plan, a un asesor financiero o a un abogado. Los formularios los proporciona la institución que los exige."
     }
   ],
   "sections": [
@@ -92,14 +92,14 @@
     { "en": "The complete form from the plan, bank or creditor, with every blank filled in; leave sworn statements unsigned", "es": "El formulario completo del plan, banco o acreedor, con todos los espacios llenos; las declaraciones juradas se firman frente al Notary Public" },
     { "en": "The institution's instructions, including any deadline for the consent and whether the notary block must stay on its own page", "es": "Las instrucciones de la institución, incluido cualquier plazo para el consentimiento y si el certificado debe ir en su propia hoja" },
     { "en": "Any witnesses the form requires — some plan forms ask for a witness in addition to the notary", "es": "Los testigos que exija el formulario — algunos planes piden un testigo además del Notary Public" },
-    { "en": "Payment for the statutory fee and the $39 travel fee, confirmed when you book", "es": "El pago de la tarifa legal y los $39 de traslado, confirmados al reservar" }
+    { "en": "Payment for the quoted total, confirmed when you book", "es": "El pago del total cotizado, confirmado al reservar" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para reservar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with the form name, the number of signers and your address in El Paso. We tell you whether the form actually needs a notary and confirm the statutory fee plus the $39 travel fee before we come.",
-        "es": "Llame o envíe un texto al (915) 302-0902 con el nombre del formulario, el número de firmantes y su dirección en El Paso. Le decimos si el formulario realmente necesita Notary Public y confirmamos la tarifa legal más los $39 de traslado antes de ir."
+        "en": "Text or call (915) 302-0902 with the form name, the number of signers and your address in El Paso. We tell you whether the form actually needs a notary and confirm the quote before we come.",
+        "es": "Llame o envíe un texto al (915) 302-0902 con el nombre del formulario, el número de firmantes y su dirección en El Paso. Le decimos si el formulario realmente necesita Notary Public y confirmamos la cotización antes de ir."
       }
     },
     {
@@ -142,8 +142,8 @@
     {
       "q": { "en": "How much does it cost to notarize financial documents in El Paso?", "es": "¿Cuánto cuesta notarizar documentos financieros en El Paso?" },
       "a": {
-        "en": "Texas sets the notarial fees: $10 for the first signature acknowledged and $1 for each additional signature on the same document, $10 for each oath or affirmation with a jurat, and $10 plus $1 per page for a certified copy of a non-recordable document. QWIK adds a nominal $39 travel fee anywhere in the El Paso area, always itemized separately. Evening, weekend and out-of-area trips are quoted when you text or call (915) 302-0902.",
-        "es": "Texas fija las tarifas de notarización: $10 por la primera firma reconocida y $1 por cada firma adicional en el mismo documento, $10 por cada juramento con jurat, y $10 más $1 por página por una copia certificada de un documento no registrable. QWIK agrega $39 de traslado en el área de El Paso, siempre detallados por separado. Las visitas en la tarde, en fin de semana o fuera del área se cotizan cuando llama o envía un texto al (915) 302-0902."
+        "en": "Prices vary by form, number of signatures and location; Texas caps notarial fees by statute (Tex. Gov't Code §406.024). Travel anywhere in the El Paso area is always itemized separately. Evening, weekend and out-of-area trips are quoted when you text or call (915) 302-0902.",
+        "es": "Los precios varían según el formulario, el número de firmas y la ubicación; la ley de Texas fija topes a las tarifas de notarización (Código de Gobierno §406.024). El traslado en el área de El Paso siempre se detalla por separado. Las visitas en la tarde, en fin de semana o fuera del área se cotizan cuando llama o envía un texto al (915) 302-0902."
       }
     },
     {

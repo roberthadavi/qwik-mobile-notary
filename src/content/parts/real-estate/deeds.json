@@ -20,8 +20,8 @@
     "es": "Escrituras de garantía general y especial, de finiquito (quitclaim), de donación, deeds of trust y paquetes de escrituras de otros estados, reconocidos en su casa, oficina o compañía de título en todo el condado de El Paso — la notarización que exige el County Clerk de El Paso para registrar una escritura. Su abogado o la compañía de título preparan la escritura; nosotros la notarizamos."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "La sección 12.001 del Código de Propiedad de Texas (Property Code) permite al County Clerk de El Paso registrar una escritura solo si fue reconocida o jurada ante un oficial autorizado para tomar reconocimientos, como el Notary Public. Quien otorga (grantor), es decir, la persona que transfiere la propiedad, es quien debe comparecer; la firma de quien recibe (grantee) normalmente no se notariza, salvo que el formato lo pida. Quien otorga puede haber firmado antes y simplemente reconocer su firma ante el Notary Public, o firmar frente a nosotros; en ambos casos verificamos la identidad con identificación vigente con fotografía, confirmamos que entiende el documento y firma por voluntad propia, y completamos el certificado de reconocimiento de Texas con nuestro sello."
     },
     {
-      "en": "Text or call (915) 302-0902 with the type of deed, how many grantors will sign and the address; we confirm the statutory fee, $10 for the first signature and $1 for each additional signature on the same deed, plus the $39 El Paso travel fee, and come to your home, office or title company. Bring unexpired photo ID for every grantor and the complete deed with the legal description filled in; we cannot notarize blanks. A single deed takes about 15 minutes. Our notary does not prepare deeds, pick the deed type or advise on the transfer; an El Paso real estate attorney or title company does that. Afterward you record the original with the County Clerk downtown.",
-      "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de escritura, cuántas personas otorgan y la dirección; le confirmamos la tarifa oficial, $10 la primera firma y $1 cada firma adicional en la misma escritura, más los $39 de traslado en El Paso, y vamos a su casa, oficina o compañía de título. Traiga identificación vigente con fotografía de cada otorgante y la escritura completa con la descripción legal llena; no podemos notarizar espacios en blanco. Una escritura toma unos 15 minutos. Nuestro Notary Public no prepara escrituras, no escoge el tipo de escritura ni aconseja sobre el traspaso; un Notary Public de Texas no es abogado ni equivale a la figura legal de México. Eso lo hace un abogado de bienes raíces o una compañía de título en El Paso. Después, usted registra el original en la oficina de registros del County Clerk en el centro."
+      "en": "Text or call (915) 302-0902 with the type of deed, how many grantors will sign and the address; we confirm your quote and come to your home, office or title company anywhere in El Paso. Bring unexpired photo ID for every grantor and the complete deed with the legal description filled in; we cannot notarize blanks. A single deed takes about 15 minutes. Our notary does not prepare deeds, pick the deed type or advise on the transfer; an El Paso real estate attorney or title company does that. Afterward you record the original with the County Clerk downtown.",
+      "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de escritura, cuántas personas otorgan y la dirección; le confirmamos la cotización y vamos a su casa, oficina o compañía de título en cualquier parte de El Paso. Traiga identificación vigente con fotografía de cada otorgante y la escritura completa con la descripción legal llena; no podemos notarizar espacios en blanco. Una escritura toma unos 15 minutos. Nuestro Notary Public no prepara escrituras, no escoge el tipo de escritura ni aconseja sobre el traspaso; un Notary Public de Texas no es abogado ni equivale a la figura legal de México. Eso lo hace un abogado de bienes raíces o una compañía de título en El Paso. Después, usted registra el original en la oficina de registros del County Clerk en el centro."
     }
   ],
   "sections": [
@@ -97,14 +97,14 @@
     { "en": "The original power of attorney if an agent is signing for the owner", "es": "La carta poder original si un apoderado firma por el dueño" },
     { "en": "Proof of authority (resolution or certificate of incumbency) when a company is the grantor", "es": "Prueba de autoridad (resolución o certificado de cargo) cuando una empresa es la que otorga" },
     { "en": "The sender's instructions and return envelope for out-of-state deed packages", "es": "Las instrucciones y el sobre de devolución del remitente si el paquete viene de otro estado" },
-    { "en": "Payment for the statutory fees and the $39 travel fee, confirmed when you book", "es": "El pago de las tarifas oficiales y los $39 de traslado, confirmado al agendar" }
+    { "en": "Payment for the quoted total, confirmed when you book", "es": "El pago del total cotizado, confirmado al agendar" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para agendar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with the type of deed, the number of grantors and where you are — home, office, title company or hospital. We confirm the statutory fee plus the $39 El Paso travel fee and set a time, evenings and weekends included.",
-        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de escritura, el número de otorgantes y dónde está usted — casa, oficina, compañía de título u hospital. Le confirmamos la tarifa oficial más los $39 de traslado en El Paso y fijamos la hora, tardes y fines de semana incluidos."
+        "en": "Text or call (915) 302-0902 with the type of deed, the number of grantors and where you are — home, office, title company or hospital. We confirm the quote and set a time, evenings and weekends included.",
+        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de escritura, el número de otorgantes y dónde está usted — casa, oficina, compañía de título u hospital. Le confirmamos la cotización y fijamos la hora, tardes y fines de semana incluidos."
       }
     },
     {
@@ -139,8 +139,8 @@
         "es": "¿Cuánto cuesta notarizar una escritura en El Paso?"
       },
       "a": {
-        "en": "The notary fee is set by Texas law: $10 for the first signature acknowledged and $1 for each additional signature on the same deed. QWIK adds a $39 travel fee for the visit anywhere in El Paso, itemized separately, so one deed with one grantor is the $10 statutory fee plus the $39 trip. Recording fees are paid separately to the El Paso County Clerk, per page. Text or call (915) 302-0902 and we confirm the total before we come.",
-        "es": "La tarifa la fija la ley de Texas: $10 por la primera firma reconocida y $1 por cada firma adicional en la misma escritura. QWIK agrega $39 de traslado por la visita a cualquier parte de El Paso, detallados por separado, así que una escritura con un otorgante son los $10 de tarifa oficial más los $39 del viaje. Las cuotas de registro se pagan por separado al County Clerk de El Paso, por página. Envíe un texto o llame al (915) 302-0902 y le confirmamos el total antes de ir."
+        "en": "Prices vary by the number of grantors signing and by location; the notarial fee is capped by Texas law. QWIK itemizes travel for the visit anywhere in El Paso separately. Recording fees are paid separately to the El Paso County Clerk, per page. Text or call (915) 302-0902 and we confirm the total before we come.",
+        "es": "Los precios varían según el número de otorgantes que firman y según la ubicación; la tarifa de notarización tiene tope en la ley de Texas. QWIK detalla por separado el traslado por la visita a cualquier parte de El Paso. Las cuotas de registro se pagan por separado al County Clerk de El Paso, por página. Envíe un texto o llame al (915) 302-0902 y le confirmamos el total antes de ir."
       }
     },
     {

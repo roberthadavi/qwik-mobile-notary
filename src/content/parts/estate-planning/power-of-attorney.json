@@ -20,8 +20,8 @@
     "es": "Su carta poder duradera, financiera, limitada o de vehículo reconocida ante un Notary Public de Texas en su casa, oficina, cuarto de hospital o la cárcel del condado — en todo el condado de El Paso, en español o en inglés."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "Texas exige que la firma en una Carta Poder Duradera Estatutaria (Statutory Durable Power of Attorney) se reconozca ante un Notary Public (capítulo 752 del Código de Sucesiones o Estates Code, donde también se publica el formato oficial); no se requieren testigos. En un reconocimiento (acknowledgment), el otorgante — la persona que da el poder — comparece ante el Notary Public, comprueba su identidad con una identificación oficial vigente con fotografía y confirma que la firma es suya y que entiende el documento. El apoderado no tiene que asistir. Si el apoderado va a firmar una escritura de una propiedad en El Paso, la carta poder se registra en la Oficina del Secretario del Condado de El Paso (County Clerk). Una carta poder firmada en Texas para usarse en México también necesita una apostilla de la Secretaría de Estado de Texas."
     },
     {
-      "en": "Text or call (915) 302-0902 with the document type, the address and how many people will sign. We confirm the fee — Texas statutory fees plus a $39 travel fee in El Paso — and meet you at home, at work, at a hospital bedside or the jail. Bring the complete document and unexpired photo ID; signing takes about 15 minutes. Our notary cannot tell you which power of attorney you need, fill in blanks or explain the legal effect of the powers granted — a Texas notary is not an attorney. The statutory form is in Estates Code section 752.051, Fort Bliss Legal Assistance prepares free military powers of attorney for service members, and TxDMV publishes Form VTR-271 for vehicle transfers.",
-      "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, la dirección y cuántas personas van a firmar. Le confirmamos el costo — las tarifas oficiales de Texas más $39 de traslado en El Paso — y nos vemos en su casa, su trabajo, la cama del hospital o la cárcel. Traiga el documento completo y una identificación vigente con fotografía; la firma toma unos 15 minutos. Nuestro Notary Public no puede decirle qué carta poder necesita, llenar los espacios en blanco ni explicarle el efecto legal de los poderes que otorga: un Notary Public de Texas no es abogado ni equivale a la figura legal de México. El formato estatutario está en la sección 752.051 del Estates Code, Asistencia Legal de Fort Bliss prepara cartas poder militares sin costo para los militares y el TxDMV publica el formato VTR-271 para traspasos de vehículos."
+      "en": "Text or call (915) 302-0902 with the document type, the address and how many people will sign. We confirm the quote and meet you at home, at work, at a hospital bedside or the jail anywhere in El Paso. Bring the complete document and unexpired photo ID; signing takes about 15 minutes. Our notary cannot tell you which power of attorney you need, fill in blanks or explain the legal effect of the powers granted — a Texas notary is not an attorney. The statutory form is in Estates Code section 752.051, Fort Bliss Legal Assistance prepares free military powers of attorney for service members, and TxDMV publishes Form VTR-271 for vehicle transfers.",
+      "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, la dirección y cuántas personas van a firmar. Le confirmamos la cotización y nos vemos en su casa, su trabajo, la cama del hospital o la cárcel en cualquier parte de El Paso. Traiga el documento completo y una identificación vigente con fotografía; la firma toma unos 15 minutos. Nuestro Notary Public no puede decirle qué carta poder necesita, llenar los espacios en blanco ni explicarle el efecto legal de los poderes que otorga: un Notary Public de Texas no es abogado ni equivale a la figura legal de México. El formato estatutario está en la sección 752.051 del Estates Code, Asistencia Legal de Fort Bliss prepara cartas poder militares sin costo para los militares y el TxDMV publica el formato VTR-271 para traspasos de vehículos."
     }
   ],
   "sections": [
@@ -88,14 +88,14 @@
     { "en": "The complete power of attorney with every blank filled in: agent's name, powers granted and effective date", "es": "La carta poder completa, con todos los espacios llenos: nombre del apoderado, poderes otorgados y fecha de vigencia" },
     { "en": "Your bank's or agency's own form, if they require one", "es": "El formato propio de su banco o dependencia, si lo exigen" },
     { "en": "For a carta poder going to Mexico, the recipient's instructions on wording and translation", "es": "Para una carta poder que va a México, las instrucciones del destinatario sobre redacción y traducción" },
-    { "en": "Payment for the notarial fees and the $39 travel fee, confirmed when you book", "es": "El pago de las tarifas de notarización y los $39 de traslado, confirmado al agendar" }
+    { "en": "Payment for the quoted total, confirmed when you book", "es": "El pago del total cotizado, confirmado al agendar" }
   ],
   "process": [
     {
       "title": { "en": "Text or call to book", "es": "Llame o envíe un texto para agendar" },
       "body": {
-        "en": "Text or call (915) 302-0902 with the document type, the number of signers, the address and the time you need. We confirm the fee — statutory notary fees plus a $39 El Paso travel fee — and hold your slot, evenings and weekends included.",
-        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, el número de firmantes, la dirección y la hora que necesita. Le confirmamos el costo — tarifas oficiales más $39 de traslado en El Paso — y apartamos su cita, tardes y fines de semana incluidos."
+        "en": "Text or call (915) 302-0902 with the document type, the number of signers, the address and the time you need. We confirm the quote and hold your slot, evenings and weekends included.",
+        "es": "Envíe un texto o llame al (915) 302-0902 con el tipo de documento, el número de firmantes, la dirección y la hora que necesita. Le confirmamos la cotización y apartamos su cita, tardes y fines de semana incluidos."
       }
     },
     {
@@ -140,8 +140,8 @@
         "es": "¿Cuánto cuesta notarizar una carta poder en El Paso?"
       },
       "a": {
-        "en": "The Texas statutory fee is $10 for the first signature acknowledged and $1 for each additional signature on the same document, plus QWIK's nominal $39 travel fee anywhere in El Paso, itemized separately. Two spouses each signing their own power of attorney is two documents, so two $10 fees and one travel fee. After-hours, jail and out-of-area trips are quoted — call or text (915) 302-0902 and we confirm the total before we come.",
-        "es": "La tarifa oficial de Texas es $10 por la primera firma que se reconoce y $1 por cada firma adicional en el mismo documento, más los $39 de traslado de QWIK a cualquier parte de El Paso, detallados por separado. Si dos esposos firman cada uno su propia carta poder, son dos documentos: dos tarifas de $10 y un solo traslado. Las visitas fuera de horario, a la cárcel o fuera del área se cotizan — llame o envíe un texto al (915) 302-0902 y le confirmamos el total antes de ir."
+        "en": "Prices vary by the number of documents and signatures and by location; Texas caps the notarial fee by statute and travel anywhere in El Paso is itemized separately. Two spouses each signing their own power of attorney is two documents, so two notarial fees and one travel fee. After-hours, jail and out-of-area trips are quoted — call or text (915) 302-0902 and we confirm the total before we come.",
+        "es": "Los precios varían según el número de documentos y firmas y según la ubicación; la ley de Texas limita la tarifa de notarización y el traslado a cualquier parte de El Paso se detalla por separado. Si dos esposos firman cada uno su propia carta poder, son dos documentos: dos tarifas de notarización y un solo traslado. Las visitas fuera de horario, a la cárcel o fuera del área se cotizan — llame o envíe un texto al (915) 302-0902 y le confirmamos el total antes de ir."
       }
     },
     {
@@ -150,8 +150,8 @@
         "es": "¿Pueden notarizar una carta poder para una propiedad en Ciudad Juárez o en otra parte de México?"
       },
       "a": {
-        "en": "Yes. We notarize the power of attorney in El Paso — usually a Spanish-language document sent by the family's attorney or the receiving party in Mexico — and then the Texas Secretary of State issues an apostille ($15 per document) so it is recognized in Mexico under the Hague Convention. Confirm with the recipient in Mexico what wording and translation they require; some families instead sign a power at the Consulate of Mexico in El Paso under Mexican law.",
-        "es": "Sí. Notarizamos la carta poder en El Paso — por lo general un documento en español que envía el abogado de la familia o quien lo recibirá en México — y después la Secretaría de Estado de Texas le pone la apostilla ($15 por documento) para que se reconozca en México conforme al Convenio de La Haya. Confirme con el destinatario en México qué redacción y traducción exige; algunas familias prefieren firmar el poder en el Consulado de México en El Paso conforme a la ley mexicana."
+        "en": "Yes. We notarize the power of attorney in El Paso — usually a Spanish-language document sent by the family's attorney or the receiving party in Mexico — and then the Texas Secretary of State issues an apostille (for a per-document state fee) so it is recognized in Mexico under the Hague Convention. Confirm with the recipient in Mexico what wording and translation they require; some families instead sign a power at the Consulate of Mexico in El Paso under Mexican law.",
+        "es": "Sí. Notarizamos la carta poder en El Paso — por lo general un documento en español que envía el abogado de la familia o quien lo recibirá en México — y después la Secretaría de Estado de Texas le pone la apostilla (por una cuota estatal por documento) para que se reconozca en México conforme al Convenio de La Haya. Confirme con el destinatario en México qué redacción y traducción exige; algunas familias prefieren firmar el poder en el Consulado de México en El Paso conforme a la ley mexicana."
       }
     },
     {

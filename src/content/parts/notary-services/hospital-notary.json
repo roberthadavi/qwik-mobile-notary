@@ -20,8 +20,8 @@
     "es": "Cuando un paciente no puede salir del hospital, nuestro Notary Public bilingüe va hasta la habitación — UMC, Providence, Las Palmas, Del Sol, asilos, centros de rehabilitación y hospicios en todo El Paso — para notarizar un poder médico, una directiva, una carta poder o un testamento."
   },
   "feeModel": {
-    "en": "$10 first signature + $1 each additional, plus $39 travel fee",
-    "es": "$10 la primera firma + $1 cada firma adicional, más $39 de traslado"
+    "en": "Prices vary — call or text for a quote",
+    "es": "Los precios varían — llame o envíe un texto para cotizar"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends available",
@@ -37,8 +37,8 @@
       "es": "La ley de Texas define lo que puede pasar junto a la cama. Un poder médico y una directiva al médico (Texas Health and Safety Code, capítulo 166) pueden firmarse ante dos testigos calificados o ante un Notary Public; una carta poder duradera estatutaria (Texas Estates Code, capítulo 752) debe reconocerse ante un Notary Public; y un testamento sigue necesitando dos testigos creíbles de 14 años o más, siendo la función del Notary Public la declaración jurada de autoprueba (self-proving affidavit) del artículo 251.104. Lo que no se puede doblar es el firmante. El paciente debe estar despierto, saber qué documento es y querer firmarlo. Si la medicina o la enfermedad le quitaron eso, no podemos notarizar, y un familiar no puede firmar por el paciente a menos que ya exista una carta poder válida."
     },
     {
-      "en": "Booking is easy: text or call (915) 302-0902 with the facility, the room number and the document you have, and we confirm the fee up front — the statutory $10 per notarization plus the $39 El Paso travel fee, itemized separately. Ask the nurses' station about visiting hours and whether the charge nurse wants to know a notary is coming; at William Beaumont and some locked units the family must arrange access. Bring the patient's unexpired photo ID; if it was left at home, a credible witness who knows the patient and has no stake in the document can identify them. Signing usually takes about 15 minutes. We cannot give legal advice, choose forms or fill anything in — bring the completed document, and use the free Texas HHS advance directive forms if you need one.",
-      "es": "Reservar es fácil: envíe un texto o llame al (915) 302-0902 con el hospital, el número de cuarto y el documento que tiene, y le confirmamos la tarifa desde el principio: los $10 por notarización que fija la ley más los $39 de traslado en El Paso, detallados por separado. Pregunte en la estación de enfermería por el horario de visitas y si la enfermera encargada quiere saber que viene un Notary Public; en William Beaumont y en algunas unidades cerradas la familia debe gestionar el acceso. Traiga la identificación con foto vigente del paciente; si se quedó en casa, un testigo creíble que conozca al paciente y no tenga interés en el documento puede identificarlo. La firma toma unos 15 minutos. No damos asesoría legal ni escogemos ni llenamos formularios: traiga el documento completo y use los formularios gratuitos de directivas anticipadas de Texas HHS si necesita uno."
+      "en": "Booking is easy: text or call (915) 302-0902 with the facility, the room number and the document you have, and we confirm the quote up front, with the notarial fee and El Paso travel itemized separately. Ask the nurses' station about visiting hours and whether the charge nurse wants to know a notary is coming; at William Beaumont and some locked units the family must arrange access. Bring the patient's unexpired photo ID; if it was left at home, a credible witness who knows the patient and has no stake in the document can identify them. Signing usually takes about 15 minutes. We cannot give legal advice, choose forms or fill anything in — bring the completed document, and use the free Texas HHS advance directive forms if you need one.",
+      "es": "Reservar es fácil: envíe un texto o llame al (915) 302-0902 con el hospital, el número de cuarto y el documento que tiene, y le confirmamos la cotización desde el principio, con la tarifa de notarización y el traslado en El Paso detallados por separado. Pregunte en la estación de enfermería por el horario de visitas y si la enfermera encargada quiere saber que viene un Notary Public; en William Beaumont y en algunas unidades cerradas la familia debe gestionar el acceso. Traiga la identificación con foto vigente del paciente; si se quedó en casa, un testigo creíble que conozca al paciente y no tenga interés en el documento puede identificarlo. La firma toma unos 15 minutos. No damos asesoría legal ni escogemos ni llenamos formularios: traiga el documento completo y use los formularios gratuitos de directivas anticipadas de Texas HHS si necesita uno."
     }
   ],
   "sections": [
@@ -84,7 +84,7 @@
     { "en": "The complete, filled-in document, unsigned if it needs an oath (affidavits, self-proving affidavit)", "es": "El documento completo y llenado, sin firmar si requiere juramento (declaraciones juradas, self-proving affidavit)" },
     { "en": "Two disinterested witnesses age 14 or older for a will, and any witnesses the directive or POA form calls for", "es": "Dos testigos sin interés mayores de 14 años para un testamento, y los testigos que pida el formulario de directiva o de carta poder" },
     { "en": "The room number, visiting hours and any access instructions from the nurses' station or the facility", "es": "El número de cuarto, el horario de visitas y las instrucciones de acceso de la estación de enfermería o del centro" },
-    { "en": "Payment for the statutory fee plus the $39 travel fee — we confirm the total by text before we come", "es": "El pago de la tarifa que fija la ley más los $39 de traslado — le confirmamos el total por texto antes de ir" }
+    { "en": "Payment for the quoted total — we confirm it by text before we come", "es": "El pago del total cotizado — se lo confirmamos por texto antes de ir" }
   ],
   "process": [
     {
@@ -141,8 +141,8 @@
     {
       "q": { "en": "How much does a hospital notary cost in El Paso?", "es": "¿Cuánto cuesta un Notary Public en el hospital en El Paso?" },
       "a": {
-        "en": "The notarial fees are set by Texas law: $10 for the first signature acknowledged and $1 for each additional signature on the same document, $10 for each oath or jurat, and $10 for any other notarial act. On top of that we charge a nominal $39 travel fee anywhere in the El Paso area, listed separately on your receipt. Late-night and holiday visits are quoted in advance. Text or call (915) 302-0902 with your documents and we confirm the total before we leave.",
-        "es": "Las tarifas de notarización las fija la ley de Texas: $10 por la primera firma reconocida y $1 por cada firma adicional en el mismo documento, $10 por cada juramento (jurat) y $10 por cualquier otro acto de notarización. Además cobramos un traslado nominal de $39 en toda el área de El Paso, detallado por separado en su recibo. Las visitas de madrugada y en días festivos se cotizan por adelantado. Envíe un texto o llame al (915) 302-0902 con sus documentos y le confirmamos el total antes de salir."
+        "en": "Prices vary by the number of documents, signatures and oaths; the notarial fees are capped by Texas law. Travel anywhere in the El Paso area is listed separately on your receipt. Late-night and holiday visits are quoted in advance. Text or call (915) 302-0902 with your documents and we confirm the total before we leave.",
+        "es": "Los precios varían según el número de documentos, firmas y juramentos; las tarifas de notarización tienen tope en la ley de Texas. El traslado en toda el área de El Paso se detalla por separado en su recibo. Las visitas de madrugada y en días festivos se cotizan por adelantado. Envíe un texto o llame al (915) 302-0902 con sus documentos y le confirmamos el total antes de salir."
       }
     }
   ],

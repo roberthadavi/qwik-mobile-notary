@@ -20,8 +20,8 @@
     "es": "Servicio de Notary Public móvil con cuenta recurrente para despachos, abogados independientes, paralegales y reporteros judiciales de El Paso: declaraciones juradas (affidavits) y verificaciones para escritos, juramentos a testigos, reconocimientos en acuerdos y firmas de clientes en la oficina, en casa, en UMC o en el Centro de Detención del Condado — el mismo día y por las tardes, en inglés o español."
   },
   "feeModel": {
-    "en": "$10 per oath or first acknowledged signature + $1 each additional, plus $39 travel fee — firm accounts invoiced",
-    "es": "$10 por juramento o primera firma reconocida + $1 cada firma adicional, más $39 de traslado — cuentas con factura para despachos"
+    "en": "Prices vary — call or text for a quote; firm accounts invoiced",
+    "es": "Los precios varían — llame o envíe un texto para cotizar; cuentas con factura para despachos"
   },
   "timeline": {
     "en": "Same day by appointment · evenings & weekends · on call for recurring firm accounts",
@@ -37,8 +37,8 @@
       "es": "El Código de Gobierno de Texas, capítulo 406, define lo que puede hacer un Notary Public — tomar juramentos y afirmaciones, tomar reconocimientos y pruebas, tomar deposiciones y certificar copias de documentos no registrables — con tarifas fijadas en la sección 406.024. En una declaración jurada o verificación, el Notary Public toma el juramento y el firmante firma en su presencia: un juramento (jurat). En un acuerdo de transacción, un finiquito o una carta poder, el firmante reconoce su firma: un reconocimiento (acknowledgment). El Notary Public identifica a cada firmante con identificación oficial vigente con foto, por conocimiento personal o mediante un testigo creíble, confirma que firma voluntariamente y consciente, y completa el certificado con la redacción que exige la ley de Texas. Si el documento no trae certificado, preguntamos al abogado qué acto se requiere en lugar de elegirlo; la asesoría, la selección de formularios y la redacción quedan con el abogado."
     },
     {
-      "en": "Booking is built for a legal office's pace. A paralegal texts or calls (915) 302-0902 with the document type, the number of signers, the location and the deadline — a filing due at 8 a.m., a mediation that settled at 6 p.m. — and we confirm the statutory fee and the $39 El Paso travel fee, itemized separately. We meet the signer at your office, the client's home, the hospital or the jail; a routine signing takes about fifteen minutes. Documents arrive complete and, for jurats, unsigned. Firms and court-reporting agencies that send steady work can set up an account with invoicing; after-hours and rush trips are quoted in advance. We do not supply witnesses unless arranged when booking, do not draft, and never explain a document's legal effect to a client — that conversation belongs to the attorney.",
-      "es": "La reserva sigue el ritmo de una oficina legal. Un paralegal llama o envía un texto al (915) 302-0902 con el tipo de documento, el número de firmantes, el lugar y el plazo — un escrito que vence a las 8 de la mañana, una mediación que se cerró a las 6 de la tarde — y confirmamos la tarifa legal y los $39 de traslado en El Paso, detallados por separado. Vemos al firmante en su despacho, en la casa del cliente, en el hospital o en la cárcel; una firma de rutina toma unos quince minutos. Los documentos llegan completos y, si llevan juramento, sin firmar. Los despachos y agencias de reporteros judiciales con trabajo constante pueden abrir una cuenta con facturación; las salidas fuera de horario y urgentes se cotizan por adelantado. No proporcionamos testigos salvo que se acuerde al reservar, no redactamos, y nunca explicamos al cliente el efecto legal de un documento — esa conversación es del abogado."
+      "en": "Booking is built for a legal office's pace. A paralegal texts or calls (915) 302-0902 with the document type, the number of signers, the location and the deadline — a filing due at 8 a.m., a mediation that settled at 6 p.m. — and we confirm the quote, with the notarial fee and El Paso travel itemized separately. We meet the signer at your office, the client's home, the hospital or the jail; a routine signing takes about fifteen minutes. Documents arrive complete and, for jurats, unsigned. Firms and court-reporting agencies that send steady work can set up an account with invoicing; after-hours and rush trips are quoted in advance. We do not supply witnesses unless arranged when booking, do not draft, and never explain a document's legal effect to a client — that conversation belongs to the attorney.",
+      "es": "La reserva sigue el ritmo de una oficina legal. Un paralegal llama o envía un texto al (915) 302-0902 con el tipo de documento, el número de firmantes, el lugar y el plazo — un escrito que vence a las 8 de la mañana, una mediación que se cerró a las 6 de la tarde — y confirmamos la cotización, con la tarifa de notarización y el traslado en El Paso detallados por separado. Vemos al firmante en su despacho, en la casa del cliente, en el hospital o en la cárcel; una firma de rutina toma unos quince minutos. Los documentos llegan completos y, si llevan juramento, sin firmar. Los despachos y agencias de reporteros judiciales con trabajo constante pueden abrir una cuenta con facturación; las salidas fuera de horario y urgentes se cotizan por adelantado. No proporcionamos testigos salvo que se acuerde al reservar, no redactamos, y nunca explicamos al cliente el efecto legal de un documento — esa conversación es del abogado."
     }
   ],
   "sections": [
@@ -53,8 +53,8 @@
           "es": "Para litigantes: declaraciones juradas y verificaciones para escritos y respuestas de descubrimiento, affidavits de registros comerciales, declaraciones bajo juramento y declaraciones escritas de testigos, juramentos a testigos que declaran en el despacho, y reconocimientos en acuerdos de transacción, finiquitos y sentencias convenidas. Para sucesiones y planificación patrimonial: inventarios jurados, declaraciones juradas de herederos (affidavits of heirship), cartas poder y poderes médicos para clientes del despacho, y testamentos firmados a solicitud del despacho, donde notarizamos la declaración jurada de autoprueba (self-proving affidavit) mientras el despacho aporta los dos testigos creíbles de 14 años o más que exige el Código de Sucesiones de Texas, capítulo 251. Nuestro Notary Public no hace de testigo."
         },
         {
-          "en": "For court reporters and their agencies we serve as the officer for depositions on written questions, administering the oath and certifying the transcript, and we administer the oath when a deponent signs the transcript and correction sheet under Texas Rule of Civil Procedure 203.1, at the witness's home or office if needed. We also notarize reporter certifications and affidavits that a receiving court or agency wants sworn, and certify copies of exhibits and other non-recordable documents at $10 plus $1 per page. Court documents themselves are certified by the District Clerk or County Clerk, not by a notary.",
-          "es": "Para reporteros judiciales y sus agencias actuamos como oficial en deposiciones por preguntas escritas, tomando el juramento y certificando la transcripción, y tomamos el juramento cuando el deponente firma la transcripción y la hoja de correcciones conforme a la Regla 203.1 de Procedimiento Civil de Texas, en la casa u oficina del testigo si hace falta. También notarizamos certificaciones y declaraciones juradas del reportero que una corte o agencia receptora quiera bajo juramento, y certificamos copias de anexos y otros documentos no registrables a $10 más $1 por página. Los documentos judiciales los certifica el District Clerk o el County Clerk, no un Notary Public."
+          "en": "For court reporters and their agencies we serve as the officer for depositions on written questions, administering the oath and certifying the transcript, and we administer the oath when a deponent signs the transcript and correction sheet under Texas Rule of Civil Procedure 203.1, at the witness's home or office if needed. We also notarize reporter certifications and affidavits that a receiving court or agency wants sworn, and certify copies of exhibits and other non-recordable documents. Court documents themselves are certified by the District Clerk or County Clerk, not by a notary.",
+          "es": "Para reporteros judiciales y sus agencias actuamos como oficial en deposiciones por preguntas escritas, tomando el juramento y certificando la transcripción, y tomamos el juramento cuando el deponente firma la transcripción y la hoja de correcciones conforme a la Regla 203.1 de Procedimiento Civil de Texas, en la casa u oficina del testigo si hace falta. También notarizamos certificaciones y declaraciones juradas del reportero que una corte o agencia receptora quiera bajo juramento, y certificamos copias de anexos y otros documentos no registrables. Los documentos judiciales los certifica el District Clerk o el County Clerk, no un Notary Public."
         }
       ]
     },
@@ -139,8 +139,8 @@
       "es": "Las instrucciones y autorizaciones del centro para visitas a la cárcel o al hospital, y el nombre de registro o número de cuarto del cliente"
     },
     {
-      "en": "Billing details for the firm account, or payment for the statutory fee and the $39 travel fee",
-      "es": "Los datos de facturación de la cuenta del despacho, o el pago de la tarifa legal y los $39 de traslado"
+      "en": "Billing details for the firm account, or payment for the quoted total",
+      "es": "Los datos de facturación de la cuenta del despacho, o el pago del total cotizado"
     }
   ],
   "process": [
@@ -150,8 +150,8 @@
         "es": "Llame o envíe un texto para reservar"
       },
       "body": {
-        "en": "A paralegal or attorney texts or calls (915) 302-0902 with the document, the number of signers, the location in El Paso and the deadline. We confirm the statutory fee and the $39 travel fee, or bill the visit to the firm's account.",
-        "es": "Un paralegal o abogado llama o envía un texto al (915) 302-0902 con el documento, el número de firmantes, el lugar en El Paso y el plazo. Confirmamos la tarifa legal y los $39 de traslado, o cargamos la visita a la cuenta del despacho."
+        "en": "A paralegal or attorney texts or calls (915) 302-0902 with the document, the number of signers, the location in El Paso and the deadline. We confirm the quote, or bill the visit to the firm's account.",
+        "es": "Un paralegal o abogado llama o envía un texto al (915) 302-0902 con el documento, el número de firmantes, el lugar en El Paso y el plazo. Confirmamos la cotización, o cargamos la visita a la cuenta del despacho."
       }
     },
     {
@@ -202,8 +202,8 @@
         "es": "¿Cuánto cuesta un Notary Public móvil para un despacho en El Paso?"
       },
       "a": {
-        "en": "The notarial fees are fixed by Texas law: $10 per oath or affirmation with jurat, $10 for the first acknowledged signature and $1 for each additional signature on the same document, and $10 plus $1 per page for a certified copy of a non-recordable document. QWIK adds a nominal $39 travel fee within the El Paso area, itemized separately; after-hours and out-of-area trips are quoted. Firms with recurring work can open an account and be invoiced instead of paying per visit.",
-        "es": "Las tarifas de notarización las fija la ley de Texas: $10 por juramento o afirmación con jurat, $10 por la primera firma reconocida y $1 por cada firma adicional en el mismo documento, y $10 más $1 por página por una copia certificada de un documento no registrable. QWIK agrega $39 de traslado dentro del área de El Paso, detallados por separado; las salidas fuera de horario o del área se cotizan. Los despachos con trabajo recurrente pueden abrir una cuenta y recibir factura en lugar de pagar por visita."
+        "en": "Prices vary by document, number of signatures and location; notarial fees are capped by Texas law (Tex. Gov't Code §406.024) and we itemize them on every invoice. Travel within the El Paso area is itemized separately; after-hours and out-of-area trips are quoted — call or text (915) 302-0902 for a quote. Firms with recurring work can open an account and be invoiced instead of paying per visit.",
+        "es": "Los precios varían según el documento, el número de firmas y la ubicación; la ley de Texas fija topes a las tarifas de notarización (Código de Gobierno §406.024) y las detallamos en cada factura. El traslado dentro del área de El Paso se detalla por separado; las salidas fuera de horario o del área se cotizan — llame o envíe un texto al (915) 302-0902 para cotizar. Los despachos con trabajo recurrente pueden abrir una cuenta y recibir factura en lugar de pagar por visita."
       }
     },
     {
