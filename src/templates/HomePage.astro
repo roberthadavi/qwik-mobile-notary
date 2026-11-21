@@ -13,7 +13,7 @@ const { lang } = Astro.props;
 const alt: Lang = lang === 'en' ? 'es' : 'en';
 const apostille = findHub('apostille');
 // highest-demand pages, linked from the home page
-const top = ['child-travel-consent', 'power-of-attorney', 'affidavits', 'mortgage-closings', 'deeds', 'vehicle-title-transfer', 'i-9-verification', 'apostille-mexico'].map((id) => serviceById(id));
+const top = ['child-travel-consent', 'power-of-attorney', 'will-signing', 'affidavits', 'mortgage-closings', 'deeds', 'vehicle-title-transfer', 'i-9-verification', 'apostille-mexico'].map((id) => serviceById(id));
 const faqLd = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
   mainEntity: HOME.faqs.map((f) => ({ '@type': 'Question', name: f.q[lang], acceptedAnswer: { '@type': 'Answer', text: f.a[lang] } })),
@@ -58,7 +58,7 @@ const faqLd = {
       <div class="section-head">
         <div class="eyebrow">{t('whatWeHandle', lang)}</div>
         <h2>{t('services', lang)}</h2>
-        <p>{lang === 'en' ? 'Eight categories, thirty core services. Every page tells you the fee, where the signing happens and what to have ready.' : 'Ocho categorías, treinta servicios principales. Cada página le dice la tarifa, dónde se hace la firma y qué tener listo.'}</p>
+        <p>{lang === 'en' ? 'Eight categories, more than thirty services — from a single affidavit to a full will signing with witnesses. Every page tells you how pricing works, where the signing happens and what to have ready.' : 'Ocho categorías, más de treinta servicios — desde una sola declaración jurada hasta la firma completa de un testamento con testigos. Cada página le dice cómo se cotiza, dónde se hace la firma y qué tener listo.'}</p>
       </div>
       <div class="grid grid-3">
         {NOTARY_HUBS.map((h) => <HubCard lang={lang} hub={h} summary={hubContent(h.id).summary[lang]} />)}

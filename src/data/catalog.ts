@@ -65,6 +65,11 @@ export const HUBS: CatalogHub[] = [
       { id: 'power-of-attorney', slug: { en: 'power-of-attorney', es: 'carta-poder' }, name: { en: 'Power of Attorney', es: 'Carta Poder' }, where: 'mobile' },
       { id: 'medical-power-of-attorney', slug: { en: 'medical-power-of-attorney', es: 'poder-medico' }, name: { en: 'Medical Power of Attorney & Advance Directives', es: 'Poder Médico y Directivas Anticipadas' }, where: 'mobile' },
       { id: 'wills-and-trusts', slug: { en: 'wills-and-trusts', es: 'testamentos-y-fideicomisos' }, name: { en: 'Wills & Living Trusts', es: 'Testamentos y Fideicomisos' }, where: 'mobile' },
+      { id: 'will-signing', slug: { en: 'will-signing', es: 'firma-de-testamento' }, name: { en: 'Will Signing Service (Witnesses Available)', es: 'Firma de Testamento (con Testigos Disponibles)' }, where: 'mobile' },
+      { id: 'living-trust-signing', slug: { en: 'living-trust-signing', es: 'firma-de-fideicomiso' }, name: { en: 'Living Trust Package Signings', es: 'Firma de Paquetes de Fideicomiso en Vida' }, where: 'mobile' },
+      { id: 'transfer-on-death-deed', slug: { en: 'transfer-on-death-deed', es: 'escritura-de-transferencia-al-fallecimiento' }, name: { en: 'Transfer on Death Deed & Lady Bird Deed', es: 'Transfer on Death Deed y Lady Bird Deed' }, where: 'mobile' },
+      { id: 'declaration-of-guardian', slug: { en: 'declaration-of-guardian', es: 'declaracion-de-tutor' }, name: { en: 'Declaration of Guardian (for Yourself or Your Children)', es: 'Declaración de Tutor (para Usted o sus Hijos)' }, where: 'mobile' },
+      { id: 'estate-planning-signing-agent', slug: { en: 'signing-agent', es: 'agente-de-firma' }, name: { en: 'Estate Plan Signing Agent for Attorneys & Online Wills', es: 'Agente de Firma Patrimonial para Abogados y Testamentos en Línea' }, where: 'mobile' },
     ],
   },
   {

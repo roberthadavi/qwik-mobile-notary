@@ -182,7 +182,7 @@
     "notarize deed of trust El Paso",
     "out-of-state deed notary El Paso"
   ],
-  "related": ["seller-packages", "liens-and-releases", "wills-and-trusts", "power-of-attorney"],
+  "related": ["transfer-on-death-deed", "seller-packages", "wills-and-trusts", "power-of-attorney"],
   "outbound": [
     {
       "label": {

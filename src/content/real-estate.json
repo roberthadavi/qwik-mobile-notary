@@ -318,8 +318,8 @@
         "out-of-state deed notary El Paso"
       ],
       "related": [
+        "transfer-on-death-deed",
         "seller-packages",
-        "liens-and-releases",
         "wills-and-trusts",
         "power-of-attorney"
       ],
@@ -677,8 +677,8 @@
           },
           "body": [
             {
-              "en": "Transfer companies reject packets for small reasons: a signature that does not match the name printed on the deed (sign exactly as printed, middle initial included), a missing owner, an affidavit signed before the notary arrived, white-out, or a notary certificate that lists the wrong state. Read the cover letter before we come: some packets want two witnesses in addition to the notary (Florida deeds, for example, require two subscribing witnesses), so line up neighbors or friends if needed; ask when booking whether witnesses can be arranged for an additional fee.",
-              "es": "Las compañías de traspasos rechazan paquetes por detalles: una firma que no coincide con el nombre impreso en la escritura (firme exactamente como está impreso, con la inicial del segundo nombre incluida), un dueño que faltó, una declaración jurada firmada antes de que llegara el Notary Public, corrector líquido, o un certificado que menciona el estado equivocado. Lea la carta del resort antes de que lleguemos: algunos paquetes piden dos testigos además del Notary Public (las escrituras de Florida, por ejemplo, requieren dos testigos), así que consiga vecinos o amigos si hace falta; pregunte al agendar si podemos conseguir testigos por un costo adicional."
+              "en": "Transfer companies reject packets for small reasons: a signature that does not match the name printed on the deed (sign exactly as printed, middle initial included), a missing owner, an affidavit signed before the notary arrived, white-out, or a notary certificate that lists the wrong state. Read the cover letter before we come: some packets want two witnesses in addition to the notary (Florida deeds, for example, require two subscribing witnesses), so line up neighbors or friends if needed, or ask when booking and we bring two witnesses, quoted with the visit.",
+              "es": "Las compañías de traspasos rechazan paquetes por detalles: una firma que no coincide con el nombre impreso en la escritura (firme exactamente como está impreso, con la inicial del segundo nombre incluida), un dueño que faltó, una declaración jurada firmada antes de que llegara el Notary Public, corrector líquido, o un certificado que menciona el estado equivocado. Lea la carta del resort antes de que lleguemos: algunos paquetes piden dos testigos además del Notary Public (las escrituras de Florida, por ejemplo, requieren dos testigos), así que consiga vecinos o amigos si hace falta, o pídalos al agendar y llevamos dos testigos, cotizados junto con la visita."
             },
             {
               "en": "Do not date anything ahead of the visit. When the packet includes a form the resort itself signs, such as an estoppel certificate, leave that blank; only the owner's pages are notarized here in El Paso. Ship the originals promptly with the tracking number saved, because most transfer companies set a return deadline and the deed is not recorded in the resort's county until they receive it. Keep a full copy of everything you signed.",
@@ -743,8 +743,8 @@
           "es": "Las declaraciones juradas sin firmar y sin fecha — se juran frente al Notary Public"
         },
         {
-          "en": "Two witnesses if the packet requires them, or ask when booking whether witnesses can be arranged for an additional fee",
-          "es": "Dos testigos si el paquete los exige, o pregunte al agendar si podemos conseguir testigos por un costo adicional"
+          "en": "Two witnesses if the packet requires them, or ask us to bring them, quoted with the visit",
+          "es": "Dos testigos si el paquete los exige, o pídanos que los llevemos, cotizados junto con la visita"
         },
         {
           "en": "The original power of attorney if one owner is signing for another",
@@ -824,8 +824,8 @@
             "es": "El paquete dice que necesito dos testigos además del Notary Public. ¿Ustedes los llevan?"
           },
           "a": {
-            "en": "Not by default. Deeds recorded in some states, Florida among them, require two subscribing witnesses as well as the notary, and the transfer company will send the packet back without them. Neighbors, friends or coworkers who are not parties to the transfer and can show ID work well; the notary can usually serve as one witness only if the packet allows it. Ask when booking whether witnesses can be arranged for an additional fee.",
-            "es": "No de manera automática. Las escrituras que se registran en algunos estados, Florida entre ellos, requieren dos testigos además del Notary Public, y la compañía de traspasos devuelve el paquete si faltan. Vecinos, amigos o compañeros de trabajo que no sean parte del traspaso y puedan mostrar identificación sirven bien; el Notary Public normalmente puede ser uno de los testigos solo si el paquete lo permite. Pregunte al agendar si podemos conseguir testigos por un costo adicional."
+            "en": "Yes, when you ask for them at booking. Deeds recorded in some states, Florida among them, require two subscribing witnesses as well as the notary, and the transfer company will send the packet back without them. Neighbors, friends or coworkers who are not parties to the transfer and can show ID work well; the notary can usually serve as one witness only if the packet allows it. Ask when booking and we bring two witnesses, quoted with the visit.",
+            "es": "Sí, cuando los pide al agendar. Las escrituras que se registran en algunos estados, Florida entre ellos, requieren dos testigos además del Notary Public, y la compañía de traspasos devuelve el paquete si faltan. Vecinos, amigos o compañeros de trabajo que no sean parte del traspaso y puedan mostrar identificación sirven bien; el Notary Public normalmente puede ser uno de los testigos solo si el paquete lo permite. Pídalos al agendar y llevamos dos testigos, cotizados junto con la visita."
           }
         },
         {

@@ -108,7 +108,7 @@ export const SERVICES = {
   metaDescription: { en: 'Every notary service we bring to your door in El Paso: powers of attorney, affidavits, travel consents, deeds, loan signings, apostilles, I-9s and vehicle titles.', es: 'Cada servicio de notarización que llevamos a su puerta en El Paso: cartas poder, declaraciones juradas, permisos de viaje, escrituras, apostillas y títulos.' },
   eyebrow: { en: 'Services', es: 'Servicios' },
   h1: { en: 'Everything we notarize, in one place.', es: 'Todo lo que notarizamos, en un solo lugar.' },
-  lede: { en: 'Eight categories, thirty core services, plus apostille document pages and our officiant service. Every page tells you how pricing works, where the signing happens and what to have ready.', es: 'Ocho categorías, treinta servicios principales, más las páginas de documentos para apostilla y nuestro servicio de oficiante. Cada página le explica cómo se cotiza, dónde se hace la firma y qué tener listo.' },
+  lede: { en: 'Eight categories, more than thirty services — wills, trusts and estate signings with witnesses included — plus apostille document pages and our officiant service. Every page tells you how pricing works, where the signing happens and what to have ready.', es: 'Ocho categorías, más de treinta servicios — incluidas las firmas de testamentos, fideicomisos y documentos patrimoniales con testigos — más las páginas de documentos para apostilla y nuestro servicio de oficiante. Cada página le explica cómo se cotiza, dónde se hace la firma y qué tener listo.' },
 };
 
 export const FEES_PAGE = {

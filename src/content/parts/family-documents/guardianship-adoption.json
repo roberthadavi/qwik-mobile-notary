@@ -37,8 +37,8 @@
       "es": "Texas es muy específico sobre cómo se firman estos documentos. La declaración jurada de renuncia voluntaria de derechos parentales (Tex. Fam. Code §161.103) no puede firmarse antes de que pasen 48 horas del nacimiento, debe ser presenciada por dos testigos creíbles y debe verificarse ante una persona autorizada para tomar juramentos: el Notary Public toma ese juramento. El acuerdo de autorización para un pariente o cuidador adulto no progenitor (Tex. Fam. Code cap. 34) debe firmarse y jurarse frente a un Notary Public tanto por el padre o madre como por el cuidador. Las solicitudes de tutela que se presentan en los juzgados testamentarios también se juran, y una declaración de tutor bajo el Código de Sucesiones de Texas (Estates Code) se autoprueba con declaraciones juradas de los testigos. Como son juramentos (jurats), usted firma frente al Notary Public, nunca antes."
     },
     {
-      "en": "Text or call (915) 302-0902, tell us which document you have and who will sign, and we confirm your quote and come to you anywhere in El Paso County — at home, at your attorney's office, at the adoption agency, or in a hospital room at UMC or Las Palmas. Every signer brings unexpired photo ID. Bring your own two credible witnesses when the document calls for them, or ask when booking whether witnesses can be arranged for an additional fee. Most signings take 15 to 30 minutes. We do not draft these documents or advise which one you need; your attorney, the adoption agency or the Texas Department of Family and Protective Services, which publishes the caregiver authorization form, provides them.",
-      "es": "Envíe un texto o llame al (915) 302-0902, díganos qué documento tiene y quién va a firmar, y confirmamos la cotización y vamos a donde usted esté en cualquier punto del Condado de El Paso — en su casa, en el despacho de su abogado, en la agencia de adopción o en un cuarto de hospital en UMC o Las Palmas. Cada firmante trae identificación oficial vigente con fotografía. Traiga sus propios dos testigos creíbles cuando el documento los requiera, o pregunte al reservar si se pueden conseguir testigos por una cuota adicional. La mayoría de las firmas toman de 15 a 30 minutos. No redactamos estos documentos ni le decimos cuál necesita; se los proporciona su abogado, la agencia de adopción o el Departamento de Familia y Servicios de Protección de Texas (DFPS), que publica el formato de autorización para cuidadores."
+      "en": "Text or call (915) 302-0902, tell us which document you have and who will sign, and we confirm your quote and come to you anywhere in El Paso County — at home, at your attorney's office, at the adoption agency, or in a hospital room at UMC or Las Palmas. Every signer brings unexpired photo ID. Bring your own two credible witnesses when the document calls for them, or ask when booking and we bring two disinterested witnesses, quoted with the visit. Most signings take 15 to 30 minutes. We do not draft these documents or advise which one you need; your attorney, the adoption agency or the Texas Department of Family and Protective Services, which publishes the caregiver authorization form, provides them.",
+      "es": "Envíe un texto o llame al (915) 302-0902, díganos qué documento tiene y quién va a firmar, y confirmamos la cotización y vamos a donde usted esté en cualquier punto del Condado de El Paso — en su casa, en el despacho de su abogado, en la agencia de adopción o en un cuarto de hospital en UMC o Las Palmas. Cada firmante trae identificación oficial vigente con fotografía. Traiga sus propios dos testigos creíbles cuando el documento los requiera, o pídalos al reservar y llevamos dos testigos sin interés, cotizados junto con la visita. La mayoría de las firmas toman de 15 a 30 minutos. No redactamos estos documentos ni le decimos cuál necesita; se los proporciona su abogado, la agencia de adopción o el Departamento de Familia y Servicios de Protección de Texas (DFPS), que publica el formato de autorización para cuidadores."
     }
   ],
   "sections": [
@@ -131,8 +131,8 @@
       "es": "El documento completo y sin firmar: las declaraciones juradas y los acuerdos jurados se firman solo frente al Notary Public"
     },
     {
-      "en": "Two credible adult witnesses when the document requires them, or ask when booking whether witnesses can be arranged for an additional fee",
-      "es": "Dos testigos adultos creíbles cuando el documento los exija, o pregunte al reservar si se pueden conseguir testigos por una cuota adicional"
+      "en": "Two credible adult witnesses when the document requires them, or ask us to bring them, quoted with the visit",
+      "es": "Dos testigos adultos creíbles cuando el documento los exija, o pídanos que los llevemos, cotizados junto con la visita"
     },
     {
       "en": "Your attorney's, agency's or caseworker's instructions on which signatures need a jurat and which need an acknowledgment",
@@ -206,8 +206,8 @@
         "es": "¿Ustedes proporcionan testigos para las declaraciones de adopción o tutela?"
       },
       "a": {
-        "en": "Not by default. The two credible witnesses a relinquishment affidavit requires are usually adults you bring — neighbors, coworkers or friends who are not parties to the adoption — and your attorney can confirm who qualifies. When booking, ask whether witnesses can be arranged for an additional fee; with enough notice it is often possible. The notary cannot serve as one of the two witnesses and also notarize the same document.",
-        "es": "No de forma automática. Los dos testigos creíbles que exige una declaración de renuncia normalmente son adultos que usted trae — vecinos, compañeros de trabajo o amigos que no sean parte de la adopción — y su abogado puede confirmar quién califica. Al reservar, pregunte si se pueden conseguir testigos por una cuota adicional; con suficiente aviso muchas veces es posible. El Notary Public no puede ser uno de los dos testigos y a la vez notarizar el mismo documento."
+        "en": "Yes, when you ask for them at booking. The two credible witnesses a relinquishment affidavit requires can be adults you bring — neighbors, coworkers or friends who are not parties to the adoption — or two disinterested witnesses we bring with the notary, quoted with the visit; your attorney can confirm who qualifies. The notary cannot serve as one of the two witnesses and also notarize the same document.",
+        "es": "Sí, cuando usted los pide al reservar. Los dos testigos creíbles que exige una declaración de renuncia pueden ser adultos que usted trae — vecinos, compañeros de trabajo o amigos que no sean parte de la adopción — o dos testigos sin interés que llevamos junto con el Notary Public, cotizados con la visita; su abogado puede confirmar quién califica. El Notary Public no puede ser uno de los dos testigos y a la vez notarizar el mismo documento."
       }
     },
     {
@@ -240,6 +240,7 @@
     "kinship caregiver affidavit notary El Paso"
   ],
   "related": [
+    "declaration-of-guardian",
     "child-travel-consent",
     "apostille-mexico",
     "power-of-attorney"

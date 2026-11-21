@@ -154,7 +154,7 @@
     "notary UMC El Paso",
     "bedside notary El Paso"
   ],
-  "related": ["medical-power-of-attorney", "power-of-attorney", "wills-and-trusts"],
+  "related": ["medical-power-of-attorney", "power-of-attorney", "will-signing", "transfer-on-death-deed"],
   "outbound": [
     { "label": { "en": "Texas HHS advance directive forms (free)", "es": "Formularios gratuitos de directivas anticipadas de Texas HHS" }, "url": "https://www.hhs.texas.gov/laws-regulations/forms/advance-directives" },
     { "label": { "en": "Tex. Health & Safety Code ch. 166 — Advance Directives Act", "es": "Texas Health and Safety Code, capítulo 166 — directivas anticipadas" }, "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.166.htm" },

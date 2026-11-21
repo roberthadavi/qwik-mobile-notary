@@ -172,7 +172,7 @@
     "HIPAA release notarized El Paso",
     "poder médico El Paso notary"
   ],
-  "related": ["hospital-notary", "power-of-attorney", "wills-and-trusts"],
+  "related": ["hospital-notary", "power-of-attorney", "wills-and-trusts", "declaration-of-guardian"],
   "outbound": [
     {
       "label": {
